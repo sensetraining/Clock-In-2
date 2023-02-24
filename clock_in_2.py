@@ -238,7 +238,7 @@ def mainPage(userPos):
         clockOutButton = ttk.Button(backBox,text="Clock Out",style='clockOut.TButton')
         clockOutButton.place(relx=0.5,rely=0.45,anchor="center")
 
-    logoutButton = ttk.Button(backBox,text="Logout",style="LoginButton.TButton",command=lambda:logout(backBox))
+    logoutButton = ttk.Button(backBox,text="Logouut",style="LoginButton.TButton",command=lambda:logout(backBox))
     logoutButton.place(relx=0.5,rely=0.65,anchor="center")
 
 
