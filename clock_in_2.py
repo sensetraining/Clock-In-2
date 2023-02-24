@@ -246,7 +246,7 @@ def mainPage(userPos):
     settingsButton.place(width=48,height=45,relx=0.5,rely=.65,anchor="center")
 
 
-###################### MAIN ######################
+###################### MAIN #######################
 root = tk.Tk()
 root['bg'] = "#f27420"
 width = 600
