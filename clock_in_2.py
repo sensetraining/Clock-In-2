@@ -17,20 +17,22 @@ except ImportError:
     os.system('pip install PyGithub')
     from github import Github
 
-g = Github("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")
+g = Github("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")
 repo = g.get_repo("sensetraining/Clock-In-2")
 
 f = open("options.txt", "r")
 optionData = f.readlines()
 lastLog = optionData[1]
 
-f = open(f"logs/{lastLog}.txt", "r")
-file_contents = f.read()
-f.close()
+try:
+    f = open(f"logs/{lastLog}.txt", "r")
+    file_contents = f.read()
+    f.close()
 
-file_path = f"logs/{lastLog}.txt"
-repo.create_file(file_path, "commit message", file_contents)
-
+    file_path = f"logs/{lastLog}.txt"
+    repo.create_file(file_path, "commit message", file_contents)
+except:
+    pass
 
 x = tm.datetime.now()
 time_str = str(x.strftime("%Y-%m-%d %H.%M.%S"))
