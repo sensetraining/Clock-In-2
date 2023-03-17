@@ -17,7 +17,11 @@ except ImportError:
     os.system('pip install PyGithub')
     from github import Github
 
-g = Github("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")
+f = open("token.txt","r")
+token = f.read()
+f.close()
+
+g = Github(f"{token}")
 repo = g.get_repo("sensetraining/Clock-In-2")
 
 f = open("options.txt", "r")
