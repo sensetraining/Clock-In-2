@@ -17,7 +17,7 @@ except ImportError:
     os.system('pip install PyGithub')
     from github import Github
 
-g = Github("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")
+g = Github("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")
 repo = g.get_repo("sensetraining/Clock-In-2")
 
 f = open("options.txt", "r")
