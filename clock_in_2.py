@@ -21,7 +21,7 @@ f = open("token.txt","r")
 token = f.read()
 f.close()
 
-g = Github(f"{token}")
+g = Github(token)
 repo = g.get_repo("sensetraining/Clock-In-2")
 
 f = open("options.txt", "r")
@@ -117,112 +117,153 @@ while True:
 #-----------------------Functions------------------------#
 
 def weekEnd(i):
+    lineNum("weekEnd Function")
     Letters = ["B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
     total = ["Week Total"]
+    lineNum("Adding Week Total to each column")
     for k in range(25):
         d1 = datetime.strftime(datetime.now() - timedelta(0), '%d/%m/%Y')
+        lineNum(f"Date 1: {d1}")
         d2 = datetime.strftime(datetime.now() - timedelta(i), '%d/%m/%Y')
+        lineNum(f"Date 2: {d2}")
         num = i + i // 7 + 1 + (int(d1[6:9])-int(d2[6:9]))*12+int(d1[3:5])-int(d2[3:5])
+        lineNum(f"Num variable: {num}")
         column = "=SUM("
+        lineNum("Checking for end of month in week")
         for j in range(7):
             if datetime.strftime(datetime.now() - timedelta(i+j), '%d') == "01":
+                lineNum("End of month found")
                 num += 1
+                lineNum(f"Adding 1 to Num: {num}")
             column += f"{Letters[k]}{10+j+num}+"
+        lineNum(f"")
         column = column[:-1] + ")"
+        lineNum("Appending column to total")
         total.append(column)
-
+    lineNum("All columns appended returning total")
     return total
 
 def monthEnd(i):
+    lineNum("monthEnd function")
     Letters = ["B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
     total = ["Month Total"]
+    lineNum("Adding Month Total to each column")
     for k in range(25):
         d1 = datetime.strftime(datetime.now() - timedelta(0), '%d/%m/%Y')
         d2 = datetime.strftime(datetime.now() - timedelta(i), '%d/%m/%Y')
         num = i + i // 7 + 1 + (((int(d1[6:10]) - int(d2[6:10])) * 12 + int(d1[3:5]) - int(d2[3:5]))*2)
+        lineNum(f"Num variable: {num}")
         column = "=SUM("
+        lineNum("Checking for end of week in month")
         for j in range(monthrange(int(datetime.strftime(datetime.now() - timedelta(0), '%Y')), int(datetime.strftime(datetime.now() - timedelta(i+1), '%m')))[1]):
             if datetime.strftime(datetime.now() - timedelta(i+j+1), '%a') == "Sun":
+                lineNum("End of week found")
                 num += 1
+                lineNum(f"Adding 1 to Num: {num}")
             column += f"{Letters[k]}{10+j+num}+"
         column = column[:-1] + ")"
+        lineNum("Appending column to total")
         total.append(column)
-
+    lineNum("All columns appended returning total")
     return total
 
 def dayCheck():
+    lineNum("dayCheck Function")
     currentDate = str(x.strftime("%a - %d/%m/%y"))
+    lineNum(f"Current Date: {currentDate}")
     values_list = sheet.col_values(1)
     diff = (datetime.strptime(values_list[8][6:14], "%d/%m/%y") - datetime.strptime(currentDate[6:14], "%d/%m/%y")).days
     if diff <0:
         diff = diff * -1
     values = []
+    lineNum(f"Difference between last date and current date: {diff}")
     if diff >=1:
+        lineNum(f"Difference {diff} is more than 1, filling in dates")
         for i in range(diff):
+            lineNum("Adding black row")
             values.append([datetime.strftime(datetime.now() - timedelta(i), '%a - %d/%m/%y'),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+            lineNum("Checking for end of month")
             if datetime.strftime(datetime.now() - timedelta(i), '%d') == "01":
+                lineNum("End of month found, running monthEnd function")
                 values.append(monthEnd(i))
+                lineNum("Appending returned total from monthEnd")
+            lineNum("Checking for end of week")
             if datetime.strftime(datetime.now() - timedelta(i+1), '%a') == "Sun":
+                lineNum("End of week found running weekEnd function")
                 values.append(weekEnd(i))
+                lineNum("Appending returned total from weekEnd")
+        lineNum("All rows appended to values variable, adding to sheets")
         sheet.insert_rows(values, row=9, value_input_option='USER_ENTERED', inherit_from_before=True)
+    lineNum("Sheets all up to date, returning from dayCheck function")
     return
 
 def updateCheck():
-    version = requests.get("https://raw.githubusercontent.com/sensetraining/Work-hours/main/version.txt").text
+    lineNum("Running updateCheck")
+    lineNum("Getting version from GitHub")
+    version = requests.get("https://raw.githubusercontent.com/sensetraining/Clock-In-2/main/version.txt").text
+    lineNum(f"GitHub version: {version}")
 
-    f = open("version.txt","r").read()
+    lineNum("Opening 'version.txt' file")
+    cver = open("version.txt","r").read()
 
-    print(f"Latest version: {version}")
-    print(f"Installed version: {f}")
+    lineNum(f"Installed version: {cver}")
 
-    if f == version:
-        print("Up to date")
-        open("version.txt","r").close()
+    if cver == version:
+        lineNum("Program up to date")
+        return
 
     else:
-        print("Available update")
+        lineNum("Update is available, displaying message")
         updateMsg = tkm.showerror(title="Warning", message=f"Update available, please reopen application")
-
+        lineNum("Closing application")
         sys.exit()
 
-
-        return
-
 def login(enteredUsername,enteredPassword,loginBox,checkState):
-    
+    lineNum("Login button presses, attempting login")
+    lineNum("Getting all values from sheets")
     allValues = sheet.get_all_values()
 
+    lineNum(f"Checking for entered username: {enteredUsername} in the sheets")
     if enteredUsername in allValues[0]:
         userPos = allValues[0].index(enteredUsername)
+        lineNum(f"Username is valid at position {userPos}")
     else:
+        lineNum(f"Username not found, displaying error message and returning to loginPage")
         incorrectEntry = tkm.showerror(title="Incorrect", message="You entered an incorrect Username or Password")
         return
 
-    if enteredPassword in allValues[1]:
-        passPos = allValues[1].index(enteredPassword)
-    else:
+    lineNum("Checking if entered password matches password on sheets")
+    if enteredPassword != allValues[1][userPos]:
+        lineNum("Passwords don't match, displaying error message and returning to loginPage")
         incorrectEntry = tkm.showerror(title="Incorrect", message="You entered an incorrect Username or Password")
         return
+    else:
+        lineNum("Passwords match")
 
+    lineNum("Checking is Remember me? button was checked")
     if checkState == ("selected",):
+        lineNum("Button was checked setting remember to True")
         remember = "True"
-
     else:
+        lineNum("Button not checked setting remember to false")
         remember = "False"
 
+    lineNum("Opening 'options.txt' file")
     f = open("options.txt", "r")
     optionData = f.readlines()
     f.close()
+    lineNum("Setting the remmeber and userPos variables")
     optionData[0] = (f"{remember} {userPos}\n")
     f = open("options.txt","w")
     f.writelines(optionData)
     f.close()
+    lineNum("Closing file")
 
-    if userPos == passPos:
-        loginBox.destroy()
-        mainPage(userPos)
+    lineNum("Destroying loginPage and running mainPage")
+    loginBox.destroy()
+    mainPage(userPos)
     return
 
 def logout(mainBox):
@@ -238,11 +279,17 @@ def logout(mainBox):
     return
 
 def noClockOut(userPos,allValues,date,mainBox):
+    lineNum("noClockOut")
+
     x = tm.datetime.now()
+    lineNum("Getting dates from sheet")
     dates = sheet.col_values(1)
     clockInTime = allValues[3][userPos]
+    lineNum(f"Last clock in time: {clockInTime}")
 
+    lineNum(f"Checking for {date} in dates column")
     if date in dates:
+        lineNum(f"Date found, add clocked in time at specific date and setting clock status to FALSE")
         datePos = dates.index(date)
 
         cell_list = [
@@ -254,41 +301,53 @@ def noClockOut(userPos,allValues,date,mainBox):
         sheet.update_cells(cell_list,value_input_option='USER_ENTERED')
     
     else:
+        lineNum("Date not found, setting clock status to FALSE")
         sheet.update_cell(3,userPos+1,"FALSE")
 
+    lineNum("Displaying warning message")
     clockOutMsg = tkm.showerror(title="Warning", message=f"You didn't clock out on {date} so no hours were saved")
     mainBox.destroy()
+    lineNum("Destroying mainBox and going back to mainPage")
 
     mainPage(userPos)
     return
 
 def clockIn(userPos,mainBox):
+    lineNum("Running clockIn function")
     dayCheck()
     updateCheck()
     
     letters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+    lineNum("Getting current time and current date")
     x = tm.datetime.now()
     currentTime = (x.strftime("%X"))
     currentDate = str(x.strftime("%a - %d/%m/%y"))
 
+    lineNum("Setting the last clock in date and time and setting clock status to TRUE")
     sheet.update(f"{letters[userPos]}3:{letters[userPos]}5",[["TRUE"],[currentTime],[currentDate]])
 
+    lineNum("Destroying mainBox and going back to mainPage")
     mainBox.destroy()
     mainPage(userPos)
     return
 
 def clockOut(userPos,mainBox):
+    lineNum("Running clockOut function")
     dayCheck()
     updateCheck()
 
     letters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+    lineNum("Getting current time and current dates")
     x = tm.datetime.now()
     currentTime = (x.strftime("%X"))
     currentDate = str(x.strftime("%a - %d/%m/%y"))
 
+    lineNum("Getting column data for the user")
     column = sheet.col_values(userPos+1)
     lastClocked = column[3]
+    lineNum(f"Last clock in time: {lastClocked}")
     clockedTime = column[8]
+    lineNum(f"Clocked time: {clockedTime}")
 
     currentTime = tm.datetime.strptime(currentTime,"%X")
     lastClocked = tm.datetime.strptime(lastClocked,"%X")
@@ -297,18 +356,24 @@ def clockOut(userPos,mainBox):
     timeDiff = currentTime - lastClocked
     totalClocked = timeDiff + clockedTime
 
+    lineNum(f"Total clocked time: {totalClocked}")
+    lineNum("Setting clocked status to False, adding total time and setting last clock out time and date")
+
     column[2] = "False"
     column[5] = (currentTime.strftime("%X"))
     column[6] = (currentDate)
     column[8] = (totalClocked.strftime("%X"))
 
+    lineNum("Updating sheet")
     sheet.update(f"{letters[userPos]}1:{letters[userPos]}9",[[x] for x in column[0:9]],value_input_option='USER_ENTERED')
 
+    lineNum("Destroing mainBox and returning to mainPage")
     mainBox.destroy()
     mainPage(userPos)
     return
 
 def loginPage():
+    lineNum("Login Page")
     root['bg'] = "#f27420"
     root.minsize(464, 214)
     loginBox = ttk.Label(root,style="blueBox.TLabel")
@@ -336,42 +401,63 @@ def loginPage():
     return
 
 def hoursPage(userPos,page,adminBox,mainBox,usernames,selectedUsers):
+    lineNum("Running hoursPage function")
+    lineNum("Setting page to 'hours")
     page = "hours"
     adminBox.destroy()
     settingsPage(userPos,mainBox,page,usernames,selectedUsers)
     return
 
 def accountPage(userPos,page,adminBox,mainBox,usernames,selectedUsers):
+    lineNum("Running accountPage function")
+    lineNum("Setting page to 'accounts")
     page = "accounts"
     adminBox.destroy()
     settingsPage(userPos,mainBox,page,usernames,selectedUsers)
     return
 def developmentPage(userPos,page,adminBox,mainBox,usernames,selectedUsers):
+    lineNum("Running developmentPage function")
+    lineNum("Setting page to 'development")
     page = "development"
     adminBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers)
     return
 
 def mainPageBack(userPos,adminBox):
+    lineNum("Running mainPageBack function")
+    lineNum("Destroing adminBox")
     adminBox.destroy()
+    lineNum("Returning to mainPage")
     mainPage(userPos)
     return
 
 def addUser(userPos,mainBox,page,usernames,selectedUsers,adminBox,value):
+    lineNum("Running addUser function")
+    lineNum(f"Removing {value} from {usernames}")
     usernames.remove(value)
+    lineNum(f"Adding {value} to {selectedUsers}")
     selectedUsers.append(value)
     adminBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers)
     return
 
 def removeUser(userPos,mainBox,page,usernames,selectedUsers,adminBox,value):
+    lineNum("Running removeUser function")
+    lineNum(f"Removing {value} from {selectedUsers}")
     selectedUsers.remove(value)
+    lineNum(f"Adding {value} to {usernames}")
     usernames.append(value)
     adminBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers)
     return
 
 def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
+    lineNum("Running searchHours function")
+
+    lineNum("Checking if entered date is valid")
     try:
         day1,month1,year1,day2,month2,year2 = int(day1),int(month1),int(year1),int(day2),int(month2),int(year2)
         date = datetime(day=day1, month=month1, year=year1)
@@ -379,10 +465,12 @@ def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
         date2 = datetime(day=day2, month=month2, year=year2)
         formattedDate2 = date2.strftime("%d/%m/%Y")  
     except Exception as error:
-        print(error)
-        print("Invalid date")
+        lineNum("Date is invalid")
+        lineNum(f"Error: {error}")
+        lineNum("Displaying invalid date popup")
         invalidDate = tkm.showerror(title="Warning", message=f"Not a valid date")
         return
+    lineNum("Date is valid")
     
     x = tm.datetime.now()
     year = int(x.strftime("%Y"))
@@ -392,39 +480,48 @@ def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
 
     print(type(date1Year),type(date2Year))
 
+    lineNum("Checking if year is valid")
     if date1Year < 2022 or date1Year > year or date2Year < 2022 or date2Year > year:
+        lineNum("Invalid year, displaying error popup message")
         invalidYear = tkm.showerror(title="Error", message=f"You entered an invalid year")
         return
 
     date1 = datetime.strptime(formattedDate1, "%d/%m/%Y")
     date2 = datetime.strptime(formattedDate2, "%d/%m/%Y")
 
+    lineNum("Getting the difference between the 2 dates")
     diff = (date2 - date1).days
     if diff <0:
         diff = (diff*-1)+1
-    print(diff)
+    lineNum(f"Difference is: {diff}")
 
     date1Full = (datetime.strptime(formattedDate1, "%d/%m/%Y").strftime('%a - %d/%m/%y'))
     date2Full = (datetime.strptime(formattedDate2, "%d/%m/%Y").strftime('%a - %d/%m/%y'))
 
+    lineNum("Getting all values from sheet")
     allValues = sheet.get_all_values()
     
     column = [row[0] for row in allValues]
 
+    lineNum("Getting all positions where there is a Month or Week Total")
     skipPos = [i for i, x in enumerate(column) if x in ["Month Total", "Week Total"]]
-    print(skipPos)
+    lineNum(f"Skip positions: {skipPos}")
 
+    lineNum(f"Check if date 1: {date1Full} is in date column")
     if date1Full in column:
         position1 = column.index(date1Full)
-        print(position1)
+        lineNum(f"TRUE at postion {position1}")
     else:
+        lineNum("Displaying error popup message")
         noDate = tkm.showerror(title="Error", message=f"Date does not exist within spreadsheet")
         return
 
+    lineNum(f"Check if date 2: {date2Full} is in date column")
     if date2Full in column:
         position2 = column.index(date2Full)
-        print(position2)
+        lineNum(f"TRUE at postion {position2}")
     else:
+        lineNum("Displaying error popup message")
         noDate = tkm.showerror(title="Error", message=f"Date does not exist within spreadsheet")
         return
 
@@ -433,30 +530,35 @@ def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
     else:
         startPos = position1
 
+    lineNum("Creating new window")
     rootHours = tk.Tk()
     rootHours.title("Hours")
-    rootHours.minsize(250,300)
-    rootHours.geometry("250x300")
+    rootHours.minsize(290,340)
+    rootHours.geometry("290x340")
     rootHours['bg'] = "#f27420"
 
     style = ttk.Style()
     style.theme_use('default')
-    style.configure("blueBox2.TLabel", relief="solid", background="#113f8c") 
 
-    x_cordinate = int((rootHours.winfo_screenwidth() / 2) - 250/2)
-    y_cordinate = int((rootHours.winfo_screenheight() / 2) - 300/2)
+    x_cordinate = int((rootHours.winfo_screenwidth() / 2) - 290/2)
+    y_cordinate = int((rootHours.winfo_screenheight() / 2) - 340/2)
     rootHours.geometry("+{}+{}".format(x_cordinate-50, y_cordinate-30))
 
-    nameText = tk.Text(rootHours,font=("Helvetica",12),relief="flat")
-    nameText.place(height=200,width=75,x=50,y=50)
+    blueBox = tk.Label(rootHours,bg="#113f8c",relief="solid")
+    blueBox.place(relx=0.5,rely=0.5,height=260,width=210,anchor="center")
 
-    hoursText = tk.Text(rootHours,font=("Helvetica",12),relief="flat")
-    hoursText.place(height=200,width=75,x=125,y=50)
+    nameText = tk.Text(blueBox,font=("Helvetica",12),relief="flat")
+    nameText.place(height=200,width=75,x=30,y=30)
+
+    hoursText = tk.Text(blueBox,font=("Helvetica",12),relief="flat")
+    hoursText.place(height=200,width=75,x=105,y=30)
 
     nameText.insert(tk.END, "Name:\n")
     hoursText.insert(tk.END, "Hours:\n")
 
     allUserHours = 0
+
+    lineNum("Getting hours for each user inside specified date range")
     for user in selectedUsers:
         startPosi = startPos
         userTotalMin = 0
@@ -478,66 +580,93 @@ def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
                     userTotalMin += (cellHour*60)+cellMin
                 except Exception as error:
                     userFail += 1
-        print(user)
-        print(f"Total Min: {userTotalMin}")
+        lineNum(f"User: {user}")
+        lineNum(f"Total Min: {userTotalMin}")
         userTotalHour = userTotalMin/60
-        print(f"Total Hour: {userTotalHour}")
-        print(f"Total Fail: {userFail}")
+        lineNum(f"Total Hour: {userTotalHour}")
+        lineNum(f"Total Fail: {userFail}")
         allUserHours += userTotalHour
-        print(f"All Hours: {allUserHours}")
+        lineNum(f"All Hours: {allUserHours}")
 
+        lineNum("Inserting user hours into text box")
         nameText.insert(tk.END, f"{user}\n")
-        hoursText.insert(tk.END, f"{userTotalHour}\n")
+        hoursText.insert(tk.END, f"{round(userTotalHour,1)}\n")
+    lineNum("Inserting total hours into text box")
     nameText.insert(tk.END, "Total:\n")
-    hoursText.insert(tk.END, f"{int(allUserHours)}\n")
+    hoursText.insert(tk.END, f"{round(allUserHours,1)}\n")
 
     rootHours.mainloop()
     return
 
 def makeAdmin(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
+    lineNum("Running makeAdmin function")
+    lineNum("Displaying popup option")
     response = tkm.askquestion("Warning", f"Are you sure you want to make {staff} an admin?")
+    lineNum(f"Response was: {response}")
     if response == "yes":
+        lineNum("Setting admin to TRUE on sheet")
         allStaff = sheet.row_values(1)
         staffPos = allStaff.index(staff)
         sheet.update_cell(8, staffPos+1, 'TRUE')
     adminBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,staff)
     return
 
 def removeAdmin(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
+    lineNum("Running removeAdmin function")
+    lineNum("Displaying popup option")
     response = tkm.askquestion("Warning", f"Are you sure you want to remove admin from {staff}?")
+    lineNum(f"Reponse was: {response}")
     if response == "yes":
+        lineNum("Setting admin to FALSE on sheet")
         allStaff = sheet.row_values(1)
         staffPos = allStaff.index(staff)
         sheet.update_cell(8, staffPos+1, 'False')
     adminBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,staff)
     return
 
 def deleteUser(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
-    response = tkm.askquestion("Warning", f"Are you sure you want to delete {staff} as a user? This cannot be undone!")
+    lineNum("Running deleteUser function")
+    lineNum("Displaying popup option")
+    response = tkm.askquestion("Warning", f"Are you sure you want to remove {staff} as a user? This cannot be undone!")
+    lineNum(f"Response was: {response}")
     if response == "yes":
+        lineNum("Setting username and pass to EMPTY o sheets")
         allStaff = sheet.row_values(1)
         staffPos = allStaff.index(staff)
         sheet.update_cell(1, staffPos+1, 'EMPTY')
         sheet.update_cell(2, staffPos+1, 'EMPTY')
+        lineNum("Display popup message")
+        response = tkm.showinfo("User Added", f"{staff} has been removed")
     adminBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers)
     return
 
 def staffSelection(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
+    lineNum("Running staffSelection function")
+    lineNum("Destroying adminBox")
     adminBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,staff)
     return
 
 def developmentSelection(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff,value):
+    lineNum("Running developmentSelection function")
+    lineNum("Destroying adminBox")
     adminBox.destroy()
+    lineNum("Returning to settignsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,staff,value)
     return
 
 def editUser(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
+    lineNum("Runnning editUser page")
     adminBox.destroy()
 
+    lineNum("Getting column of user from sheet")
     allStaff = sheet.row_values(1)
     staffPos = allStaff.index(staff)
     staffCol = sheet.col_values(staffPos+1)
@@ -571,85 +700,126 @@ def editUser(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
     return
 
 def editBack(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff,editBox):
+    lineNum("Running editBack function")
+    lineNum("Destroying editBox")
     editBox.destroy()
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,staff)
     return
 
 def userUpdate(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff,staffCol,editBox,enteredUser,EnteredPass):
+    lineNum("Running userUpdate function")
     editBox.destroy()
-    response = tkm.showinfo("User Updated", f"{staff} login details have been updated")
 
     letters = ["B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
     staffCol[0] = enteredUser
     staffCol[1] = EnteredPass
 
+    lineNum("Updating sheets with entered username and pass")
     sheet.update(f"{letters[userPos-1]}1:{letters[userPos-1]}2",[[x] for x in staffCol[0:2]],value_input_option='USER_ENTERED')
-
+    lineNum("Displaying popup message")
+    response = tkm.showinfo("User Updated", f"{staff} login details have been updated")
+    lineNum("Returning to settingsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,enteredUser)
     return
 
 def addAccount(userPos,mainBox,page,usernames,selectedUsers,adminBox,username,password,allStaff):
+    lineNum("Running addAccount function")
     adminBox.destroy()
 
+    lineNum("Finding a free position")
     freePos = allStaff.index("EMPTY")
 
+    lineNum("Adding new user details to sheet")
     sheet.update_cell(1, freePos+1, username)
     sheet.update_cell(2, freePos+1, password)
 
+    lineNum("Displaying popup message")
     response = tkm.showinfo("User Added", f"{username} has been added as a user")
 
+    lineNum("Returning to settings page")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,username)
     return
 
 def submitBug(userPos,mainBox,page,usernames,selectedUsers,adminBox,selectedStaff,selectedOption,input):
+    lineNum("Runninng submitBug function")
     adminBox.destroy()
-    g = Github("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")
+
+    lineNum("Getting GitHub token from 'token.txt' file")
+    f = open("token.txt","r")
+    token = f.read()
+    f.close()
+
+    lineNum("Connecting to repo")
+    g = Github(token)
     repo = g.get_repo("sensetraining/Clock-In-2")
 
     name = sheet.cell(1,userPos+1).value
 
+    lineNum("Gettinng current date and time")
     x = tm.datetime.now()
     time_str = str(x.strftime("%Y-%m-%d %H.%M.%S"))
 
+    lineNum("Pushing bug report to the GitHub")
     file_path = f"Bug_Report/{name}|Bug_Report|{time_str}.txt"
     repo.create_file(file_path, "commit message", input)
+    lineNum("Displaying popup message")
     response = tkm.showinfo("Bug Report", f"Thank you. Your bug report has been submitted")
+    lineNum("Returning to settinngsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff,selectedOption)
     return
 
 def submitSuggest(userPos,mainBox,page,usernames,selectedUsers,adminBox,selectedStaff,selectedOption,input):
+    lineNum("Running submitSuggest function")
     adminBox.destroy()
-    g = Github("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")
+
+    lineNum("Getting GitHub token from 'token.txt' file")
+    f = open("token.txt","r")
+    token = f.read()
+    f.close()
+
+    lineNum("Connecting to repo")
+    g = Github(token)
     repo = g.get_repo("sensetraining/Clock-In-2")
 
     name = sheet.cell(1,userPos+1).value
 
+    lineNum("Gettinng current date and time")
     x = tm.datetime.now()
     time_str = str(x.strftime("%Y-%m-%d %H.%M.%S"))
 
+    lineNum("Pushing suggestion to the GitHub")
     file_path = f"Suggestions/{name}|Suggestion|{time_str}.txt"
     repo.create_file(file_path, "commit message", input)
+    lineNum("Displaying popup message")
     response = tkm.showinfo("Suggestion", f"Thank you. Your suggestion has been submitted")
+    lineNum("Returning to settinngsPage")
     settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff,selectedOption)
     return
 
 def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Accounts",selectedOption="Report Bug"):
+    lineNum("Running settings page")
+    lineNum("Destroying mainBox")
     mainBox.destroy()
 
     allStaff = sheet.row_values(1)
     staff = [item for item in allStaff if item != "EMPTY"]
     staff.pop(0)
 
+    lineNum("Checking if user has admin")
     if sheet.cell(8,userPos+1).value == "TRUE":
+        lineNum("TRUE")
         admin = True
     else:
+        lineNum("FALSE")
         admin = False
 
     adminBox = ttk.Label(root,style="blueBox.TLabel")
     adminBox.place(height=280,width=480,relx=0.5,rely=0.5,anchor="center")
 
     if page == "hours" and admin == True:
+        lineNum("Loading hours page")
         hoursButton = ttk.Button(adminBox,text="Hours",style="tabSunken.TButton",command=lambda:hoursPage(userPos,page,adminBox,mainBox,usernames,selectedUsers))
         hoursButton.place(height=29,width=159,x=1,y=1)
         hoursButton.state(["disabled"])
@@ -671,6 +841,7 @@ def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Acc
         addButon.place(x=210,y=35,height=40,width=40)
 
         if len(selectedUsers) != 0:
+            lineNum("Displaying selected staff box")
             value2 = tk.StringVar(adminBox)
             value2.set("Selected")
 
@@ -722,7 +893,43 @@ def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Acc
             searchHoursButton = ttk.Button(adminBox,text="Search Hours",style="MediumButton.TButton",command=lambda:searchHours(dayCombobox.get(),monthCombobox.get(),yearCombobox.get(),dayCombobox2.get(),monthCombobox2.get(),yearCombobox2.get(),selectedUsers))
             searchHoursButton.place(x=255,y=175,height=28,width=201)
 
+            today = datetime.today()
+            last_week = today - timedelta(days=7)
+
+            start_date = last_week - timedelta(days=last_week.weekday())
+            end_date = start_date + timedelta(days=6)
+
+            weekStartDay = start_date.strftime('%d')
+            weekStartMonth = start_date.strftime('%m')
+            weekStartYear = start_date.strftime('%Y')
+
+            weekEndDay = end_date.strftime('%d')
+            weekEndMonth = end_date.strftime('%m')
+            weekEndYear = end_date.strftime('%Y')
+
+            last_month = today.replace(day=1) - timedelta(days=1)
+            start_date = last_month.replace(day=1)
+            end_date = last_month
+
+            monthStartDay = start_date.strftime('%d')
+            monthStartMonth = start_date.strftime('%m')
+            monthStartYear = start_date.strftime('%Y')
+            
+            monthEndDay = end_date.strftime('%d')
+            monthEndMonth    = end_date.strftime('%m')
+            monthEndYear = end_date.strftime('%Y')
+
+            searchLabel = ttk.Label(adminBox,text="Search Hours For:",style="label3.TLabel")
+            searchLabel.place(x=5,y=122)
+
+            lastWeekButton = ttk.Button(adminBox,text=f"Last Week {weekStartDay}/{weekStartMonth} - {weekEndDay}/{weekEndMonth}",style="MediumButton.TButton",command=lambda:searchHours(weekStartDay,weekStartMonth,weekStartYear,weekEndDay,weekEndMonth,weekEndYear,selectedUsers))
+            lastWeekButton.place(x=5,y=146,height=26,width=245)
+
+            lastMonthButton = ttk.Button(adminBox,text=f"Last Month {monthStartDay}/{monthStartMonth} - {monthEndDay}/{monthEndMonth}",style="MediumButton.TButton",command=lambda:searchHours(monthStartDay,monthStartMonth,monthStartYear,monthEndDay,monthEndMonth,monthEndYear,selectedUsers))
+            lastMonthButton.place(x=5,y=177,height=26,width=245)
+
     elif page == "accounts" and admin == True:
+        lineNum("Displaying accounts page")
         hoursButton = ttk.Button(adminBox,text="Hours",style="tabFlat.TButton",command=lambda:hoursPage(userPos,page,adminBox,mainBox,usernames,selectedUsers))
         hoursButton.place(height=29,width=159,x=1,y=1)
 
@@ -744,6 +951,7 @@ def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Acc
         staffSelect.place(x=5,y=70,width=200,height=40)
 
         if selectedStaff != "Accounts":
+            lineNum("Displaying account buttons")
             staffPos = allStaff.index(selectedStaff)
 
             if sheet.cell(8,staffPos+1).value == "FALSE":
@@ -793,6 +1001,7 @@ def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Acc
             developmentButton = ttk.Button(adminBox,text="Development",style="tabSunken.TButton",command=lambda:developmentPage(userPos,page,adminBox,mainBox,usernames,selectedUsers))
             developmentButton.place(height=29,width=478,x=1,y=1)
             developmentButton.state(["disabled"])
+        lineNum("Displaying development page")
 
         value = tk.StringVar(adminBox)
         value.set("Report Bug")
@@ -825,12 +1034,14 @@ def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Acc
     return
 
 def mainPage(userPos):
+    lineNum("Main Page")
+    lineNum("Getting current time and current day")
     x = tm.datetime.now()
     currentDay = x.strftime("%a")
     allValues = sheet.get_all_values()
     username = allValues[0][userPos]
 
-    height=400
+    lineNum("Resizing the window")
     root.minsize(484, 284)
     root.geometry("600x400")
 
@@ -843,16 +1054,20 @@ def mainPage(userPos):
     currentLabel = ttk.Label(mainBox,text=f"You are currently ",style="label.TLabel")
     currentLabel.place(x=20,y=55)
 
+    lineNum("Checking if user is current clocked in")
     if allValues[2][userPos] == "FALSE":
+        lineNum("User is clocked out, displayed relevant info")
         clockOutLabel = ttk.Label(mainBox,text="Clocked Out",style="label.TLabel",foreground="Red")
         clockOutLabel.place(x=223,y=55)
 
         clockInButton = ttk.Button(mainBox,text="Clock In",style='clockIn.TButton',command=lambda:clockIn(userPos,mainBox))
         clockInButton.place(height=48,relx=0.5,rely=0.6,anchor="center")
     else:
+        lineNum("User is clocked in, displayed relevant info")
         clockInLabel = ttk.Label(mainBox,text="Clocked In",style="label.TLabel",foreground="Lime")
         clockInLabel.place(x=223,y=55)
         
+        lineNum("Getting the clocked time")
         x = tm.datetime.now()
         currentTime = (x.strftime("%X"))
         currentTime = tm.datetime.strptime(currentTime,"%X")
@@ -863,6 +1078,7 @@ def mainPage(userPos):
 
         timeDiff = currentTime - lastClockedTime + clockedTime
         timeDiff = timeDiff.strftime("%X")
+        lineNum(f"Clocked time is {timeDiff}")
 
         clockTime = ttk.Label(mainBox,text=f"Clocked Time: {timeDiff}",style="label.TLabel")
         clockTime.place(x=20,y=90)
@@ -873,7 +1089,8 @@ def mainPage(userPos):
     logoutButton = ttk.Button(mainBox,text="Logout",style="LoginButton.TButton",command=lambda:logout(mainBox))
     logoutButton.place(height=48,relx=0.5,rely=0.85,anchor="center")
 
-    usernames = sheet.row_values(1)
+    lineNum("Getting the usernames from allValues and removing any EMPTY")
+    usernames = allValues[0]
     usernames = [item for item in usernames if item != "EMPTY"]
     usernames.pop(0)
     page = "hours"
@@ -882,11 +1099,14 @@ def mainPage(userPos):
     settingsButton = ttk.Button(mainBox,style="setting.TButton",compound="center",command=lambda:settingsPage(userPos,mainBox,page,usernames,selectedUsers))
     settingsButton.place(width=48,height=48,relx=0.9,rely=.85,anchor="center")
 
+    lineNum("Checking that if the user is clocked in, it was from a different day")
     if allValues[2][userPos] == "TRUE" and allValues[4][userPos][0:3] != currentDay:
+        lineNum("TRUE, running noClockOut function")
         noClockOut(userPos,allValues,allValues[4][userPos],mainBox)
     return
 
 ###################### MAIN ######################
+lineNum(f"Running TKinter")
 root = tk.Tk()
 root['bg'] = "#f27420"
 width = 600
@@ -898,6 +1118,7 @@ x_cordinate = int((root.winfo_screenwidth() / 2) - width/2)
 y_cordinate = int((root.winfo_screenheight() / 2) - height/2)
 root.geometry("+{}+{}".format(x_cordinate, y_cordinate-20))
 
+lineNum(f"Loading Styles")
 CheckVar = tk.IntVar(value=0)
 settingsIcon = tk.PhotoImage(file="setting_icon.png")
 style = ttk.Style()
@@ -962,21 +1183,26 @@ style.map("removeBtn.TButton",
 style.configure('removeBtn.TButton', background="white",font=("Helvetica", 32, "bold"),padding=(0, -10, 0, 0))
 style.configure('TCombobox',background="#e0eef9",arrowsize=15, relief="flat", font=('Helvetica', 14))
 style.configure('TScrollbar', background = "white",troughcolor ="white")
-#https://www.tcl.tk/man/tcl8.7/TkCmd/ttk_combobox.html
-#https://stackoverflow.com/questions/65461962/tkinter-ttk-see-custom-theme-settings
-#https://www.tcl.tk/man/tcl8.6/TkCmd/
 
+lineNum("Running dayCheck function")
 dayCheck()
 
+lineNum("Opening 'options.txt' file")
 f = open("options.txt", "r")
 optionData = f.readlines()
+f.close()
+lineNum(f"Stored info: {optionData}")
 
 autoLogin = optionData[0].rstrip().split(" ")
+lineNum(f"Getting line 1: {autoLogin}")
 
+lineNum(f"Check if autoLogin is True")
 if autoLogin[0] == "True":
+    lineNum("autoLogin is True, going straight to mainPage")
     mainPage(int(autoLogin[1]))
 
 else:
+    lineNum("autoLogin is False, running loginPage")
     loginPage()
 
 root.mainloop()
