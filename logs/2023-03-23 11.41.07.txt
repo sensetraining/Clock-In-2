@@ -1,0 +1,32 @@
+[2023-03-23 11.41.07] Running Program
+[11:41:07-03/23/23] Line 109: Opening Staff Hours sheet
+[11:41:08-03/23/23] Line 978: Running TKinter
+[11:41:08-03/23/23] Line 990: Loading Styles
+[11:41:08-03/23/23] Line 1056: Running dayCheck function
+[11:41:08-03/23/23] Line 173: dayCheck Function
+[11:41:08-03/23/23] Line 175: Current Date: Thu - 23/03/23
+[11:41:09-03/23/23] Line 181: Difference between last date and current date: 0
+[11:41:09-03/23/23] Line 199: Sheets all up to date, returning from dayCheck function
+[11:41:09-03/23/23] Line 1059: Opening 'options.txt' file
+[11:41:09-03/23/23] Line 1063: Stored info: ['False 6\n', '2023-03-23 11.41.07']
+[11:41:09-03/23/23] Line 1066: Getting line 1: ['False', '6']
+[11:41:09-03/23/23] Line 1068: Check if autoLogin is True
+[11:41:09-03/23/23] Line 1074: autoLogin is False, running loginPage
+[11:41:09-03/23/23] Line 355: Login Page
+[11:41:13-03/23/23] Line 226: Login button presses, attempting login
+[11:41:13-03/23/23] Line 227: Getting all values from sheets
+[11:41:14-03/23/23] Line 230: Checking for entered username: Test in the sheets
+[11:41:14-03/23/23] Line 233: Username is valid at position 6
+[11:41:14-03/23/23] Line 239: Checking if entered password matches password on sheets
+[11:41:14-03/23/23] Line 245: Passwords match
+[11:41:14-03/23/23] Line 247: Checking is Remember me? button was checked
+[11:41:14-03/23/23] Line 249: Button was checked setting remember to True
+[11:41:14-03/23/23] Line 255: Opening 'options.txt' file
+[11:41:14-03/23/23] Line 259: Setting the remmeber and userPos variables
+[11:41:14-03/23/23] Line 264: Closing file
+[11:41:14-03/23/23] Line 266: Destroying loginPage and running mainPage
+[11:41:14-03/23/23] Line 909: Main Page
+[11:41:14-03/23/23] Line 910: Getting current time and current day
+[11:41:14-03/23/23] Line 916: Resizing the window
+[11:41:14-03/23/23] Line 929: Checking if user is current clocked in
+[11:41:14-03/23/23] Line 931: User is clocked out, displayed relevant info
