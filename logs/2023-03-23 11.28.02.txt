@@ -1,0 +1,18 @@
+[2023-03-23 11.28.02] Running Program
+[11:28:02-03/23/23] Line 109: Opening Staff Hours sheet
+[11:28:03-03/23/23] Line 968: Running TKinter
+[11:28:03-03/23/23] Line 980: Loading Styles
+[11:28:03-03/23/23] Line 1046: Running dayCheck function
+[11:28:03-03/23/23] Line 173: dayCheck Function
+[11:28:03-03/23/23] Line 175: Current Date: Thu - 23/03/23
+[11:28:04-03/23/23] Line 181: Difference between last date and current date: 0
+[11:28:04-03/23/23] Line 199: Sheets all up to date, returning from dayCheck function
+[11:28:04-03/23/23] Line 1049: Opening 'options.txt' file
+[11:28:04-03/23/23] Line 1053: Stored info: ['True 6\n', '2023-03-23 11.28.02']
+[11:28:04-03/23/23] Line 1056: Getting line 1: ['True', '6']
+[11:28:04-03/23/23] Line 1058: Check if autoLogin is True
+[11:28:04-03/23/23] Line 1060: autoLogin is True, going straight to mainPage
+[11:28:06-03/23/23] Line 352: Login Page
+[11:28:20-03/23/23] Line 228: Login button presses, attempting login
+[11:28:20-03/23/23] Line 229: Getting all values from sheets
+[11:28:20-03/23/23] Line 232: Checking for entered username: Test in the sheets
