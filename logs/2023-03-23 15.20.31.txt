@@ -1,0 +1,36 @@
+[2023-03-23 15.20.31] Running Program
+[15:20:32-03/23/23] Line 109: Opening Staff Hours sheet
+[15:20:33-03/23/23] Line 1109: Running TKinter
+[15:20:33-03/23/23] Line 1121: Loading Styles
+[15:20:33-03/23/23] Line 1187: Running dayCheck function
+[15:20:33-03/23/23] Line 173: dayCheck Function
+[15:20:33-03/23/23] Line 175: Current Date: Thu - 23/03/23
+[15:20:33-03/23/23] Line 181: Difference between last date and current date: 0
+[15:20:33-03/23/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:20:33-03/23/23] Line 1190: Opening 'options.txt' file
+[15:20:33-03/23/23] Line 1194: Stored info: ['True 6\n', '2023-03-23 15.20.31']
+[15:20:33-03/23/23] Line 1197: Getting line 1: ['True', '6']
+[15:20:33-03/23/23] Line 1199: Check if autoLogin is True
+[15:20:33-03/23/23] Line 1201: autoLogin is True, going straight to mainPage
+[15:20:33-03/23/23] Line 1037: Main Page
+[15:20:33-03/23/23] Line 1038: Getting current time and current day
+[15:20:34-03/23/23] Line 1044: Resizing the window
+[15:20:34-03/23/23] Line 1057: Checking if user is current clocked in
+[15:20:34-03/23/23] Line 1059: User is clocked out, displayed relevant info
+[15:20:34-03/23/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[15:20:34-03/23/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[15:20:35-03/23/23] Line 802: Running settings page
+[15:20:35-03/23/23] Line 803: Destroying mainBox
+[15:20:35-03/23/23] Line 810: Checking if user has admin
+[15:20:36-03/23/23] Line 812: TRUE
+[15:20:36-03/23/23] Line 822: Loading hours page
+[15:20:43-03/23/23] Line 436: Running addUser function
+[15:20:43-03/23/23] Line 437: Removing Test from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[15:20:43-03/23/23] Line 439: Adding Test to []
+[15:20:43-03/23/23] Line 442: Returning to settingsPage
+[15:20:43-03/23/23] Line 802: Running settings page
+[15:20:43-03/23/23] Line 803: Destroying mainBox
+[15:20:44-03/23/23] Line 810: Checking if user has admin
+[15:20:44-03/23/23] Line 812: TRUE
+[15:20:44-03/23/23] Line 822: Loading hours page
+[15:20:44-03/23/23] Line 844: Displaying selected staff box
