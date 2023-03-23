@@ -1,0 +1,78 @@
+[2023-03-23 13.30.39] Running Program
+[13:30:40-03/23/23] Line 109: Opening Staff Hours sheet
+[13:30:41-03/23/23] Line 1042: Running TKinter
+[13:30:42-03/23/23] Line 1054: Loading Styles
+[13:30:42-03/23/23] Line 1120: Running dayCheck function
+[13:30:42-03/23/23] Line 173: dayCheck Function
+[13:30:42-03/23/23] Line 175: Current Date: Thu - 23/03/23
+[13:30:42-03/23/23] Line 181: Difference between last date and current date: 0
+[13:30:42-03/23/23] Line 199: Sheets all up to date, returning from dayCheck function
+[13:30:42-03/23/23] Line 1123: Opening 'options.txt' file
+[13:30:42-03/23/23] Line 1127: Stored info: ['True 6\n', '2023-03-23 13.30.39']
+[13:30:42-03/23/23] Line 1130: Getting line 1: ['True', '6']
+[13:30:42-03/23/23] Line 1132: Check if autoLogin is True
+[13:30:42-03/23/23] Line 1134: autoLogin is True, going straight to mainPage
+[13:30:42-03/23/23] Line 970: Main Page
+[13:30:42-03/23/23] Line 971: Getting current time and current day
+[13:30:42-03/23/23] Line 977: Resizing the window
+[13:30:42-03/23/23] Line 990: Checking if user is current clocked in
+[13:30:42-03/23/23] Line 992: User is clocked out, displayed relevant info
+[13:30:42-03/23/23] Line 1025: Getting the usernames from allValues and removing any EMPTY
+[13:30:42-03/23/23] Line 1035: Checking that if the user is clocked in, if it was from a different day
+[13:30:45-03/23/23] Line 735: Running settings page
+[13:30:45-03/23/23] Line 736: Destroying mainBox
+[13:30:45-03/23/23] Line 743: Checking if user has admin
+[13:30:45-03/23/23] Line 745: TRUE
+[13:30:45-03/23/23] Line 755: Loading hours page
+[13:30:48-03/23/23] Line 735: Running settings page
+[13:30:48-03/23/23] Line 736: Destroying mainBox
+[13:30:48-03/23/23] Line 743: Checking if user has admin
+[13:30:48-03/23/23] Line 745: TRUE
+[13:30:48-03/23/23] Line 937: Displaying development page
+[13:30:49-03/23/23] Line 735: Running settings page
+[13:30:49-03/23/23] Line 736: Destroying mainBox
+[13:30:49-03/23/23] Line 743: Checking if user has admin
+[13:30:49-03/23/23] Line 745: TRUE
+[13:30:49-03/23/23] Line 865: Displaying accounts page
+[13:30:50-03/23/23] Line 735: Running settings page
+[13:30:50-03/23/23] Line 736: Destroying mainBox
+[13:30:50-03/23/23] Line 743: Checking if user has admin
+[13:30:50-03/23/23] Line 745: TRUE
+[13:30:50-03/23/23] Line 755: Loading hours page
+[13:30:54-03/23/23] Line 735: Running settings page
+[13:30:54-03/23/23] Line 736: Destroying mainBox
+[13:30:54-03/23/23] Line 743: Checking if user has admin
+[13:30:54-03/23/23] Line 745: TRUE
+[13:30:54-03/23/23] Line 865: Displaying accounts page
+[13:30:56-03/23/23] Line 735: Running settings page
+[13:30:56-03/23/23] Line 736: Destroying mainBox
+[13:30:56-03/23/23] Line 743: Checking if user has admin
+[13:30:57-03/23/23] Line 745: TRUE
+[13:30:57-03/23/23] Line 865: Displaying accounts page
+[13:30:57-03/23/23] Line 887: Displaying account buttons
+[13:31:10-03/23/23] Line 735: Running settings page
+[13:31:10-03/23/23] Line 736: Destroying mainBox
+[13:31:10-03/23/23] Line 743: Checking if user has admin
+[13:31:10-03/23/23] Line 745: TRUE
+[13:31:10-03/23/23] Line 865: Displaying accounts page
+[13:31:10-03/23/23] Line 887: Displaying account buttons
+[13:31:33-03/23/23] Line 735: Running settings page
+[13:31:33-03/23/23] Line 736: Destroying mainBox
+[13:31:33-03/23/23] Line 743: Checking if user has admin
+[13:31:34-03/23/23] Line 745: TRUE
+[13:31:34-03/23/23] Line 937: Displaying development page
+[13:31:37-03/23/23] Line 735: Running settings page
+[13:31:37-03/23/23] Line 736: Destroying mainBox
+[13:31:37-03/23/23] Line 743: Checking if user has admin
+[13:31:38-03/23/23] Line 745: TRUE
+[13:31:38-03/23/23] Line 937: Displaying development page
+[13:31:39-03/23/23] Line 735: Running settings page
+[13:31:39-03/23/23] Line 736: Destroying mainBox
+[13:31:39-03/23/23] Line 743: Checking if user has admin
+[13:31:40-03/23/23] Line 745: TRUE
+[13:31:40-03/23/23] Line 937: Displaying development page
+[13:31:41-03/23/23] Line 735: Running settings page
+[13:31:41-03/23/23] Line 736: Destroying mainBox
+[13:31:41-03/23/23] Line 743: Checking if user has admin
+[13:31:41-03/23/23] Line 745: TRUE
+[13:31:41-03/23/23] Line 755: Loading hours page
