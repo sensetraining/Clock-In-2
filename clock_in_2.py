@@ -73,8 +73,6 @@ def lineNum(text):
     logger.info(f"{time_str} Line {cf.f_back.f_lineno}: {text}")
     print(f"{time_str} Line {cf.f_back.f_lineno}: {text}")
 
-
-
 try:
     import gspread
 except ImportError:
@@ -183,7 +181,7 @@ def dayCheck():
         lineNum(f"Difference {diff} is more than 1, filling in dates")
         for i in range(diff):
             lineNum("Adding black row")
-            values.append([datetime.strftime(datetime.now() - timedelta(i), '%a - %d/%m/%y'),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+            values.append([datetime.strftime(datetime.now() - timedelta(i), '%a - %d/%m/%y'),'00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000','00:00:00.000'])
             lineNum("Checking for end of month")
             if datetime.strftime(datetime.now() - timedelta(i), '%d') == "01":
                 lineNum("End of month found, running monthEnd function")
@@ -415,6 +413,7 @@ def accountPage(userPos,page,adminBox,mainBox,usernames,selectedUsers):
     adminBox.destroy()
     settingsPage(userPos,mainBox,page,usernames,selectedUsers)
     return
+
 def developmentPage(userPos,page,adminBox,mainBox,usernames,selectedUsers):
     lineNum("Running developmentPage function")
     lineNum("Setting page to 'development")
