@@ -1,0 +1,124 @@
+[2023-03-24 13.00.07] Running Program
+[13:00:07-03/24/23] Line 107: Opening Staff Hours sheet
+[13:00:09-03/24/23] Line 1116: Running TKinter
+[13:00:09-03/24/23] Line 1128: Loading Styles
+[13:00:09-03/24/23] Line 1194: Running dayCheck function
+[13:00:09-03/24/23] Line 171: dayCheck Function
+[13:00:09-03/24/23] Line 173: Current Date: Fri - 24/03/23
+[13:00:09-03/24/23] Line 179: Difference between last date and current date: 0
+[13:00:09-03/24/23] Line 197: Sheets all up to date, returning from dayCheck function
+[13:00:09-03/24/23] Line 1197: Opening 'options.txt' file
+[13:00:09-03/24/23] Line 1201: Stored info: ['True 6\n', '2023-03-24 13.00.07']
+[13:00:09-03/24/23] Line 1204: Getting line 1: ['True', '6']
+[13:00:09-03/24/23] Line 1206: Check if autoLogin is True
+[13:00:09-03/24/23] Line 1208: autoLogin is True, going straight to mainPage
+[13:00:09-03/24/23] Line 1044: Main Page
+[13:00:09-03/24/23] Line 1045: Getting current time and current day
+[13:00:09-03/24/23] Line 1051: Resizing the window
+[13:00:09-03/24/23] Line 1064: Checking if user is current clocked in
+[13:00:09-03/24/23] Line 1073: User is clocked in, displayed relevant info
+[13:00:09-03/24/23] Line 1077: Getting the clocked time
+[13:00:09-03/24/23] Line 1088: Clocked time is 03:26:31
+[13:00:09-03/24/23] Line 1099: Getting the usernames from allValues and removing any EMPTY
+[13:00:09-03/24/23] Line 1109: Checking that if the user is clocked in, it was from a different day
+[13:00:10-03/24/23] Line 809: Running settings page
+[13:00:10-03/24/23] Line 810: Destroying mainBox
+[13:00:11-03/24/23] Line 817: Checking if user has admin
+[13:00:11-03/24/23] Line 819: TRUE
+[13:00:11-03/24/23] Line 829: Loading hours page
+[13:00:13-03/24/23] Line 435: Running addUser function
+[13:00:13-03/24/23] Line 436: Removing Bruce from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[13:00:13-03/24/23] Line 438: Adding Bruce to []
+[13:00:13-03/24/23] Line 441: Returning to settingsPage
+[13:00:13-03/24/23] Line 809: Running settings page
+[13:00:13-03/24/23] Line 810: Destroying mainBox
+[13:00:13-03/24/23] Line 817: Checking if user has admin
+[13:00:14-03/24/23] Line 819: TRUE
+[13:00:14-03/24/23] Line 829: Loading hours page
+[13:00:14-03/24/23] Line 851: Displaying selected staff box
+[13:00:15-03/24/23] Line 435: Running addUser function
+[13:00:15-03/24/23] Line 436: Removing Emily from ['Emily', 'Gloria', 'Aiden', 'Test']
+[13:00:15-03/24/23] Line 438: Adding Emily to ['Bruce']
+[13:00:15-03/24/23] Line 441: Returning to settingsPage
+[13:00:15-03/24/23] Line 809: Running settings page
+[13:00:15-03/24/23] Line 810: Destroying mainBox
+[13:00:15-03/24/23] Line 817: Checking if user has admin
+[13:00:16-03/24/23] Line 819: TRUE
+[13:00:16-03/24/23] Line 829: Loading hours page
+[13:00:16-03/24/23] Line 851: Displaying selected staff box
+[13:00:18-03/24/23] Line 435: Running addUser function
+[13:00:18-03/24/23] Line 436: Removing Aiden from ['Gloria', 'Aiden', 'Test']
+[13:00:18-03/24/23] Line 438: Adding Aiden to ['Bruce', 'Emily']
+[13:00:18-03/24/23] Line 441: Returning to settingsPage
+[13:00:18-03/24/23] Line 809: Running settings page
+[13:00:18-03/24/23] Line 810: Destroying mainBox
+[13:00:18-03/24/23] Line 817: Checking if user has admin
+[13:00:18-03/24/23] Line 819: TRUE
+[13:00:18-03/24/23] Line 829: Loading hours page
+[13:00:18-03/24/23] Line 851: Displaying selected staff box
+[13:00:20-03/24/23] Line 435: Running addUser function
+[13:00:20-03/24/23] Line 436: Removing Test from ['Gloria', 'Test']
+[13:00:20-03/24/23] Line 438: Adding Test to ['Bruce', 'Emily', 'Aiden']
+[13:00:20-03/24/23] Line 441: Returning to settingsPage
+[13:00:20-03/24/23] Line 809: Running settings page
+[13:00:20-03/24/23] Line 810: Destroying mainBox
+[13:00:21-03/24/23] Line 817: Checking if user has admin
+[13:00:21-03/24/23] Line 819: TRUE
+[13:00:21-03/24/23] Line 829: Loading hours page
+[13:00:21-03/24/23] Line 851: Displaying selected staff box
+[13:00:22-03/24/23] Line 435: Running addUser function
+[13:00:22-03/24/23] Line 436: Removing Gloria from ['Gloria']
+[13:00:22-03/24/23] Line 438: Adding Gloria to ['Bruce', 'Emily', 'Aiden', 'Test']
+[13:00:22-03/24/23] Line 441: Returning to settingsPage
+[13:00:22-03/24/23] Line 809: Running settings page
+[13:00:22-03/24/23] Line 810: Destroying mainBox
+[13:00:23-03/24/23] Line 817: Checking if user has admin
+[13:00:23-03/24/23] Line 819: TRUE
+[13:00:23-03/24/23] Line 829: Loading hours page
+[13:00:23-03/24/23] Line 851: Displaying selected staff box
+[13:00:24-03/24/23] Line 457: Running searchHours function
+[13:00:24-03/24/23] Line 459: Checking if entered date is valid
+[13:00:24-03/24/23] Line 472: Date is valid
+[13:00:24-03/24/23] Line 482: Checking if year is valid
+[13:00:24-03/24/23] Line 491: Getting the difference between the 2 dates
+[13:00:24-03/24/23] Line 495: Difference is: 6
+[13:00:24-03/24/23] Line 500: Getting all values from sheet
+[13:00:24-03/24/23] Line 505: Getting all positions where there is a Month or Week Total
+[13:00:24-03/24/23] Line 507: Skip positions: [13, 21, 29, 35, 38, 46, 54, 62, 68, 71, 79, 87, 95, 103, 105, 112, 120, 128, 136, 141, 145, 153, 161, 169, 177, 185, 193, 201, 209, 212, 218]
+[13:00:24-03/24/23] Line 509: Check if date 1: Mon - 13/03/23 is in date column
+[13:00:24-03/24/23] Line 512: TRUE at postion 20
+[13:00:24-03/24/23] Line 518: Check if date 2: Sun - 19/03/23 is in date column
+[13:00:24-03/24/23] Line 521: TRUE at postion 14
+[13:00:24-03/24/23] Line 532: Creating new window
+[13:00:24-03/24/23] Line 565: Getting hours for each user inside specified date range
+[13:00:24-03/24/23] Line 587: User: Bruce
+[13:00:24-03/24/23] Line 588: Total Min: 0
+[13:00:24-03/24/23] Line 590: Total Hour: 0.0
+[13:00:24-03/24/23] Line 591: Total Fail: 0
+[13:00:24-03/24/23] Line 594: All Hours: 0.0
+[13:00:24-03/24/23] Line 596: Inserting user hours into text box
+[13:00:24-03/24/23] Line 587: User: Emily
+[13:00:24-03/24/23] Line 588: Total Min: 457
+[13:00:24-03/24/23] Line 590: Total Hour: 7.616666666666666
+[13:00:24-03/24/23] Line 591: Total Fail: 0
+[13:00:24-03/24/23] Line 594: All Hours: 7.616666666666666
+[13:00:24-03/24/23] Line 596: Inserting user hours into text box
+[13:00:24-03/24/23] Line 587: User: Aiden
+[13:00:24-03/24/23] Line 588: Total Min: 0
+[13:00:24-03/24/23] Line 590: Total Hour: 0.0
+[13:00:24-03/24/23] Line 591: Total Fail: 0
+[13:00:24-03/24/23] Line 594: All Hours: 7.616666666666666
+[13:00:24-03/24/23] Line 596: Inserting user hours into text box
+[13:00:24-03/24/23] Line 587: User: Test
+[13:00:24-03/24/23] Line 588: Total Min: 7
+[13:00:24-03/24/23] Line 590: Total Hour: 0.11666666666666667
+[13:00:24-03/24/23] Line 591: Total Fail: 1
+[13:00:24-03/24/23] Line 594: All Hours: 7.7333333333333325
+[13:00:24-03/24/23] Line 596: Inserting user hours into text box
+[13:00:24-03/24/23] Line 587: User: Gloria
+[13:00:24-03/24/23] Line 588: Total Min: 0
+[13:00:24-03/24/23] Line 590: Total Hour: 0.0
+[13:00:24-03/24/23] Line 591: Total Fail: 0
+[13:00:24-03/24/23] Line 594: All Hours: 7.7333333333333325
+[13:00:24-03/24/23] Line 596: Inserting user hours into text box
+[13:00:24-03/24/23] Line 600: Inserting total hours into text box
