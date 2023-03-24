@@ -1,0 +1,46 @@
+[2023-03-24 09.47.00] Running Program
+[09:47:01-03/24/23] Line 107: Opening Staff Hours sheet
+[09:47:02-03/24/23] Line 1108: Running TKinter
+[09:47:02-03/24/23] Line 1120: Loading Styles
+[09:47:02-03/24/23] Line 1186: Running dayCheck function
+[09:47:02-03/24/23] Line 171: dayCheck Function
+[09:47:02-03/24/23] Line 173: Current Date: Fri - 24/03/23
+[09:47:02-03/24/23] Line 179: Difference between last date and current date: 0
+[09:47:02-03/24/23] Line 197: Sheets all up to date, returning from dayCheck function
+[09:47:02-03/24/23] Line 1189: Opening 'options.txt' file
+[09:47:02-03/24/23] Line 1193: Stored info: ['True 6\n', '2023-03-24 09.47.00']
+[09:47:02-03/24/23] Line 1196: Getting line 1: ['True', '6']
+[09:47:02-03/24/23] Line 1198: Check if autoLogin is True
+[09:47:02-03/24/23] Line 1200: autoLogin is True, going straight to mainPage
+[09:47:02-03/24/23] Line 1036: Main Page
+[09:47:02-03/24/23] Line 1037: Getting current time and current day
+[09:47:03-03/24/23] Line 1043: Resizing the window
+[09:47:03-03/24/23] Line 1056: Checking if user is current clocked in
+[09:47:03-03/24/23] Line 1058: User is clocked out, displayed relevant info
+[09:47:03-03/24/23] Line 1091: Getting the usernames from allValues and removing any EMPTY
+[09:47:03-03/24/23] Line 1101: Checking that if the user is clocked in, it was from a different day
+[09:47:19-03/24/23] Line 314: Running clockIn function
+[09:47:19-03/24/23] Line 171: dayCheck Function
+[09:47:19-03/24/23] Line 173: Current Date: Fri - 24/03/23
+[09:47:20-03/24/23] Line 179: Difference between last date and current date: 0
+[09:47:20-03/24/23] Line 197: Sheets all up to date, returning from dayCheck function
+[09:47:20-03/24/23] Line 201: Running updateCheck
+[09:47:20-03/24/23] Line 202: Getting version from GitHub
+[09:47:20-03/24/23] Line 204: GitHub version: 2.1.0
+
+[09:47:20-03/24/23] Line 206: Opening 'version.txt' file
+[09:47:20-03/24/23] Line 209: Installed version: 2.1.0
+
+[09:47:20-03/24/23] Line 212: Program up to date
+[09:47:20-03/24/23] Line 319: Getting current time and current date
+[09:47:20-03/24/23] Line 324: Setting the last clock in date and time and setting clock status to TRUE
+[09:47:20-03/24/23] Line 327: Destroying mainBox and going back to mainPage
+[09:47:20-03/24/23] Line 1036: Main Page
+[09:47:20-03/24/23] Line 1037: Getting current time and current day
+[09:47:20-03/24/23] Line 1043: Resizing the window
+[09:47:20-03/24/23] Line 1056: Checking if user is current clocked in
+[09:47:20-03/24/23] Line 1065: User is clocked in, displayed relevant info
+[09:47:20-03/24/23] Line 1069: Getting the clocked time
+[09:47:20-03/24/23] Line 1080: Clocked time is 00:13:45
+[09:47:20-03/24/23] Line 1091: Getting the usernames from allValues and removing any EMPTY
+[09:47:20-03/24/23] Line 1101: Checking that if the user is clocked in, it was from a different day
