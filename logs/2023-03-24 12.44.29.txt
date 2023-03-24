@@ -1,0 +1,37 @@
+[2023-03-24 12.44.29] Running Program
+[12:44:30-03/24/23] Line 107: Opening Staff Hours sheet
+[12:44:31-03/24/23] Line 1108: Running TKinter
+[12:44:32-03/24/23] Line 1120: Loading Styles
+[12:44:32-03/24/23] Line 1186: Running dayCheck function
+[12:44:32-03/24/23] Line 171: dayCheck Function
+[12:44:32-03/24/23] Line 173: Current Date: Fri - 24/03/23
+[12:44:32-03/24/23] Line 179: Difference between last date and current date: 0
+[12:44:32-03/24/23] Line 197: Sheets all up to date, returning from dayCheck function
+[12:44:32-03/24/23] Line 1189: Opening 'options.txt' file
+[12:44:32-03/24/23] Line 1193: Stored info: ['True 6\n', '2023-03-24 12.44.29']
+[12:44:32-03/24/23] Line 1196: Getting line 1: ['True', '6']
+[12:44:32-03/24/23] Line 1198: Check if autoLogin is True
+[12:44:32-03/24/23] Line 1200: autoLogin is True, going straight to mainPage
+[12:44:32-03/24/23] Line 1036: Main Page
+[12:44:32-03/24/23] Line 1037: Getting current time and current day
+[12:44:32-03/24/23] Line 1043: Resizing the window
+[12:44:32-03/24/23] Line 1056: Checking if user is current clocked in
+[12:44:32-03/24/23] Line 1065: User is clocked in, displayed relevant info
+[12:44:32-03/24/23] Line 1069: Getting the clocked time
+[12:44:32-03/24/23] Line 1080: Clocked time is 03:10:57
+[12:44:32-03/24/23] Line 1091: Getting the usernames from allValues and removing any EMPTY
+[12:44:32-03/24/23] Line 1101: Checking that if the user is clocked in, it was from a different day
+[12:44:35-03/24/23] Line 333: Running clockOut function
+[12:44:35-03/24/23] Line 171: dayCheck Function
+[12:44:35-03/24/23] Line 173: Current Date: Fri - 24/03/23
+[12:44:35-03/24/23] Line 179: Difference between last date and current date: 0
+[12:44:35-03/24/23] Line 197: Sheets all up to date, returning from dayCheck function
+[12:44:35-03/24/23] Line 201: Running updateCheck
+[12:44:35-03/24/23] Line 202: Getting version from GitHub
+[12:44:35-03/24/23] Line 204: GitHub version: 2.1.1
+
+[12:44:35-03/24/23] Line 206: Opening 'version.txt' file
+[12:44:35-03/24/23] Line 209: Installed version: 2.1.0
+
+[12:44:35-03/24/23] Line 216: Update is available, displaying message
+[12:44:40-03/24/23] Line 218: Closing application
