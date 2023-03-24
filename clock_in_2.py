@@ -532,19 +532,19 @@ def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
     lineNum("Creating new window")
     rootHours = tk.Tk()
     rootHours.title("Hours")
-    rootHours.minsize(290,340)
+    rootHours.minsize(365,340)
     rootHours.geometry("290x340")
     rootHours['bg'] = "#f27420"
 
     style = ttk.Style()
     style.theme_use('default')
 
-    x_cordinate = int((rootHours.winfo_screenwidth() / 2) - 290/2)
+    x_cordinate = int((rootHours.winfo_screenwidth() / 2) - 365/2)
     y_cordinate = int((rootHours.winfo_screenheight() / 2) - 340/2)
     rootHours.geometry("+{}+{}".format(x_cordinate-50, y_cordinate-30))
 
     blueBox = tk.Label(rootHours,bg="#113f8c",relief="solid")
-    blueBox.place(relx=0.5,rely=0.5,height=260,width=210,anchor="center")
+    blueBox.place(relx=0.5,rely=0.5,height=260,width=285,anchor="center")
 
     nameText = tk.Text(blueBox,font=("Helvetica",12),relief="flat")
     nameText.place(height=200,width=75,x=30,y=30)
@@ -552,10 +552,15 @@ def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
     hoursText = tk.Text(blueBox,font=("Helvetica",12),relief="flat")
     hoursText.place(height=200,width=75,x=105,y=30)
 
+    NCOText = tk.Text(blueBox,font=("Helvetica",12),relief="flat")
+    NCOText.place(height=200,width=75,x=180,y=30)
+
     nameText.insert(tk.END, "Name:\n")
     hoursText.insert(tk.END, "Hours:\n")
+    NCOText.insert(tk.END, "No. NCO:\n")
 
     allUserHours = 0
+    failTotal = 0
 
     lineNum("Getting hours for each user inside specified date range")
     for user in selectedUsers:
@@ -584,15 +589,18 @@ def searchHours(day1,month1,year1,day2,month2,year2,selectedUsers):
         userTotalHour = userTotalMin/60
         lineNum(f"Total Hour: {userTotalHour}")
         lineNum(f"Total Fail: {userFail}")
+        failTotal += userFail
         allUserHours += userTotalHour
         lineNum(f"All Hours: {allUserHours}")
 
         lineNum("Inserting user hours into text box")
         nameText.insert(tk.END, f"{user}\n")
         hoursText.insert(tk.END, f"{round(userTotalHour,1)}\n")
+        NCOText.insert(tk.END,f"{userFail}\n")
     lineNum("Inserting total hours into text box")
     nameText.insert(tk.END, "Total:\n")
     hoursText.insert(tk.END, f"{round(allUserHours,1)}\n")
+    NCOText.insert(tk.END, f"{failTotal}\n")
 
     rootHours.mainloop()
     return
