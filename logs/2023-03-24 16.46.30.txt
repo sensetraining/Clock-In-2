@@ -1,0 +1,1227 @@
+[2023-03-24 16.46.30] Running Program
+[16:46:30-03/24/23] Line 109: Opening Staff Hours sheet
+[16:46:31-03/24/23] Line 1109: Running TKinter
+[16:46:31-03/24/23] Line 1121: Loading Styles
+[16:46:31-03/24/23] Line 1187: Running dayCheck function
+[16:46:31-03/24/23] Line 173: dayCheck Function
+[16:46:31-03/24/23] Line 175: Current Date: Fri - 24/03/23
+[16:46:31-03/24/23] Line 181: Difference between last date and current date: 0
+[16:46:31-03/24/23] Line 199: Sheets all up to date, returning from dayCheck function
+[16:46:31-03/24/23] Line 1190: Opening 'options.txt' file
+[16:46:31-03/24/23] Line 1194: Stored info: ['True 2\n', '2023-03-24 16.46.30']
+[16:46:31-03/24/23] Line 1197: Getting line 1: ['True', '2']
+[16:46:31-03/24/23] Line 1199: Check if autoLogin is True
+[16:46:31-03/24/23] Line 1201: autoLogin is True, going straight to mainPage
+[16:46:31-03/24/23] Line 1037: Main Page
+[16:46:31-03/24/23] Line 1038: Getting current time and current day
+[16:46:32-03/24/23] Line 1044: Resizing the window
+[16:46:32-03/24/23] Line 1057: Checking if user is current clocked in
+[16:46:32-03/24/23] Line 1066: User is clocked in, displayed relevant info
+[16:46:32-03/24/23] Line 1070: Getting the clocked time
+[16:46:32-03/24/23] Line 1081: Clocked time is 06:21:24
+[16:46:32-03/24/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[16:46:32-03/24/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[16:46:34-03/24/23] Line 335: Running clockOut function
+[16:46:34-03/24/23] Line 173: dayCheck Function
+[16:46:34-03/24/23] Line 175: Current Date: Fri - 24/03/23
+[16:46:34-03/24/23] Line 181: Difference between last date and current date: 0
+[16:46:34-03/24/23] Line 199: Sheets all up to date, returning from dayCheck function
+[16:46:34-03/24/23] Line 203: Running updateCheck
+[16:46:34-03/24/23] Line 204: Getting version from GitHub
+[16:46:34-03/24/23] Line 206: GitHub version: 2.1.2
+
+[16:46:34-03/24/23] Line 208: Opening 'version.txt' file
+[16:46:34-03/24/23] Line 211: Installed version: 2.1.2
+
+[16:46:34-03/24/23] Line 214: Program up to date
+[16:46:34-03/24/23] Line 340: Getting current time and current dates
+[16:46:34-03/24/23] Line 345: Getting column data for the user
+[16:46:34-03/24/23] Line 348: Last clock in time: 10:25:08
+[16:46:34-03/24/23] Line 350: Clocked time: 0:00:00
+[16:46:34-03/24/23] Line 359: Total clocked time: 1900-01-01 06:21:26
+[16:46:34-03/24/23] Line 360: Setting clocked status to False, adding total time and setting last clock out time and date
+[16:46:34-03/24/23] Line 367: Updating sheet
+[16:46:35-03/24/23] Line 370: Destroing mainBox and returning to mainPage
+[16:46:35-03/24/23] Line 1037: Main Page
+[16:46:35-03/24/23] Line 1038: Getting current time and current day
+[16:46:35-03/24/23] Line 1044: Resizing the window
+[16:46:35-03/24/23] Line 1057: Checking if user is current clocked in
+[16:46:35-03/24/23] Line 1059: User is clocked out, displayed relevant info
+[16:46:35-03/24/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[16:46:35-03/24/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[08:23:56-03/25/23] Line 316: Running clockIn function
+[08:23:56-03/25/23] Line 173: dayCheck Function
+[08:23:56-03/25/23] Line 175: Current Date: Fri - 24/03/23
+[08:23:57-03/25/23] Line 181: Difference between last date and current date: 0
+[08:23:57-03/25/23] Line 199: Sheets all up to date, returning from dayCheck function
+[08:23:57-03/25/23] Line 203: Running updateCheck
+[08:23:57-03/25/23] Line 204: Getting version from GitHub
+[08:23:57-03/25/23] Line 206: GitHub version: 2.1.2
+
+[08:23:57-03/25/23] Line 208: Opening 'version.txt' file
+[08:23:57-03/25/23] Line 211: Installed version: 2.1.2
+
+[08:23:57-03/25/23] Line 214: Program up to date
+[08:23:57-03/25/23] Line 321: Getting current time and current date
+[08:23:57-03/25/23] Line 326: Setting the last clock in date and time and setting clock status to TRUE
+[08:23:58-03/25/23] Line 329: Destroying mainBox and going back to mainPage
+[08:23:58-03/25/23] Line 1037: Main Page
+[08:23:58-03/25/23] Line 1038: Getting current time and current day
+[08:23:58-03/25/23] Line 1044: Resizing the window
+[08:23:58-03/25/23] Line 1057: Checking if user is current clocked in
+[08:23:58-03/25/23] Line 1066: User is clocked in, displayed relevant info
+[08:23:58-03/25/23] Line 1070: Getting the clocked time
+[08:23:58-03/25/23] Line 1081: Clocked time is 06:21:27
+[08:23:58-03/25/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[08:23:58-03/25/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[13:18:48-03/25/23] Line 335: Running clockOut function
+[13:18:48-03/25/23] Line 173: dayCheck Function
+[13:18:48-03/25/23] Line 175: Current Date: Fri - 24/03/23
+[13:18:49-03/25/23] Line 181: Difference between last date and current date: 0
+[13:18:49-03/25/23] Line 199: Sheets all up to date, returning from dayCheck function
+[13:18:49-03/25/23] Line 203: Running updateCheck
+[13:18:49-03/25/23] Line 204: Getting version from GitHub
+[13:18:49-03/25/23] Line 206: GitHub version: 2.1.2
+
+[13:18:49-03/25/23] Line 208: Opening 'version.txt' file
+[13:18:49-03/25/23] Line 211: Installed version: 2.1.2
+
+[13:18:49-03/25/23] Line 214: Program up to date
+[13:18:49-03/25/23] Line 340: Getting current time and current dates
+[13:18:49-03/25/23] Line 345: Getting column data for the user
+[13:18:50-03/25/23] Line 348: Last clock in time: 08:23:57
+[13:18:50-03/25/23] Line 350: Clocked time: 6:21:26
+[13:18:50-03/25/23] Line 359: Total clocked time: 1900-01-01 11:16:18
+[13:18:50-03/25/23] Line 360: Setting clocked status to False, adding total time and setting last clock out time and date
+[13:18:50-03/25/23] Line 367: Updating sheet
+[13:18:50-03/25/23] Line 370: Destroing mainBox and returning to mainPage
+[13:18:50-03/25/23] Line 1037: Main Page
+[13:18:50-03/25/23] Line 1038: Getting current time and current day
+[13:18:50-03/25/23] Line 1044: Resizing the window
+[13:18:50-03/25/23] Line 1057: Checking if user is current clocked in
+[13:18:50-03/25/23] Line 1059: User is clocked out, displayed relevant info
+[13:18:50-03/25/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[13:18:50-03/25/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[08:18:00-03/27/23] Line 316: Running clockIn function
+[08:18:00-03/27/23] Line 173: dayCheck Function
+[08:18:00-03/27/23] Line 175: Current Date: Fri - 24/03/23
+[08:18:01-03/27/23] Line 181: Difference between last date and current date: 0
+[08:18:01-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[08:18:01-03/27/23] Line 203: Running updateCheck
+[08:18:01-03/27/23] Line 204: Getting version from GitHub
+[08:18:01-03/27/23] Line 206: GitHub version: 2.1.2
+
+[08:18:01-03/27/23] Line 208: Opening 'version.txt' file
+[08:18:01-03/27/23] Line 211: Installed version: 2.1.2
+
+[08:18:01-03/27/23] Line 214: Program up to date
+[08:18:01-03/27/23] Line 321: Getting current time and current date
+[08:18:01-03/27/23] Line 326: Setting the last clock in date and time and setting clock status to TRUE
+[08:18:02-03/27/23] Line 329: Destroying mainBox and going back to mainPage
+[08:18:02-03/27/23] Line 1037: Main Page
+[08:18:02-03/27/23] Line 1038: Getting current time and current day
+[08:18:02-03/27/23] Line 1044: Resizing the window
+[08:18:02-03/27/23] Line 1057: Checking if user is current clocked in
+[08:18:02-03/27/23] Line 1066: User is clocked in, displayed relevant info
+[08:18:02-03/27/23] Line 1070: Getting the clocked time
+[08:18:02-03/27/23] Line 1081: Clocked time is 11:16:19
+[08:18:02-03/27/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[08:18:02-03/27/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[15:47:06-03/27/23] Line 335: Running clockOut function
+[15:47:06-03/27/23] Line 173: dayCheck Function
+[15:47:06-03/27/23] Line 175: Current Date: Fri - 24/03/23
+[15:47:07-03/27/23] Line 181: Difference between last date and current date: 3
+[15:47:07-03/27/23] Line 183: Difference 3 is more than 1, filling in dates
+[15:47:07-03/27/23] Line 185: Adding black row
+[15:47:07-03/27/23] Line 187: Checking for end of month
+[15:47:07-03/27/23] Line 192: Checking for end of week
+[15:47:07-03/27/23] Line 194: End of week found running weekEnd function
+[15:47:07-03/27/23] Line 120: weekEnd Function
+[15:47:07-03/27/23] Line 124: Adding Week Total to each column
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:07-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:07-03/27/23] Line 131: Num variable: 1
+[15:47:07-03/27/23] Line 133: Checking for end of month in week
+[15:47:07-03/27/23] Line 140: 
+[15:47:07-03/27/23] Line 142: Appending column to total
+[15:47:07-03/27/23] Line 144: All columns appended returning total
+[15:47:07-03/27/23] Line 196: Appending returned total from weekEnd
+[15:47:07-03/27/23] Line 185: Adding black row
+[15:47:07-03/27/23] Line 187: Checking for end of month
+[15:47:07-03/27/23] Line 192: Checking for end of week
+[15:47:07-03/27/23] Line 185: Adding black row
+[15:47:07-03/27/23] Line 187: Checking for end of month
+[15:47:07-03/27/23] Line 192: Checking for end of week
+[15:47:07-03/27/23] Line 197: All rows appended to values variable, adding to sheets
+[15:47:08-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:47:08-03/27/23] Line 203: Running updateCheck
+[15:47:08-03/27/23] Line 204: Getting version from GitHub
+[15:47:08-03/27/23] Line 206: GitHub version: 2.1.2
+
+[15:47:08-03/27/23] Line 208: Opening 'version.txt' file
+[15:47:08-03/27/23] Line 211: Installed version: 2.1.2
+
+[15:47:08-03/27/23] Line 214: Program up to date
+[15:47:08-03/27/23] Line 340: Getting current time and current dates
+[15:47:08-03/27/23] Line 345: Getting column data for the user
+[15:47:08-03/27/23] Line 348: Last clock in time: 08:18:01
+[15:47:08-03/27/23] Line 350: Clocked time: 0
+[15:47:21-03/27/23] Line 335: Running clockOut function
+[15:47:21-03/27/23] Line 173: dayCheck Function
+[15:47:21-03/27/23] Line 175: Current Date: Fri - 24/03/23
+[15:47:21-03/27/23] Line 181: Difference between last date and current date: 3
+[15:47:21-03/27/23] Line 183: Difference 3 is more than 1, filling in dates
+[15:47:21-03/27/23] Line 185: Adding black row
+[15:47:21-03/27/23] Line 187: Checking for end of month
+[15:47:21-03/27/23] Line 192: Checking for end of week
+[15:47:21-03/27/23] Line 194: End of week found running weekEnd function
+[15:47:21-03/27/23] Line 120: weekEnd Function
+[15:47:21-03/27/23] Line 124: Adding Week Total to each column
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:21-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:21-03/27/23] Line 131: Num variable: 1
+[15:47:21-03/27/23] Line 133: Checking for end of month in week
+[15:47:21-03/27/23] Line 140: 
+[15:47:21-03/27/23] Line 142: Appending column to total
+[15:47:21-03/27/23] Line 144: All columns appended returning total
+[15:47:21-03/27/23] Line 196: Appending returned total from weekEnd
+[15:47:21-03/27/23] Line 185: Adding black row
+[15:47:21-03/27/23] Line 187: Checking for end of month
+[15:47:21-03/27/23] Line 192: Checking for end of week
+[15:47:21-03/27/23] Line 185: Adding black row
+[15:47:21-03/27/23] Line 187: Checking for end of month
+[15:47:21-03/27/23] Line 192: Checking for end of week
+[15:47:21-03/27/23] Line 197: All rows appended to values variable, adding to sheets
+[15:47:21-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:47:21-03/27/23] Line 203: Running updateCheck
+[15:47:21-03/27/23] Line 204: Getting version from GitHub
+[15:47:21-03/27/23] Line 206: GitHub version: 2.1.2
+
+[15:47:21-03/27/23] Line 208: Opening 'version.txt' file
+[15:47:21-03/27/23] Line 211: Installed version: 2.1.2
+
+[15:47:21-03/27/23] Line 214: Program up to date
+[15:47:21-03/27/23] Line 340: Getting current time and current dates
+[15:47:21-03/27/23] Line 345: Getting column data for the user
+[15:47:22-03/27/23] Line 348: Last clock in time: 08:18:01
+[15:47:22-03/27/23] Line 350: Clocked time: 0
+[15:47:45-03/27/23] Line 335: Running clockOut function
+[15:47:45-03/27/23] Line 173: dayCheck Function
+[15:47:45-03/27/23] Line 175: Current Date: Fri - 24/03/23
+[15:47:45-03/27/23] Line 181: Difference between last date and current date: 3
+[15:47:45-03/27/23] Line 183: Difference 3 is more than 1, filling in dates
+[15:47:45-03/27/23] Line 185: Adding black row
+[15:47:45-03/27/23] Line 187: Checking for end of month
+[15:47:45-03/27/23] Line 192: Checking for end of week
+[15:47:45-03/27/23] Line 194: End of week found running weekEnd function
+[15:47:45-03/27/23] Line 120: weekEnd Function
+[15:47:45-03/27/23] Line 124: Adding Week Total to each column
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:45-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:45-03/27/23] Line 131: Num variable: 1
+[15:47:45-03/27/23] Line 133: Checking for end of month in week
+[15:47:45-03/27/23] Line 140: 
+[15:47:45-03/27/23] Line 142: Appending column to total
+[15:47:45-03/27/23] Line 144: All columns appended returning total
+[15:47:45-03/27/23] Line 196: Appending returned total from weekEnd
+[15:47:45-03/27/23] Line 185: Adding black row
+[15:47:45-03/27/23] Line 187: Checking for end of month
+[15:47:45-03/27/23] Line 192: Checking for end of week
+[15:47:45-03/27/23] Line 185: Adding black row
+[15:47:45-03/27/23] Line 187: Checking for end of month
+[15:47:45-03/27/23] Line 192: Checking for end of week
+[15:47:45-03/27/23] Line 197: All rows appended to values variable, adding to sheets
+[15:47:45-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:47:45-03/27/23] Line 203: Running updateCheck
+[15:47:45-03/27/23] Line 204: Getting version from GitHub
+[15:47:46-03/27/23] Line 206: GitHub version: 2.1.2
+
+[15:47:46-03/27/23] Line 208: Opening 'version.txt' file
+[15:47:46-03/27/23] Line 211: Installed version: 2.1.2
+
+[15:47:46-03/27/23] Line 214: Program up to date
+[15:47:46-03/27/23] Line 340: Getting current time and current dates
+[15:47:46-03/27/23] Line 345: Getting column data for the user
+[15:47:46-03/27/23] Line 348: Last clock in time: 08:18:01
+[15:47:46-03/27/23] Line 350: Clocked time: 0
+[15:47:55-03/27/23] Line 335: Running clockOut function
+[15:47:55-03/27/23] Line 173: dayCheck Function
+[15:47:55-03/27/23] Line 175: Current Date: Fri - 24/03/23
+[15:47:55-03/27/23] Line 181: Difference between last date and current date: 3
+[15:47:55-03/27/23] Line 183: Difference 3 is more than 1, filling in dates
+[15:47:55-03/27/23] Line 185: Adding black row
+[15:47:55-03/27/23] Line 187: Checking for end of month
+[15:47:55-03/27/23] Line 192: Checking for end of week
+[15:47:55-03/27/23] Line 194: End of week found running weekEnd function
+[15:47:55-03/27/23] Line 120: weekEnd Function
+[15:47:55-03/27/23] Line 124: Adding Week Total to each column
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 127: Date 1: 27/03/2023
+[15:47:55-03/27/23] Line 129: Date 2: 27/03/2023
+[15:47:55-03/27/23] Line 131: Num variable: 1
+[15:47:55-03/27/23] Line 133: Checking for end of month in week
+[15:47:55-03/27/23] Line 140: 
+[15:47:55-03/27/23] Line 142: Appending column to total
+[15:47:55-03/27/23] Line 144: All columns appended returning total
+[15:47:55-03/27/23] Line 196: Appending returned total from weekEnd
+[15:47:55-03/27/23] Line 185: Adding black row
+[15:47:55-03/27/23] Line 187: Checking for end of month
+[15:47:55-03/27/23] Line 192: Checking for end of week
+[15:47:55-03/27/23] Line 185: Adding black row
+[15:47:55-03/27/23] Line 187: Checking for end of month
+[15:47:55-03/27/23] Line 192: Checking for end of week
+[15:47:55-03/27/23] Line 197: All rows appended to values variable, adding to sheets
+[15:47:55-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:47:55-03/27/23] Line 203: Running updateCheck
+[15:47:55-03/27/23] Line 204: Getting version from GitHub
+[15:47:56-03/27/23] Line 206: GitHub version: 2.1.2
+
+[15:47:56-03/27/23] Line 208: Opening 'version.txt' file
+[15:47:56-03/27/23] Line 211: Installed version: 2.1.2
+
+[15:47:56-03/27/23] Line 214: Program up to date
+[15:47:56-03/27/23] Line 340: Getting current time and current dates
+[15:47:56-03/27/23] Line 345: Getting column data for the user
+[15:47:56-03/27/23] Line 348: Last clock in time: 08:18:01
+[15:47:56-03/27/23] Line 350: Clocked time: 0
+[15:48:04-03/27/23] Line 335: Running clockOut function
+[15:48:04-03/27/23] Line 173: dayCheck Function
+[15:48:04-03/27/23] Line 175: Current Date: Fri - 24/03/23
+[15:48:04-03/27/23] Line 181: Difference between last date and current date: 3
+[15:48:04-03/27/23] Line 183: Difference 3 is more than 1, filling in dates
+[15:48:04-03/27/23] Line 185: Adding black row
+[15:48:04-03/27/23] Line 187: Checking for end of month
+[15:48:04-03/27/23] Line 192: Checking for end of week
+[15:48:04-03/27/23] Line 194: End of week found running weekEnd function
+[15:48:04-03/27/23] Line 120: weekEnd Function
+[15:48:04-03/27/23] Line 124: Adding Week Total to each column
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:04-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:04-03/27/23] Line 131: Num variable: 1
+[15:48:04-03/27/23] Line 133: Checking for end of month in week
+[15:48:04-03/27/23] Line 140: 
+[15:48:04-03/27/23] Line 142: Appending column to total
+[15:48:04-03/27/23] Line 144: All columns appended returning total
+[15:48:04-03/27/23] Line 196: Appending returned total from weekEnd
+[15:48:04-03/27/23] Line 185: Adding black row
+[15:48:04-03/27/23] Line 187: Checking for end of month
+[15:48:04-03/27/23] Line 192: Checking for end of week
+[15:48:04-03/27/23] Line 185: Adding black row
+[15:48:04-03/27/23] Line 187: Checking for end of month
+[15:48:04-03/27/23] Line 192: Checking for end of week
+[15:48:04-03/27/23] Line 197: All rows appended to values variable, adding to sheets
+[15:48:05-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:48:05-03/27/23] Line 203: Running updateCheck
+[15:48:05-03/27/23] Line 204: Getting version from GitHub
+[15:48:05-03/27/23] Line 206: GitHub version: 2.1.2
+
+[15:48:05-03/27/23] Line 208: Opening 'version.txt' file
+[15:48:05-03/27/23] Line 211: Installed version: 2.1.2
+
+[15:48:05-03/27/23] Line 214: Program up to date
+[15:48:05-03/27/23] Line 340: Getting current time and current dates
+[15:48:05-03/27/23] Line 345: Getting column data for the user
+[15:48:05-03/27/23] Line 348: Last clock in time: 08:18:01
+[15:48:05-03/27/23] Line 350: Clocked time: 0
+[15:48:08-03/27/23] Line 335: Running clockOut function
+[15:48:08-03/27/23] Line 173: dayCheck Function
+[15:48:08-03/27/23] Line 175: Current Date: Fri - 24/03/23
+[15:48:08-03/27/23] Line 181: Difference between last date and current date: 3
+[15:48:08-03/27/23] Line 183: Difference 3 is more than 1, filling in dates
+[15:48:08-03/27/23] Line 185: Adding black row
+[15:48:08-03/27/23] Line 187: Checking for end of month
+[15:48:08-03/27/23] Line 192: Checking for end of week
+[15:48:08-03/27/23] Line 194: End of week found running weekEnd function
+[15:48:08-03/27/23] Line 120: weekEnd Function
+[15:48:08-03/27/23] Line 124: Adding Week Total to each column
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 127: Date 1: 27/03/2023
+[15:48:08-03/27/23] Line 129: Date 2: 27/03/2023
+[15:48:08-03/27/23] Line 131: Num variable: 1
+[15:48:08-03/27/23] Line 133: Checking for end of month in week
+[15:48:08-03/27/23] Line 140: 
+[15:48:08-03/27/23] Line 142: Appending column to total
+[15:48:08-03/27/23] Line 144: All columns appended returning total
+[15:48:08-03/27/23] Line 196: Appending returned total from weekEnd
+[15:48:08-03/27/23] Line 185: Adding black row
+[15:48:08-03/27/23] Line 187: Checking for end of month
+[15:48:08-03/27/23] Line 192: Checking for end of week
+[15:48:08-03/27/23] Line 185: Adding black row
+[15:48:08-03/27/23] Line 187: Checking for end of month
+[15:48:08-03/27/23] Line 192: Checking for end of week
+[15:48:08-03/27/23] Line 197: All rows appended to values variable, adding to sheets
+[15:48:09-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:48:09-03/27/23] Line 203: Running updateCheck
+[15:48:09-03/27/23] Line 204: Getting version from GitHub
+[15:48:09-03/27/23] Line 206: GitHub version: 2.1.2
+
+[15:48:09-03/27/23] Line 208: Opening 'version.txt' file
+[15:48:09-03/27/23] Line 211: Installed version: 2.1.2
+
+[15:48:09-03/27/23] Line 214: Program up to date
+[15:48:09-03/27/23] Line 340: Getting current time and current dates
+[15:48:09-03/27/23] Line 345: Getting column data for the user
+[15:48:09-03/27/23] Line 348: Last clock in time: 08:18:01
+[15:48:09-03/27/23] Line 350: Clocked time: 0
