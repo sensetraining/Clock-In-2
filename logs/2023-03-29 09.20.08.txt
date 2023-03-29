@@ -1,0 +1,7 @@
+[2023-03-29 09.20.08] Running Program
+[09:20:10-03/29/23] Line 109: Opening Staff Hours sheet
+[09:20:11-03/29/23] Line 1109: Running TKinter
+[09:20:15-03/29/23] Line 1121: Loading Styles
+[09:20:15-03/29/23] Line 1187: Running dayCheck function
+[09:20:15-03/29/23] Line 173: dayCheck Function
+[09:20:15-03/29/23] Line 175: Current Date: Wed - 29/03/23
