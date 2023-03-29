@@ -1,0 +1,443 @@
+[2023-03-27 10.43.03] Running Program
+[10:43:04-03/27/23] Line 109: Opening Staff Hours sheet
+[10:43:05-03/27/23] Line 1109: Running TKinter
+[10:43:05-03/27/23] Line 1121: Loading Styles
+[10:43:05-03/27/23] Line 1187: Running dayCheck function
+[10:43:05-03/27/23] Line 173: dayCheck Function
+[10:43:05-03/27/23] Line 175: Current Date: Mon - 27/03/23
+[10:43:06-03/27/23] Line 181: Difference between last date and current date: 3
+[10:43:06-03/27/23] Line 183: Difference 3 is more than 1, filling in dates
+[10:43:06-03/27/23] Line 185: Adding black row
+[10:43:06-03/27/23] Line 187: Checking for end of month
+[10:43:06-03/27/23] Line 192: Checking for end of week
+[10:43:06-03/27/23] Line 194: End of week found running weekEnd function
+[10:43:06-03/27/23] Line 120: weekEnd Function
+[10:43:06-03/27/23] Line 124: Adding Week Total to each column
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 127: Date 1: 27/03/2023
+[10:43:06-03/27/23] Line 129: Date 2: 27/03/2023
+[10:43:06-03/27/23] Line 131: Num variable: 1
+[10:43:06-03/27/23] Line 133: Checking for end of month in week
+[10:43:06-03/27/23] Line 140: 
+[10:43:06-03/27/23] Line 142: Appending column to total
+[10:43:06-03/27/23] Line 144: All columns appended returning total
+[10:43:06-03/27/23] Line 196: Appending returned total from weekEnd
+[10:43:06-03/27/23] Line 185: Adding black row
+[10:43:06-03/27/23] Line 187: Checking for end of month
+[10:43:06-03/27/23] Line 192: Checking for end of week
+[10:43:06-03/27/23] Line 185: Adding black row
+[10:43:06-03/27/23] Line 187: Checking for end of month
+[10:43:06-03/27/23] Line 192: Checking for end of week
+[10:43:06-03/27/23] Line 197: All rows appended to values variable, adding to sheets
+[10:43:06-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[10:43:06-03/27/23] Line 1190: Opening 'options.txt' file
+[10:43:06-03/27/23] Line 1194: Stored info: ['True 1\n', '2023-03-27 10.43.03']
+[10:43:06-03/27/23] Line 1197: Getting line 1: ['True', '1']
+[10:43:06-03/27/23] Line 1199: Check if autoLogin is True
+[10:43:06-03/27/23] Line 1201: autoLogin is True, going straight to mainPage
+[10:43:06-03/27/23] Line 1037: Main Page
+[10:43:06-03/27/23] Line 1038: Getting current time and current day
+[10:43:07-03/27/23] Line 1044: Resizing the window
+[10:43:07-03/27/23] Line 1057: Checking if user is current clocked in
+[10:43:07-03/27/23] Line 1066: User is clocked in, displayed relevant info
+[10:43:07-03/27/23] Line 1070: Getting the clocked time
+[10:43:07-03/27/23] Line 1081: Clocked time is 00:28:41
+[10:43:07-03/27/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[10:43:07-03/27/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[10:43:07-03/27/23] Line 1104: TRUE, running noClockOut function
+[10:43:07-03/27/23] Line 282: noClockOut
+[10:43:07-03/27/23] Line 285: Getting dates from sheet
+[10:43:07-03/27/23] Line 288: Last clock in time: 10:14:26
+[10:43:07-03/27/23] Line 290: Checking for Fri - 24/03/23 in dates column
+[10:43:07-03/27/23] Line 292: Date found, add clocked in time at specific date and setting clock status to FALSE
+[10:43:08-03/27/23] Line 307: Displaying warning message
+[10:43:15-03/27/23] Line 310: Destroying mainBox and going back to mainPage
+[10:43:15-03/27/23] Line 1037: Main Page
+[10:43:15-03/27/23] Line 1038: Getting current time and current day
+[10:43:16-03/27/23] Line 1044: Resizing the window
+[10:43:16-03/27/23] Line 1057: Checking if user is current clocked in
+[10:43:16-03/27/23] Line 1059: User is clocked out, displayed relevant info
+[10:43:16-03/27/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[10:43:16-03/27/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[10:43:19-03/27/23] Line 316: Running clockIn function
+[10:43:19-03/27/23] Line 173: dayCheck Function
+[10:43:19-03/27/23] Line 175: Current Date: Mon - 27/03/23
+[10:43:19-03/27/23] Line 181: Difference between last date and current date: 0
+[10:43:19-03/27/23] Line 199: Sheets all up to date, returning from dayCheck function
+[10:43:19-03/27/23] Line 203: Running updateCheck
+[10:43:19-03/27/23] Line 204: Getting version from GitHub
+[10:43:19-03/27/23] Line 206: GitHub version: 2.1.2
+
+[10:43:19-03/27/23] Line 208: Opening 'version.txt' file
+[10:43:19-03/27/23] Line 211: Installed version: 2.1.2
+
+[10:43:19-03/27/23] Line 214: Program up to date
+[10:43:19-03/27/23] Line 321: Getting current time and current date
+[10:43:19-03/27/23] Line 326: Setting the last clock in date and time and setting clock status to TRUE
+[10:43:20-03/27/23] Line 329: Destroying mainBox and going back to mainPage
+[10:43:20-03/27/23] Line 1037: Main Page
+[10:43:20-03/27/23] Line 1038: Getting current time and current day
+[10:43:20-03/27/23] Line 1044: Resizing the window
+[10:43:20-03/27/23] Line 1057: Checking if user is current clocked in
+[10:43:20-03/27/23] Line 1066: User is clocked in, displayed relevant info
+[10:43:20-03/27/23] Line 1070: Getting the clocked time
+[10:43:20-03/27/23] Line 1081: Clocked time is 00:00:01
+[10:43:20-03/27/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[10:43:20-03/27/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[15:45:38-03/27/23] Line 802: Running settings page
+[15:45:38-03/27/23] Line 803: Destroying mainBox
+[15:45:42-03/27/23] Line 810: Checking if user has admin
+[15:45:42-03/27/23] Line 812: TRUE
+[15:45:42-03/27/23] Line 822: Loading hours page
+[15:45:45-03/27/23] Line 436: Running addUser function
+[15:45:45-03/27/23] Line 437: Removing Staff from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[15:45:52-03/27/23] Line 436: Running addUser function
+[15:45:52-03/27/23] Line 437: Removing Emily from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[15:45:52-03/27/23] Line 439: Adding Emily to []
+[15:45:52-03/27/23] Line 442: Returning to settingsPage
+[15:45:52-03/27/23] Line 802: Running settings page
+[15:45:52-03/27/23] Line 803: Destroying mainBox
+[15:45:52-03/27/23] Line 810: Checking if user has admin
+[15:45:53-03/27/23] Line 812: TRUE
+[15:45:53-03/27/23] Line 822: Loading hours page
+[15:45:53-03/27/23] Line 844: Displaying selected staff box
+[15:45:55-03/27/23] Line 458: Running searchHours function
+[15:45:55-03/27/23] Line 460: Checking if entered date is valid
+[15:45:55-03/27/23] Line 473: Date is valid
+[15:45:55-03/27/23] Line 483: Checking if year is valid
+[15:45:55-03/27/23] Line 492: Getting the difference between the 2 dates
+[15:45:55-03/27/23] Line 496: Difference is: 6
+[15:45:55-03/27/23] Line 501: Getting all values from sheet
+[15:45:55-03/27/23] Line 506: Getting all positions where there is a Month or Week Total
+[15:45:55-03/27/23] Line 508: Skip positions: [9, 17, 25, 33, 39, 42, 50, 58, 66, 72, 75, 83, 91, 99, 107, 109, 116, 124, 132, 140, 145, 149, 157, 165, 173, 181, 189, 197, 205, 213, 216, 222]
+[15:45:55-03/27/23] Line 510: Check if date 1: Mon - 20/03/23 is in date column
+[15:45:55-03/27/23] Line 513: TRUE at postion 16
+[15:45:55-03/27/23] Line 519: Check if date 2: Sun - 26/03/23 is in date column
+[15:45:55-03/27/23] Line 522: TRUE at postion 10
+[15:45:55-03/27/23] Line 533: Creating new window
+[15:45:58-03/27/23] Line 561: Getting hours for each user inside specified date range
+[15:45:58-03/27/23] Line 583: User: Emily
+[15:45:58-03/27/23] Line 584: Total Min: 676
+[15:45:58-03/27/23] Line 586: Total Hour: 11.266666666666667
+[15:45:58-03/27/23] Line 587: Total Fail: 2
+[15:45:58-03/27/23] Line 589: All Hours: 11.266666666666667
+[15:45:58-03/27/23] Line 591: Inserting user hours into text box
+[15:45:58-03/27/23] Line 594: Inserting total hours into text box
+[15:45:58-03/27/23] Line 428: Running mainPageBack function
+[15:45:58-03/27/23] Line 429: Destroing adminBox
+[15:45:58-03/27/23] Line 431: Returning to mainPage
+[15:45:58-03/27/23] Line 1037: Main Page
+[15:45:58-03/27/23] Line 1038: Getting current time and current day
+[15:45:58-03/27/23] Line 1044: Resizing the window
+[15:45:58-03/27/23] Line 1057: Checking if user is current clocked in
+[15:45:58-03/27/23] Line 1066: User is clocked in, displayed relevant info
+[15:45:58-03/27/23] Line 1070: Getting the clocked time
+[15:45:58-03/27/23] Line 1081: Clocked time is 05:02:39
+[15:45:58-03/27/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[15:45:58-03/27/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[15:47:08-03/27/23] Line 802: Running settings page
+[15:47:08-03/27/23] Line 803: Destroying mainBox
+[15:47:08-03/27/23] Line 810: Checking if user has admin
+[15:47:09-03/27/23] Line 812: TRUE
+[15:47:09-03/27/23] Line 822: Loading hours page
+[15:47:12-03/27/23] Line 436: Running addUser function
+[15:47:12-03/27/23] Line 437: Removing Emily from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[15:47:12-03/27/23] Line 439: Adding Emily to []
+[15:47:12-03/27/23] Line 442: Returning to settingsPage
+[15:47:12-03/27/23] Line 802: Running settings page
+[15:47:12-03/27/23] Line 803: Destroying mainBox
+[15:47:12-03/27/23] Line 810: Checking if user has admin
+[15:47:13-03/27/23] Line 812: TRUE
+[15:47:13-03/27/23] Line 822: Loading hours page
+[15:47:13-03/27/23] Line 844: Displaying selected staff box
+[15:47:40-03/27/23] Line 458: Running searchHours function
+[15:47:40-03/27/23] Line 460: Checking if entered date is valid
+[15:47:40-03/27/23] Line 473: Date is valid
+[15:47:40-03/27/23] Line 483: Checking if year is valid
+[15:47:40-03/27/23] Line 485: Invalid year, displaying error popup message
+[15:47:45-03/27/23] Line 458: Running searchHours function
+[15:47:45-03/27/23] Line 460: Checking if entered date is valid
+[15:47:45-03/27/23] Line 473: Date is valid
+[15:47:45-03/27/23] Line 483: Checking if year is valid
+[15:47:45-03/27/23] Line 492: Getting the difference between the 2 dates
+[15:47:45-03/27/23] Line 496: Difference is: 5
+[15:47:45-03/27/23] Line 501: Getting all values from sheet
+[15:47:45-03/27/23] Line 506: Getting all positions where there is a Month or Week Total
+[15:47:45-03/27/23] Line 508: Skip positions: [13, 17, 21, 29, 37, 45, 51, 54, 62, 70, 78, 84, 87, 95, 103, 111, 119, 121, 128, 136, 144, 152, 157, 161, 169, 177, 185, 193, 201, 209, 217, 225, 228, 234]
+[15:47:45-03/27/23] Line 510: Check if date 1: Mon - 27/03/23 is in date column
+[15:47:45-03/27/23] Line 513: TRUE at postion 12
+[15:47:45-03/27/23] Line 519: Check if date 2: Thu - 23/03/23 is in date column
+[15:47:45-03/27/23] Line 522: TRUE at postion 25
+[15:47:45-03/27/23] Line 533: Creating new window
+[15:47:45-03/27/23] Line 561: Getting hours for each user inside specified date range
+[15:47:45-03/27/23] Line 583: User: Emily
+[15:47:45-03/27/23] Line 584: Total Min: 0
+[15:47:45-03/27/23] Line 586: Total Hour: 0.0
+[15:47:45-03/27/23] Line 587: Total Fail: 5
+[15:47:45-03/27/23] Line 589: All Hours: 0.0
+[15:47:45-03/27/23] Line 591: Inserting user hours into text box
+[15:47:45-03/27/23] Line 594: Inserting total hours into text box
+[15:48:38-03/27/23] Line 458: Running searchHours function
+[15:48:38-03/27/23] Line 460: Checking if entered date is valid
+[15:48:38-03/27/23] Line 473: Date is valid
+[15:48:38-03/27/23] Line 483: Checking if year is valid
+[15:48:38-03/27/23] Line 492: Getting the difference between the 2 dates
+[15:48:38-03/27/23] Line 496: Difference is: 0
+[15:48:38-03/27/23] Line 501: Getting all values from sheet
+[15:48:38-03/27/23] Line 506: Getting all positions where there is a Month or Week Total
+[15:48:38-03/27/23] Line 508: Skip positions: [9, 13, 17, 21, 25, 29, 33, 41, 49, 57, 63, 66, 74, 82, 90, 96, 99, 107, 115, 123, 131, 133, 140, 148, 156, 164, 169, 173, 181, 189, 197, 205, 213, 221, 229, 237, 240, 246]
+[15:48:38-03/27/23] Line 510: Check if date 1: Mon - 27/03/23 is in date column
+[15:48:38-03/27/23] Line 513: TRUE at postion 8
+[15:48:38-03/27/23] Line 519: Check if date 2: Mon - 27/03/23 is in date column
+[15:48:38-03/27/23] Line 522: TRUE at postion 8
+[15:48:38-03/27/23] Line 533: Creating new window
+[15:48:39-03/27/23] Line 561: Getting hours for each user inside specified date range
+[15:48:39-03/27/23] Line 583: User: Emily
+[15:48:39-03/27/23] Line 584: Total Min: 0
+[15:48:39-03/27/23] Line 586: Total Hour: 0.0
+[15:48:39-03/27/23] Line 587: Total Fail: 0
+[15:48:39-03/27/23] Line 589: All Hours: 0.0
+[15:48:39-03/27/23] Line 591: Inserting user hours into text box
+[15:48:39-03/27/23] Line 594: Inserting total hours into text box
+[15:48:48-03/27/23] Line 458: Running searchHours function
+[15:48:48-03/27/23] Line 460: Checking if entered date is valid
+[15:48:48-03/27/23] Line 468: Date is invalid
+[15:48:48-03/27/23] Line 469: Error: invalid literal for int() with base 10: ''
+[15:48:48-03/27/23] Line 470: Displaying invalid date popup
+[15:49:18-03/27/23] Line 458: Running searchHours function
+[15:49:18-03/27/23] Line 460: Checking if entered date is valid
+[15:49:18-03/27/23] Line 473: Date is valid
+[15:49:18-03/27/23] Line 483: Checking if year is valid
+[15:49:18-03/27/23] Line 492: Getting the difference between the 2 dates
+[15:49:18-03/27/23] Line 496: Difference is: 0
+[15:49:18-03/27/23] Line 501: Getting all values from sheet
+[15:49:19-03/27/23] Line 506: Getting all positions where there is a Month or Week Total
+[15:49:19-03/27/23] Line 508: Skip positions: [9, 13, 17, 21, 25, 29, 33, 41, 49, 57, 63, 66, 74, 82, 90, 96, 99, 107, 115, 123, 131, 133, 140, 148, 156, 164, 169, 173, 181, 189, 197, 205, 213, 221, 229, 237, 240, 246]
+[15:49:19-03/27/23] Line 510: Check if date 1: Mon - 27/03/23 is in date column
+[15:49:19-03/27/23] Line 513: TRUE at postion 8
+[15:49:19-03/27/23] Line 519: Check if date 2: Mon - 27/03/23 is in date column
+[15:49:19-03/27/23] Line 522: TRUE at postion 8
+[15:49:19-03/27/23] Line 533: Creating new window
+[15:49:19-03/27/23] Line 561: Getting hours for each user inside specified date range
+[15:49:19-03/27/23] Line 583: User: Emily
+[15:49:19-03/27/23] Line 584: Total Min: 0
+[15:49:19-03/27/23] Line 586: Total Hour: 0.0
+[15:49:19-03/27/23] Line 587: Total Fail: 0
+[15:49:19-03/27/23] Line 589: All Hours: 0.0
+[15:49:19-03/27/23] Line 591: Inserting user hours into text box
+[15:49:19-03/27/23] Line 594: Inserting total hours into text box
+[15:49:28-03/27/23] Line 428: Running mainPageBack function
+[15:49:28-03/27/23] Line 429: Destroing adminBox
+[15:49:28-03/27/23] Line 431: Returning to mainPage
+[15:49:28-03/27/23] Line 1037: Main Page
+[15:49:28-03/27/23] Line 1038: Getting current time and current day
+[15:49:29-03/27/23] Line 1044: Resizing the window
+[15:49:29-03/27/23] Line 1057: Checking if user is current clocked in
+[15:49:29-03/27/23] Line 1066: User is clocked in, displayed relevant info
+[15:49:29-03/27/23] Line 1070: Getting the clocked time
+[15:49:29-03/27/23] Line 1081: Clocked time is 05:06:10
+[15:49:29-03/27/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[15:49:29-03/27/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[09:24:08-03/28/23] Line 335: Running clockOut function
+[09:24:08-03/28/23] Line 173: dayCheck Function
+[09:24:08-03/28/23] Line 175: Current Date: Mon - 27/03/23
+[09:24:09-03/28/23] Line 181: Difference between last date and current date: 1
+[09:24:09-03/28/23] Line 183: Difference 1 is more than 1, filling in dates
+[09:24:09-03/28/23] Line 185: Adding black row
+[09:24:09-03/28/23] Line 187: Checking for end of month
+[09:24:09-03/28/23] Line 192: Checking for end of week
+[09:24:09-03/28/23] Line 197: All rows appended to values variable, adding to sheets
+[09:24:09-03/28/23] Line 199: Sheets all up to date, returning from dayCheck function
+[09:24:09-03/28/23] Line 203: Running updateCheck
+[09:24:09-03/28/23] Line 204: Getting version from GitHub
+[09:24:10-03/28/23] Line 206: GitHub version: 2.1.2
+
+[09:24:10-03/28/23] Line 208: Opening 'version.txt' file
+[09:24:10-03/28/23] Line 211: Installed version: 2.1.2
+
+[09:24:10-03/28/23] Line 214: Program up to date
+[09:24:10-03/28/23] Line 340: Getting current time and current dates
+[09:24:10-03/28/23] Line 345: Getting column data for the user
+[09:24:11-03/28/23] Line 348: Last clock in time: 10:43:19
+[09:24:11-03/28/23] Line 350: Clocked time: 0:00:00
+[09:24:11-03/28/23] Line 359: Total clocked time: 1899-12-31 22:40:51
+[09:24:11-03/28/23] Line 360: Setting clocked status to False, adding total time and setting last clock out time and date
+[09:24:11-03/28/23] Line 367: Updating sheet
+[09:24:11-03/28/23] Line 370: Destroing mainBox and returning to mainPage
+[09:24:11-03/28/23] Line 1037: Main Page
+[09:24:11-03/28/23] Line 1038: Getting current time and current day
+[09:24:12-03/28/23] Line 1044: Resizing the window
+[09:24:12-03/28/23] Line 1057: Checking if user is current clocked in
+[09:24:12-03/28/23] Line 1059: User is clocked out, displayed relevant info
+[09:24:12-03/28/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[09:24:12-03/28/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[09:24:16-03/28/23] Line 316: Running clockIn function
+[09:24:16-03/28/23] Line 173: dayCheck Function
+[09:24:16-03/28/23] Line 175: Current Date: Mon - 27/03/23
+[09:24:16-03/28/23] Line 181: Difference between last date and current date: 1
+[09:24:16-03/28/23] Line 183: Difference 1 is more than 1, filling in dates
+[09:24:16-03/28/23] Line 185: Adding black row
+[09:24:16-03/28/23] Line 187: Checking for end of month
+[09:24:16-03/28/23] Line 192: Checking for end of week
+[09:24:16-03/28/23] Line 197: All rows appended to values variable, adding to sheets
+[09:24:17-03/28/23] Line 199: Sheets all up to date, returning from dayCheck function
+[09:24:17-03/28/23] Line 203: Running updateCheck
+[09:24:17-03/28/23] Line 204: Getting version from GitHub
+[09:24:17-03/28/23] Line 206: GitHub version: 2.1.2
+
+[09:24:17-03/28/23] Line 208: Opening 'version.txt' file
+[09:24:17-03/28/23] Line 211: Installed version: 2.1.2
+
+[09:24:17-03/28/23] Line 214: Program up to date
+[09:24:17-03/28/23] Line 321: Getting current time and current date
+[09:24:17-03/28/23] Line 326: Setting the last clock in date and time and setting clock status to TRUE
+[09:24:18-03/28/23] Line 329: Destroying mainBox and going back to mainPage
+[09:24:18-03/28/23] Line 1037: Main Page
+[09:24:18-03/28/23] Line 1038: Getting current time and current day
+[09:24:18-03/28/23] Line 1044: Resizing the window
+[09:24:18-03/28/23] Line 1057: Checking if user is current clocked in
+[09:24:18-03/28/23] Line 1066: User is clocked in, displayed relevant info
+[09:24:18-03/28/23] Line 1070: Getting the clocked time
