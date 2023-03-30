@@ -1,0 +1,35 @@
+[2023-03-30 10.10.51] Running Program
+[10:10:51-03/30/23] Line 107: Opening Staff Hours sheet
+[10:10:52-03/30/23] Line 1116: Running TKinter
+[10:10:52-03/30/23] Line 1128: Loading Styles
+[10:10:52-03/30/23] Line 1194: Running dayCheck function
+[10:10:52-03/30/23] Line 171: dayCheck Function
+[10:10:52-03/30/23] Line 173: Current Date: Thu - 30/03/23
+[10:10:52-03/30/23] Line 179: Difference between last date and current date: 0
+[10:10:52-03/30/23] Line 197: Sheets all up to date, returning from dayCheck function
+[10:10:52-03/30/23] Line 1197: Opening 'options.txt' file
+[10:10:52-03/30/23] Line 1201: Stored info: ['True 6\n', '2023-03-30 10.10.51']
+[10:10:52-03/30/23] Line 1204: Getting line 1: ['True', '6']
+[10:10:52-03/30/23] Line 1206: Check if autoLogin is True
+[10:10:52-03/30/23] Line 1208: autoLogin is True, going straight to mainPage
+[10:10:52-03/30/23] Line 1044: Main Page
+[10:10:52-03/30/23] Line 1045: Getting current time and current day
+[10:10:53-03/30/23] Line 1051: Resizing the window
+[10:10:53-03/30/23] Line 1064: Checking if user is current clocked in
+[10:10:53-03/30/23] Line 1066: User is clocked out, displayed relevant info
+[10:10:53-03/30/23] Line 1099: Getting the usernames from allValues and removing any EMPTY
+[10:10:53-03/30/23] Line 1109: Checking that if the user is clocked in, it was from a different day
+[10:23:54-03/30/23] Line 314: Running clockIn function
+[10:23:54-03/30/23] Line 171: dayCheck Function
+[10:23:54-03/30/23] Line 173: Current Date: Thu - 30/03/23
+[10:23:54-03/30/23] Line 179: Difference between last date and current date: 0
+[10:23:54-03/30/23] Line 197: Sheets all up to date, returning from dayCheck function
+[10:23:54-03/30/23] Line 201: Running updateCheck
+[10:23:54-03/30/23] Line 202: Getting version from GitHub
+[10:23:55-03/30/23] Line 204: GitHub version: 2.1.3
+
+[10:23:55-03/30/23] Line 206: Opening 'version.txt' file
+[10:23:55-03/30/23] Line 209: Installed version: 2.1.2
+
+[10:23:55-03/30/23] Line 216: Update is available, displaying message
+[10:23:56-03/30/23] Line 218: Closing application
