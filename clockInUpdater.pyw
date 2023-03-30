@@ -5,6 +5,7 @@ try:
 except ImportError:
     os.system('pip install requests')
     import requests
+import importlib
 import subprocess
 import tkinter as tk
 from tkinter import ttk
@@ -27,7 +28,7 @@ def cancel():
     response = messagebox.askquestion("Warning", "Are you sure you want to cancel?")
     if response == "yes":
         window.destroy()
-    sys.exit()
+        sys.exit()
 
 def install():
     print("installing")
@@ -127,5 +128,13 @@ else:
 
     window.mainloop()
 
+# startup_info = subprocess.STARTUPINFO()
+# startup_info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+
+# subprocess.Popen(['pythonw', 'clock_in_2.pyw'], startupinfo=startup_info)
+
 import clock_in_2
+
+importlib.reload(clock_in_2)
+clock_in_2.run()
 
