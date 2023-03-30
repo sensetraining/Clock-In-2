@@ -1,0 +1,93 @@
+[2023-03-30 09.58.11] Running Program
+[09:58:11-03/30/23] Line 109: Opening Staff Hours sheet
+[09:58:12-03/30/23] Line 1109: Running TKinter
+[09:58:13-03/30/23] Line 1121: Loading Styles
+[09:58:13-03/30/23] Line 1187: Running dayCheck function
+[09:58:13-03/30/23] Line 173: dayCheck Function
+[09:58:13-03/30/23] Line 175: Current Date: Thu - 30/03/23
+[09:58:13-03/30/23] Line 181: Difference between last date and current date: 1
+[09:58:13-03/30/23] Line 183: Difference 1 is more than 1, filling in dates
+[09:58:13-03/30/23] Line 185: Adding black row
+[09:58:13-03/30/23] Line 187: Checking for end of month
+[09:58:13-03/30/23] Line 192: Checking for end of week
+[09:58:13-03/30/23] Line 197: All rows appended to values variable, adding to sheets
+[09:58:14-03/30/23] Line 199: Sheets all up to date, returning from dayCheck function
+[09:58:14-03/30/23] Line 1190: Opening 'options.txt' file
+[09:58:14-03/30/23] Line 1194: Stored info: ['False 6\n', '2023-03-30 09.58.11']
+[09:58:14-03/30/23] Line 1197: Getting line 1: ['False', '6']
+[09:58:14-03/30/23] Line 1199: Check if autoLogin is True
+[09:58:14-03/30/23] Line 1205: autoLogin is False, running loginPage
+[09:58:14-03/30/23] Line 376: Login Page
+[09:58:33-03/30/23] Line 224: Login button presses, attempting login
+[09:58:33-03/30/23] Line 225: Getting all values from sheets
+[09:58:34-03/30/23] Line 228: Checking for entered username: Test in the sheets
+[09:58:34-03/30/23] Line 231: Username is valid at position 6
+[09:58:34-03/30/23] Line 237: Checking if entered password matches password on sheets
+[09:58:34-03/30/23] Line 243: Passwords match
+[09:58:34-03/30/23] Line 245: Checking is Remember me? button was checked
+[09:58:34-03/30/23] Line 247: Button was checked setting remember to True
+[09:58:34-03/30/23] Line 253: Opening 'options.txt' file
+[09:58:34-03/30/23] Line 257: Setting the remmeber and userPos variables
+[09:58:34-03/30/23] Line 262: Closing file
+[09:58:34-03/30/23] Line 264: Destroying loginPage and running mainPage
+[09:58:34-03/30/23] Line 1037: Main Page
+[09:58:34-03/30/23] Line 1038: Getting current time and current day
+[09:58:34-03/30/23] Line 1044: Resizing the window
+[09:58:34-03/30/23] Line 1057: Checking if user is current clocked in
+[09:58:34-03/30/23] Line 1066: User is clocked in, displayed relevant info
+[09:58:34-03/30/23] Line 1070: Getting the clocked time
+[09:58:34-03/30/23] Line 1081: Clocked time is 21:13:30
+[09:58:34-03/30/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[09:58:34-03/30/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[09:58:34-03/30/23] Line 1104: TRUE, running noClockOut function
+[09:58:34-03/30/23] Line 282: noClockOut
+[09:58:34-03/30/23] Line 285: Getting dates from sheet
+[09:58:34-03/30/23] Line 288: Last clock in time: 12:45:04
+[09:58:34-03/30/23] Line 290: Checking for Fri - 24/03/23 in dates column
+[09:58:34-03/30/23] Line 292: Date found, add clocked in time at specific date and setting clock status to FALSE
+[09:58:35-03/30/23] Line 307: Displaying warning message
+[09:58:37-03/30/23] Line 310: Destroying mainBox and going back to mainPage
+[09:58:37-03/30/23] Line 1037: Main Page
+[09:58:37-03/30/23] Line 1038: Getting current time and current day
+[09:58:37-03/30/23] Line 1044: Resizing the window
+[09:58:37-03/30/23] Line 1057: Checking if user is current clocked in
+[09:58:37-03/30/23] Line 1059: User is clocked out, displayed relevant info
+[09:58:37-03/30/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[09:58:37-03/30/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[09:58:38-03/30/23] Line 802: Running settings page
+[09:58:38-03/30/23] Line 803: Destroying mainBox
+[09:58:38-03/30/23] Line 810: Checking if user has admin
+[09:58:38-03/30/23] Line 812: TRUE
+[09:58:38-03/30/23] Line 822: Loading hours page
+[09:58:41-03/30/23] Line 436: Running addUser function
+[09:58:41-03/30/23] Line 437: Removing Gloria from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[09:58:41-03/30/23] Line 439: Adding Gloria to []
+[09:58:41-03/30/23] Line 442: Returning to settingsPage
+[09:58:41-03/30/23] Line 802: Running settings page
+[09:58:41-03/30/23] Line 803: Destroying mainBox
+[09:58:41-03/30/23] Line 810: Checking if user has admin
+[09:58:41-03/30/23] Line 812: TRUE
+[09:58:41-03/30/23] Line 822: Loading hours page
+[09:58:41-03/30/23] Line 844: Displaying selected staff box
+[09:58:42-03/30/23] Line 458: Running searchHours function
+[09:58:42-03/30/23] Line 460: Checking if entered date is valid
+[09:58:42-03/30/23] Line 473: Date is valid
+[09:58:42-03/30/23] Line 483: Checking if year is valid
+[09:58:42-03/30/23] Line 492: Getting the difference between the 2 dates
+[09:58:42-03/30/23] Line 496: Difference is: 6
+[09:58:42-03/30/23] Line 501: Getting all values from sheet
+[09:58:43-03/30/23] Line 506: Getting all positions where there is a Month or Week Total
+[09:58:43-03/30/23] Line 508: Skip positions: [14, 18, 22, 26, 30, 34, 38, 46, 54, 62, 68, 71, 79, 87, 95, 101, 104, 112, 120, 128, 136, 138, 145, 153, 161, 169, 174, 178, 186, 194, 202, 210, 218, 226, 234, 242, 245, 251]
+[09:58:43-03/30/23] Line 510: Check if date 1: Mon - 20/03/23 is in date column
+[09:58:43-03/30/23] Line 513: TRUE at postion 45
+[09:58:43-03/30/23] Line 519: Check if date 2: Sun - 26/03/23 is in date column
+[09:58:43-03/30/23] Line 522: TRUE at postion 15
+[09:58:43-03/30/23] Line 533: Creating new window
+[09:58:43-03/30/23] Line 561: Getting hours for each user inside specified date range
+[09:58:43-03/30/23] Line 583: User: Gloria
+[09:58:43-03/30/23] Line 584: Total Min: 0
+[09:58:43-03/30/23] Line 586: Total Hour: 0.0
+[09:58:43-03/30/23] Line 587: Total Fail: 0
+[09:58:43-03/30/23] Line 589: All Hours: 0.0
+[09:58:43-03/30/23] Line 591: Inserting user hours into text box
+[09:58:43-03/30/23] Line 594: Inserting total hours into text box
