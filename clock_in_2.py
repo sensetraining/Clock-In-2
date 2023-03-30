@@ -1113,103 +1113,108 @@ def mainPage(userPos):
     return
 
 ###################### MAIN ######################
-lineNum(f"Running TKinter")
-root = tk.Tk()
-root['bg'] = "#f27420"
-width = 600
-height = 350
-root.minsize(464, 214)
-root.geometry("600x350")
-root.title("Clock In")
-x_cordinate = int((root.winfo_screenwidth() / 2) - width/2)
-y_cordinate = int((root.winfo_screenheight() / 2) - height/2)
-root.geometry("+{}+{}".format(x_cordinate, y_cordinate-20))
+def run():
+    lineNum(f"Running TKinter")
+    global root
+    root = tk.Tk()
+    root['bg'] = "#f27420"
+    global height
+    global width
+    width = 600
+    height = 350
+    root.minsize(464, 214)
+    root.geometry("600x350")
+    root.title("Clock In")
+    x_cordinate = int((root.winfo_screenwidth() / 2) - width/2)
+    y_cordinate = int((root.winfo_screenheight() / 2) - height/2)
+    root.geometry("+{}+{}".format(x_cordinate, y_cordinate-20))
 
-lineNum(f"Loading Styles")
-CheckVar = tk.IntVar(value=0)
-settingsIcon = tk.PhotoImage(file="setting_icon.png")
-style = ttk.Style()
-style.theme_use('default')
-style.configure("blueBox.TLabel", relief="solid", background="#113f8c")
-style.configure("label.TLabel", background="#113f8c", foreground="white", font=("Helvetica", 18, "bold"))
-style.configure("label2.TLabel", background="#113f8c", foreground="white", font=("Helvetica", 14, "bold"))
-style.configure("label3.TLabel", background="#113f8c", foreground="white", font=("Helvetica", 12))
-style.configure("Custom.TEntry", background="#113f8c")
-style.map("SmallButton.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure("SmallButton.TButton", foreground="black", font=("Helvetica", 10,"bold"),padding=(0, -1, 0, 0))
-style.map("MediumButton.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure("MediumButton.TButton", foreground="black", font=("Helvetica", 12, "bold"))
-style.map("DeleteButton.TButton",
-    background=[('pressed', '#c46a64'), ('active', '#f29a94'), ('!active', '#f5877f')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure("DeleteButton.TButton", foreground="black", font=("Helvetica", 12, "bold"))
-style.map("LoginButton.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure("LoginButton.TButton", foreground="black", font=("Helvetica", 18, "bold"), width=14)
-style.map("Check.TCheckbutton",
-    background=[('pressed', '#113f8c'), ('active', '#113f8c'), ('!active', '#113f8c')],)
-style.configure("Check.TCheckbutton", background="#113f8c", foreground="white", font=("Helvetica", 12))
-style.map("clockIn.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('clockIn.TButton', background="white", foreground="#2bd900", font=("Helvetica", 18, "bold"), width=14)
-style.map("clockOut.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('clockOut.TButton', background="white", foreground="Red", font=("Helvetica", 18, "bold"), width=14)
-style.map("setting.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('setting.TButton', background="white", image=settingsIcon)
-style.map("tabFlat.TButton",
-    background=[('pressed', '#1651b5'), ('active', '#1651b5'), ('!active', '#0e3373')],
-    foreground=[('pressed', '#e6e6e6'), ('active', '#e6e6e6'), ('!active', '#878787')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('tabFlat.TButton',background="white",font=("Helvetica", 10, "bold"))
-style.map("tabSunken.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#113f8c')],
-    foreground=[('pressed', '#FFFFFF'), ('active', '#FFFFFF'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('tabSunken.TButton',font=("Helvetica", 10, "bold"))
-style.map("TMenubutton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('TMenubutton',font=("Helvetica", 14, "bold"),background="white")
-style.map("addBtn.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('addBtn.TButton', background="white",font=("Helvetica", 32, "bold"),padding=(0, -7, 0, 0))
-style.map("removeBtn.TButton",
-    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
-    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
-style.configure('removeBtn.TButton', background="white",font=("Helvetica", 32, "bold"),padding=(0, -10, 0, 0))
-style.configure('TCombobox',background="#e0eef9",arrowsize=15, relief="flat", font=('Helvetica', 14))
-style.configure('TScrollbar', background = "white",troughcolor ="white")
+    lineNum(f"Loading Styles")
+    global CheckVar
+    CheckVar = tk.IntVar(value=0)
+    settingsIcon = tk.PhotoImage(file="setting_icon.png")
+    style = ttk.Style()
+    style.theme_use('default')
+    style.configure("blueBox.TLabel", relief="solid", background="#113f8c")
+    style.configure("label.TLabel", background="#113f8c", foreground="white", font=("Helvetica", 18, "bold"))
+    style.configure("label2.TLabel", background="#113f8c", foreground="white", font=("Helvetica", 14, "bold"))
+    style.configure("label3.TLabel", background="#113f8c", foreground="white", font=("Helvetica", 12))
+    style.configure("Custom.TEntry", background="#113f8c")
+    style.map("SmallButton.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure("SmallButton.TButton", foreground="black", font=("Helvetica", 10,"bold"),padding=(0, -1, 0, 0))
+    style.map("MediumButton.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure("MediumButton.TButton", foreground="black", font=("Helvetica", 12, "bold"))
+    style.map("DeleteButton.TButton",
+        background=[('pressed', '#c46a64'), ('active', '#f29a94'), ('!active', '#f5877f')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure("DeleteButton.TButton", foreground="black", font=("Helvetica", 12, "bold"))
+    style.map("LoginButton.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure("LoginButton.TButton", foreground="black", font=("Helvetica", 18, "bold"), width=14)
+    style.map("Check.TCheckbutton",
+        background=[('pressed', '#113f8c'), ('active', '#113f8c'), ('!active', '#113f8c')],)
+    style.configure("Check.TCheckbutton", background="#113f8c", foreground="white", font=("Helvetica", 12))
+    style.map("clockIn.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('clockIn.TButton', background="white", foreground="#2bd900", font=("Helvetica", 18, "bold"), width=14)
+    style.map("clockOut.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('clockOut.TButton', background="white", foreground="Red", font=("Helvetica", 18, "bold"), width=14)
+    style.map("setting.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('setting.TButton', background="white", image=settingsIcon)
+    style.map("tabFlat.TButton",
+        background=[('pressed', '#1651b5'), ('active', '#1651b5'), ('!active', '#0e3373')],
+        foreground=[('pressed', '#e6e6e6'), ('active', '#e6e6e6'), ('!active', '#878787')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('tabFlat.TButton',background="white",font=("Helvetica", 10, "bold"))
+    style.map("tabSunken.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#113f8c')],
+        foreground=[('pressed', '#FFFFFF'), ('active', '#FFFFFF'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('tabSunken.TButton',font=("Helvetica", 10, "bold"))
+    style.map("TMenubutton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('TMenubutton',font=("Helvetica", 14, "bold"),background="white")
+    style.map("addBtn.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('addBtn.TButton', background="white",font=("Helvetica", 32, "bold"),padding=(0, -7, 0, 0))
+    style.map("removeBtn.TButton",
+        background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+        relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+    style.configure('removeBtn.TButton', background="white",font=("Helvetica", 32, "bold"),padding=(0, -10, 0, 0))
+    style.configure('TCombobox',background="#e0eef9",arrowsize=15, relief="flat", font=('Helvetica', 14))
+    style.configure('TScrollbar', background = "white",troughcolor ="white")
 
-lineNum("Running dayCheck function")
-dayCheck()
+    lineNum("Running dayCheck function")
+    dayCheck()
 
-lineNum("Opening 'options.txt' file")
-f = open("options.txt", "r")
-optionData = f.readlines()
-f.close()
-lineNum(f"Stored info: {optionData}")
+    lineNum("Opening 'options.txt' file")
+    f = open("options.txt", "r")
+    optionData = f.readlines()
+    f.close()
+    lineNum(f"Stored info: {optionData}")
 
-autoLogin = optionData[0].rstrip().split(" ")
-lineNum(f"Getting line 1: {autoLogin}")
+    autoLogin = optionData[0].rstrip().split(" ")
+    lineNum(f"Getting line 1: {autoLogin}")
 
-lineNum(f"Check if autoLogin is True")
-if autoLogin[0] == "True":
-    lineNum("autoLogin is True, going straight to mainPage")
-    mainPage(int(autoLogin[1]))
+    lineNum(f"Check if autoLogin is True")
+    if autoLogin[0] == "True":
+        lineNum("autoLogin is True, going straight to mainPage")
+        mainPage(int(autoLogin[1]))
 
-else:
-    lineNum("autoLogin is False, running loginPage")
-    loginPage()
+    else:
+        lineNum("autoLogin is False, running loginPage")
+        loginPage()
 
-root.mainloop()
+    root.mainloop()
