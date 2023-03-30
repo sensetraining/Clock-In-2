@@ -1,0 +1,73 @@
+[2023-03-24 13.12.29] Running Program
+[13:12:29-03/24/23] Line 109: Opening Staff Hours sheet
+[13:12:30-03/24/23] Line 1109: Running TKinter
+[13:12:30-03/24/23] Line 1121: Loading Styles
+[13:12:30-03/24/23] Line 1187: Running dayCheck function
+[13:12:30-03/24/23] Line 173: dayCheck Function
+[13:12:30-03/24/23] Line 175: Current Date: Fri - 24/03/23
+[13:12:30-03/24/23] Line 181: Difference between last date and current date: 0
+[13:12:30-03/24/23] Line 199: Sheets all up to date, returning from dayCheck function
+[13:12:30-03/24/23] Line 1190: Opening 'options.txt' file
+[13:12:30-03/24/23] Line 1194: Stored info: ['False 6\n', '2023-03-24 13.12.29']
+[13:12:30-03/24/23] Line 1197: Getting line 1: ['False', '6']
+[13:12:30-03/24/23] Line 1199: Check if autoLogin is True
+[13:12:30-03/24/23] Line 1205: autoLogin is False, running loginPage
+[13:12:30-03/24/23] Line 376: Login Page
+[13:12:35-03/24/23] Line 224: Login button presses, attempting login
+[13:12:35-03/24/23] Line 225: Getting all values from sheets
+[13:12:35-03/24/23] Line 228: Checking for entered username: Test in the sheets
+[13:12:35-03/24/23] Line 231: Username is valid at position 6
+[13:12:35-03/24/23] Line 237: Checking if entered password matches password on sheets
+[13:12:35-03/24/23] Line 243: Passwords match
+[13:12:35-03/24/23] Line 245: Checking is Remember me? button was checked
+[13:12:35-03/24/23] Line 250: Button not checked setting remember to false
+[13:12:35-03/24/23] Line 253: Opening 'options.txt' file
+[13:12:35-03/24/23] Line 257: Setting the remmeber and userPos variables
+[13:12:35-03/24/23] Line 262: Closing file
+[13:12:35-03/24/23] Line 264: Destroying loginPage and running mainPage
+[13:12:35-03/24/23] Line 1037: Main Page
+[13:12:35-03/24/23] Line 1038: Getting current time and current day
+[13:12:35-03/24/23] Line 1044: Resizing the window
+[13:12:35-03/24/23] Line 1057: Checking if user is current clocked in
+[13:12:35-03/24/23] Line 1066: User is clocked in, displayed relevant info
+[13:12:35-03/24/23] Line 1070: Getting the clocked time
+[13:12:35-03/24/23] Line 1081: Clocked time is 03:38:57
+[13:12:35-03/24/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[13:12:35-03/24/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[13:13:00-03/24/23] Line 802: Running settings page
+[13:13:00-03/24/23] Line 803: Destroying mainBox
+[13:13:01-03/24/23] Line 810: Checking if user has admin
+[13:13:01-03/24/23] Line 812: TRUE
+[13:13:01-03/24/23] Line 822: Loading hours page
+[13:13:04-03/24/23] Line 436: Running addUser function
+[13:13:04-03/24/23] Line 437: Removing Test from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[13:13:04-03/24/23] Line 439: Adding Test to []
+[13:13:04-03/24/23] Line 442: Returning to settingsPage
+[13:13:04-03/24/23] Line 802: Running settings page
+[13:13:04-03/24/23] Line 803: Destroying mainBox
+[13:13:05-03/24/23] Line 810: Checking if user has admin
+[13:13:05-03/24/23] Line 812: TRUE
+[13:13:05-03/24/23] Line 822: Loading hours page
+[13:13:05-03/24/23] Line 844: Displaying selected staff box
+[13:13:06-03/24/23] Line 458: Running searchHours function
+[13:13:06-03/24/23] Line 460: Checking if entered date is valid
+[13:13:06-03/24/23] Line 473: Date is valid
+[13:13:06-03/24/23] Line 483: Checking if year is valid
+[13:13:06-03/24/23] Line 492: Getting the difference between the 2 dates
+[13:13:06-03/24/23] Line 496: Difference is: 6
+[13:13:06-03/24/23] Line 501: Getting all values from sheet
+[13:13:06-03/24/23] Line 506: Getting all positions where there is a Month or Week Total
+[13:13:06-03/24/23] Line 508: Skip positions: [13, 21, 29, 35, 38, 46, 54, 62, 68, 71, 79, 87, 95, 103, 105, 112, 120, 128, 136, 141, 145, 153, 161, 169, 177, 185, 193, 201, 209, 212, 218]
+[13:13:06-03/24/23] Line 510: Check if date 1: Mon - 13/03/23 is in date column
+[13:13:06-03/24/23] Line 513: TRUE at postion 20
+[13:13:06-03/24/23] Line 519: Check if date 2: Sun - 19/03/23 is in date column
+[13:13:06-03/24/23] Line 522: TRUE at postion 14
+[13:13:06-03/24/23] Line 533: Creating new window
+[13:13:06-03/24/23] Line 561: Getting hours for each user inside specified date range
+[13:13:06-03/24/23] Line 583: User: Test
+[13:13:06-03/24/23] Line 584: Total Min: 7
+[13:13:06-03/24/23] Line 586: Total Hour: 0.11666666666666667
+[13:13:06-03/24/23] Line 587: Total Fail: 1
+[13:13:06-03/24/23] Line 589: All Hours: 0.11666666666666667
+[13:13:06-03/24/23] Line 591: Inserting user hours into text box
+[13:13:06-03/24/23] Line 594: Inserting total hours into text box
