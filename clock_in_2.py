@@ -831,7 +831,7 @@ def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Acc
         hoursButton.place(height=29,width=159,x=1,y=1)
         hoursButton.state(["disabled"])
 
-        accountButton = ttk.Button(adminBox,text="Test",style="tabFlat.TButton",command=lambda:accountPage(userPos,page,adminBox,mainBox,usernames,selectedUsers))
+        accountButton = ttk.Button(adminBox,text="Accounts",style="tabFlat.TButton",command=lambda:accountPage(userPos,page,adminBox,mainBox,usernames,selectedUsers))
         accountButton.place(height=29,width=160,x=160,y=1)
 
         developmentButton = ttk.Button(adminBox,text="Development",style="tabFlat.TButton",command=lambda:developmentPage(userPos,page,adminBox,mainBox,usernames,selectedUsers))
