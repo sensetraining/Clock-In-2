@@ -1,0 +1,17 @@
+[2023-03-30 11.08.03] Running Program
+[11:08:03-03/30/23] Line 107: Opening Staff Hours sheet
+[11:08:04-03/30/23] Line 1117: Running TKinter
+[11:08:04-03/30/23] Line 1129: Loading Styles
+[11:08:04-03/30/23] Line 1195: Running dayCheck function
+[11:08:04-03/30/23] Line 171: dayCheck Function
+[11:08:04-03/30/23] Line 173: Current Date: Thu - 30/03/23
+[11:08:05-03/30/23] Line 179: Difference between last date and current date: 0
+[11:08:05-03/30/23] Line 197: Sheets all up to date, returning from dayCheck function
+[11:08:05-03/30/23] Line 1198: Opening 'options.txt' file
+[11:08:05-03/30/23] Line 1202: Stored info: ['True 6\n', '2023-03-30 11.08.03']
+[11:08:05-03/30/23] Line 1205: Getting line 1: ['True', '6']
+[11:08:05-03/30/23] Line 1207: Check if autoLogin is True
+[11:08:05-03/30/23] Line 1209: autoLogin is True, going straight to mainPage
+[11:08:05-03/30/23] Line 1044: Main Page
+[11:08:05-03/30/23] Line 1045: Getting current time and current day
+[11:08:05-03/30/23] Line 1051: Resizing the window
