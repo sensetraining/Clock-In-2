@@ -1,0 +1,26 @@
+[2023-03-30 10.34.26] Running Program
+[10:34:27-03/30/23] Line 107: Opening Staff Hours sheet
+[10:34:28-03/30/23] Line 1116: Running TKinter
+[10:34:28-03/30/23] Line 1128: Loading Styles
+[10:34:28-03/30/23] Line 1194: Running dayCheck function
+[10:34:28-03/30/23] Line 171: dayCheck Function
+[10:34:28-03/30/23] Line 173: Current Date: Thu - 30/03/23
+[10:34:28-03/30/23] Line 179: Difference between last date and current date: 0
+[10:34:28-03/30/23] Line 197: Sheets all up to date, returning from dayCheck function
+[10:34:28-03/30/23] Line 1197: Opening 'options.txt' file
+[10:34:28-03/30/23] Line 1201: Stored info: ['True 6\n', '2023-03-30 10.34.26']
+[10:34:28-03/30/23] Line 1204: Getting line 1: ['True', '6']
+[10:34:28-03/30/23] Line 1206: Check if autoLogin is True
+[10:34:28-03/30/23] Line 1208: autoLogin is True, going straight to mainPage
+[10:34:28-03/30/23] Line 1044: Main Page
+[10:34:28-03/30/23] Line 1045: Getting current time and current day
+[10:34:28-03/30/23] Line 1051: Resizing the window
+[10:34:28-03/30/23] Line 1064: Checking if user is current clocked in
+[10:34:28-03/30/23] Line 1066: User is clocked out, displayed relevant info
+[10:34:28-03/30/23] Line 1099: Getting the usernames from allValues and removing any EMPTY
+[10:34:28-03/30/23] Line 1109: Checking that if the user is clocked in, it was from a different day
+[10:34:31-03/30/23] Line 809: Running settings page
+[10:34:31-03/30/23] Line 810: Destroying mainBox
+[10:34:31-03/30/23] Line 817: Checking if user has admin
+[10:34:32-03/30/23] Line 819: TRUE
+[10:34:32-03/30/23] Line 829: Loading hours page
