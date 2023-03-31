@@ -5,18 +5,37 @@ try:
 except ImportError:
     os.system('pip install requests')
     import requests
-import importlib
 import subprocess
+import shutil
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 
 def update():
-    file = requests.get("https://raw.githubusercontent.com/sensetraining/Clock-In-2/main/clock_in_2.py").content
+    import os
+    import urllib.request
+    try:
+        import PyInstaller
+    except ImportError:
+        os.system('pip install pyinstaller')
 
-    f = open("clock_in_2.pyw","wb")
-    f.write(file)
-    f.close()
+    try:
+        os.remove('clock_in_2.exe')
+    except:
+        pass
+
+    url = "https://raw.githubusercontent.com/sensetraining/Clock-In-2/main/clock_in_2.py"
+    filename = "clock_in_2.pyw"
+    urllib.request.urlretrieve(url, filename)
+
+    os.system(f'pyinstaller --noconfirm --onefile --windowed --icon "clock.ico" --add-binary "tcl86t.dll;." --add-binary "tk86t.dll;." "{filename}"')
+
+    os.system('rmdir /s /q build')
+    os.remove('clock_in_2.spec')
+    os.remove('clock_in_2.pyw')
+
+    shutil.move("dist/clock_in_2.exe", "clock_in_2.exe")
+    shutil.rmtree("dist")
 
     f = open("version.txt","w")
     f.write(version)
@@ -128,13 +147,4 @@ else:
 
     window.mainloop()
 
-# startup_info = subprocess.STARTUPINFO()
-# startup_info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-
-# subprocess.Popen(['pythonw', 'clock_in_2.pyw'], startupinfo=startup_info)
-
-import clock_in_2
-
-importlib.reload(clock_in_2)
-clock_in_2.run()
-
+subprocess.call('clock_in_2.exe')
