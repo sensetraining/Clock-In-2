@@ -1,0 +1,20 @@
+[2023-03-29 14.31.12] Running Program
+[14:31:13-03/29/23] Line 109: Opening Staff Hours sheet
+[14:31:14-03/29/23] Line 1109: Running TKinter
+[14:31:14-03/29/23] Line 1121: Loading Styles
+[14:31:14-03/29/23] Line 1187: Running dayCheck function
+[14:31:14-03/29/23] Line 173: dayCheck Function
+[14:31:14-03/29/23] Line 175: Current Date: Wed - 29/03/23
+[14:31:15-03/29/23] Line 181: Difference between last date and current date: 0
+[14:31:15-03/29/23] Line 199: Sheets all up to date, returning from dayCheck function
+[14:31:15-03/29/23] Line 1190: Opening 'options.txt' file
+[14:31:15-03/29/23] Line 1194: Stored info: ['True 2\n', '2023-03-29 14.31.12']
+[14:31:15-03/29/23] Line 1197: Getting line 1: ['True', '2']
+[14:31:15-03/29/23] Line 1199: Check if autoLogin is True
+[14:31:15-03/29/23] Line 1201: autoLogin is True, going straight to mainPage
+[14:31:15-03/29/23] Line 1037: Main Page
+[14:31:15-03/29/23] Line 1038: Getting current time and current day
+[14:31:15-03/29/23] Line 1044: Resizing the window
+[14:31:15-03/29/23] Line 1057: Checking if user is current clocked in
+[14:31:15-03/29/23] Line 1066: User is clocked in, displayed relevant info
+[14:31:15-03/29/23] Line 1070: Getting the clocked time
