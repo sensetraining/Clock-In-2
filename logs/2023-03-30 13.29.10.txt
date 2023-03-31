@@ -1,0 +1,111 @@
+[2023-03-30 13.29.10] Running Program
+[13:29:10-03/30/23] Line 107: Opening Staff Hours sheet
+[13:29:11-03/30/23] Line 1117: Running TKinter
+[13:29:12-03/30/23] Line 1132: Loading Styles
+[13:29:12-03/30/23] Line 1199: Running dayCheck function
+[13:29:12-03/30/23] Line 171: dayCheck Function
+[13:29:12-03/30/23] Line 173: Current Date: Thu - 30/03/23
+[13:29:12-03/30/23] Line 179: Difference between last date and current date: 0
+[13:29:12-03/30/23] Line 197: Sheets all up to date, returning from dayCheck function
+[13:29:12-03/30/23] Line 1202: Opening 'options.txt' file
+[13:29:12-03/30/23] Line 1206: Stored info: ['False 6\n', '2023-03-30 13.29.10']
+[13:29:12-03/30/23] Line 1209: Getting line 1: ['False', '6']
+[13:29:12-03/30/23] Line 1211: Check if autoLogin is True
+[13:29:12-03/30/23] Line 1217: autoLogin is False, running loginPage
+[13:29:12-03/30/23] Line 374: Login Page
+[13:30:00-03/30/23] Line 222: Login button presses, attempting login
+[13:30:00-03/30/23] Line 223: Getting all values from sheets
+[13:30:01-03/30/23] Line 226: Checking for entered username: Test in the sheets
+[13:30:01-03/30/23] Line 229: Username is valid at position 6
+[13:30:01-03/30/23] Line 235: Checking if entered password matches password on sheets
+[13:30:01-03/30/23] Line 241: Passwords match
+[13:30:01-03/30/23] Line 243: Checking is Remember me? button was checked
+[13:30:01-03/30/23] Line 248: Button not checked setting remember to false
+[13:30:01-03/30/23] Line 251: Opening 'options.txt' file
+[13:30:01-03/30/23] Line 255: Setting the remmeber and userPos variables
+[13:30:01-03/30/23] Line 260: Closing file
+[13:30:01-03/30/23] Line 262: Destroying loginPage and running mainPage
+[13:30:01-03/30/23] Line 1044: Main Page
+[13:30:01-03/30/23] Line 1045: Getting current time and current day
+[13:30:01-03/30/23] Line 1051: Resizing the window
+[13:30:01-03/30/23] Line 1064: Checking if user is current clocked in
+[13:30:01-03/30/23] Line 1066: User is clocked out, displayed relevant info
+[13:30:01-03/30/23] Line 1099: Getting the usernames from allValues and removing any EMPTY
+[13:30:01-03/30/23] Line 1109: Checking that if the user is clocked in, it was from a different day
+[13:30:02-03/30/23] Line 809: Running settings page
+[13:30:02-03/30/23] Line 810: Destroying mainBox
+[13:30:02-03/30/23] Line 817: Checking if user has admin
+[13:30:02-03/30/23] Line 819: TRUE
+[13:30:02-03/30/23] Line 829: Loading hours page
+[13:42:47-03/30/23] Line 410: Running accountPage function
+[13:42:47-03/30/23] Line 411: Setting page to 'accounts
+[13:42:47-03/30/23] Line 809: Running settings page
+[13:42:47-03/30/23] Line 810: Destroying mainBox
+[13:42:48-03/30/23] Line 817: Checking if user has admin
+[13:42:48-03/30/23] Line 819: TRUE
+[13:42:48-03/30/23] Line 939: Displaying accounts page
+[13:56:04-03/30/23] Line 427: Running mainPageBack function
+[13:56:04-03/30/23] Line 428: Destroing adminBox
+[13:56:04-03/30/23] Line 430: Returning to mainPage
+[13:56:04-03/30/23] Line 1044: Main Page
+[13:56:04-03/30/23] Line 1045: Getting current time and current day
+[13:56:05-03/30/23] Line 1051: Resizing the window
+[13:56:05-03/30/23] Line 1064: Checking if user is current clocked in
+[13:56:05-03/30/23] Line 1066: User is clocked out, displayed relevant info
+[13:56:05-03/30/23] Line 1099: Getting the usernames from allValues and removing any EMPTY
+[13:56:05-03/30/23] Line 1109: Checking that if the user is clocked in, it was from a different day
+[13:56:05-03/30/23] Line 374: Login Page
+[15:08:34-03/30/23] Line 222: Login button presses, attempting login
+[15:08:34-03/30/23] Line 223: Getting all values from sheets
+[15:08:35-03/30/23] Line 226: Checking for entered username: test in the sheets
+[15:08:35-03/30/23] Line 231: Username not found, displaying error message and returning to loginPage
+[15:08:39-03/30/23] Line 222: Login button presses, attempting login
+[15:08:39-03/30/23] Line 223: Getting all values from sheets
+[15:08:39-03/30/23] Line 226: Checking for entered username: Test in the sheets
+[15:08:39-03/30/23] Line 229: Username is valid at position 6
+[15:08:39-03/30/23] Line 235: Checking if entered password matches password on sheets
+[15:08:39-03/30/23] Line 237: Passwords don't match, displaying error message and returning to loginPage
+[15:08:42-03/30/23] Line 222: Login button presses, attempting login
+[15:08:42-03/30/23] Line 223: Getting all values from sheets
+[15:08:42-03/30/23] Line 226: Checking for entered username: Test in the sheets
+[15:08:42-03/30/23] Line 229: Username is valid at position 6
+[15:08:42-03/30/23] Line 235: Checking if entered password matches password on sheets
+[15:08:42-03/30/23] Line 241: Passwords match
+[15:08:42-03/30/23] Line 243: Checking is Remember me? button was checked
+[15:08:42-03/30/23] Line 248: Button not checked setting remember to false
+[15:08:42-03/30/23] Line 251: Opening 'options.txt' file
+[15:08:42-03/30/23] Line 255: Setting the remmeber and userPos variables
+[15:08:42-03/30/23] Line 260: Closing file
+[15:08:42-03/30/23] Line 262: Destroying loginPage and running mainPage
+[15:08:42-03/30/23] Line 1044: Main Page
+[15:08:42-03/30/23] Line 1045: Getting current time and current day
+[15:08:43-03/30/23] Line 1051: Resizing the window
+[15:08:43-03/30/23] Line 1064: Checking if user is current clocked in
+[15:08:43-03/30/23] Line 1066: User is clocked out, displayed relevant info
+[15:08:43-03/30/23] Line 1099: Getting the usernames from allValues and removing any EMPTY
+[15:08:43-03/30/23] Line 1109: Checking that if the user is clocked in, it was from a different day
+[15:08:48-03/30/23] Line 374: Login Page
+[15:09:05-03/30/23] Line 222: Login button presses, attempting login
+[15:09:05-03/30/23] Line 223: Getting all values from sheets
+[15:09:06-03/30/23] Line 226: Checking for entered username: Test in the sheets
+[15:09:06-03/30/23] Line 229: Username is valid at position 6
+[15:09:06-03/30/23] Line 235: Checking if entered password matches password on sheets
+[15:09:06-03/30/23] Line 241: Passwords match
+[15:09:06-03/30/23] Line 243: Checking is Remember me? button was checked
+[15:09:06-03/30/23] Line 248: Button not checked setting remember to false
+[15:09:06-03/30/23] Line 251: Opening 'options.txt' file
+[15:09:06-03/30/23] Line 255: Setting the remmeber and userPos variables
+[15:09:06-03/30/23] Line 260: Closing file
+[15:09:06-03/30/23] Line 262: Destroying loginPage and running mainPage
+[15:09:06-03/30/23] Line 1044: Main Page
+[15:09:06-03/30/23] Line 1045: Getting current time and current day
+[15:09:06-03/30/23] Line 1051: Resizing the window
+[15:09:06-03/30/23] Line 1064: Checking if user is current clocked in
+[15:09:06-03/30/23] Line 1066: User is clocked out, displayed relevant info
+[15:09:06-03/30/23] Line 1099: Getting the usernames from allValues and removing any EMPTY
+[15:09:06-03/30/23] Line 1109: Checking that if the user is clocked in, it was from a different day
+[15:46:11-03/30/23] Line 809: Running settings page
+[15:46:11-03/30/23] Line 810: Destroying mainBox
+[15:46:12-03/30/23] Line 817: Checking if user has admin
+[15:46:12-03/30/23] Line 819: TRUE
+[15:46:12-03/30/23] Line 829: Loading hours page
