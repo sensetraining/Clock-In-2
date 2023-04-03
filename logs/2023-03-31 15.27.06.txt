@@ -1,0 +1,38 @@
+[2023-03-31 15.27.06] Running Program
+[15:27:07-03/31/23] Line 109: Opening Staff Hours sheet
+[15:27:08-03/31/23] Line 1109: Running TKinter
+[15:27:08-03/31/23] Line 1121: Loading Styles
+[15:27:08-03/31/23] Line 1187: Running dayCheck function
+[15:27:08-03/31/23] Line 173: dayCheck Function
+[15:27:08-03/31/23] Line 175: Current Date: Fri - 31/03/23
+[15:27:09-03/31/23] Line 181: Difference between last date and current date: 0
+[15:27:09-03/31/23] Line 199: Sheets all up to date, returning from dayCheck function
+[15:27:09-03/31/23] Line 1190: Opening 'options.txt' file
+[15:27:09-03/31/23] Line 1194: Stored info: ['True 2\n', '2023-03-31 15.27.06']
+[15:27:09-03/31/23] Line 1197: Getting line 1: ['True', '2']
+[15:27:09-03/31/23] Line 1199: Check if autoLogin is True
+[15:27:09-03/31/23] Line 1201: autoLogin is True, going straight to mainPage
+[15:27:09-03/31/23] Line 1037: Main Page
+[15:27:09-03/31/23] Line 1038: Getting current time and current day
+[15:27:09-03/31/23] Line 1044: Resizing the window
+[15:27:09-03/31/23] Line 1057: Checking if user is current clocked in
+[15:27:09-03/31/23] Line 1066: User is clocked in, displayed relevant info
+[15:27:09-03/31/23] Line 1070: Getting the clocked time
+[15:27:09-03/31/23] Line 1081: Clocked time is 07:09:08
+[15:27:09-03/31/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[15:27:09-03/31/23] Line 1102: Checking that if the user is clocked in, it was from a different day
+[15:27:09-03/31/23] Line 1104: TRUE, running noClockOut function
+[15:27:09-03/31/23] Line 282: noClockOut
+[15:27:09-03/31/23] Line 285: Getting dates from sheet
+[15:27:10-03/31/23] Line 288: Last clock in time: 8:18:01
+[15:27:10-03/31/23] Line 290: Checking for Mon - 27/03/23 in dates column
+[15:27:10-03/31/23] Line 292: Date found, add clocked in time at specific date and setting clock status to FALSE
+[15:27:11-03/31/23] Line 307: Displaying warning message
+[15:27:15-03/31/23] Line 310: Destroying mainBox and going back to mainPage
+[15:27:15-03/31/23] Line 1037: Main Page
+[15:27:15-03/31/23] Line 1038: Getting current time and current day
+[15:27:16-03/31/23] Line 1044: Resizing the window
+[15:27:16-03/31/23] Line 1057: Checking if user is current clocked in
+[15:27:16-03/31/23] Line 1059: User is clocked out, displayed relevant info
+[15:27:16-03/31/23] Line 1092: Getting the usernames from allValues and removing any EMPTY
+[15:27:16-03/31/23] Line 1102: Checking that if the user is clocked in, it was from a different day
