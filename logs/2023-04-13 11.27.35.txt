@@ -1,0 +1,696 @@
+[2023-04-13 11.27.35] Running Program
+[11:27:35-04/13/23] Line 107: Opening Staff Hours sheet
+[11:27:37-04/13/23] Line 1117: Running TKinter
+[11:27:37-04/13/23] Line 1130: Loading Styles
+[11:27:37-04/13/23] Line 1196: Running dayCheck function
+[11:27:37-04/13/23] Line 171: dayCheck Function
+[11:27:37-04/13/23] Line 173: Current Date: Thu - 13/04/23
+[11:27:37-04/13/23] Line 179: Difference between last date and current date: 13
+[11:27:37-04/13/23] Line 181: Difference 13 is more than 1, filling in dates
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 192: End of week found running weekEnd function
+[11:27:37-04/13/23] Line 118: weekEnd Function
+[11:27:37-04/13/23] Line 122: Adding Week Total to each column
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 10/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 4
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 142: All columns appended returning total
+[11:27:37-04/13/23] Line 194: Appending returned total from weekEnd
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 192: End of week found running weekEnd function
+[11:27:37-04/13/23] Line 118: weekEnd Function
+[11:27:37-04/13/23] Line 122: Adding Week Total to each column
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 125: Date 1: 13/04/2023
+[11:27:37-04/13/23] Line 127: Date 2: 03/04/2023
+[11:27:37-04/13/23] Line 129: Num variable: 12
+[11:27:37-04/13/23] Line 131: Checking for end of month in week
+[11:27:37-04/13/23] Line 134: End of month found
+[11:27:37-04/13/23] Line 136: Adding 1 to Num: 13
+[11:27:37-04/13/23] Line 138: 
+[11:27:37-04/13/23] Line 140: Appending column to total
+[11:27:37-04/13/23] Line 142: All columns appended returning total
+[11:27:37-04/13/23] Line 194: Appending returned total from weekEnd
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 183: Adding black row
+[11:27:37-04/13/23] Line 185: Checking for end of month
+[11:27:37-04/13/23] Line 187: End of month found, running monthEnd function
+[11:27:37-04/13/23] Line 146: monthEnd function
+[11:27:37-04/13/23] Line 150: Adding Month Total to each column
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 155: Num variable: 14
+[11:27:37-04/13/23] Line 157: Checking for end of week in month
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 15
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 16
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 17
+[11:27:37-04/13/23] Line 160: End of week found
+[11:27:37-04/13/23] Line 162: Adding 1 to Num: 18
+[11:27:37-04/13/23] Line 165: Appending column to total
+[11:27:37-04/13/23] Line 167: All columns appended returning total
+[11:27:37-04/13/23] Line 189: Appending returned total from monthEnd
+[11:27:37-04/13/23] Line 190: Checking for end of week
+[11:27:37-04/13/23] Line 195: All rows appended to values variable, adding to sheets
+[11:27:38-04/13/23] Line 197: Sheets all up to date, returning from dayCheck function
+[11:27:38-04/13/23] Line 1199: Opening 'options.txt' file
+[11:27:38-04/13/23] Line 1203: Stored info: ['False 6\n', '2023-04-13 11.27.35']
+[11:27:38-04/13/23] Line 1206: Getting line 1: ['False', '6']
+[11:27:38-04/13/23] Line 1208: Check if autoLogin is True
+[11:27:38-04/13/23] Line 1214: autoLogin is False, running loginPage
+[11:27:38-04/13/23] Line 374: Login Page
