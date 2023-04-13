@@ -1,0 +1,15 @@
+[2023-04-13 09.34.15] Running Program
+[09:34:16-04/13/23] Line 107: Opening Staff Hours sheet
+[09:34:17-04/13/23] Line 1117: Running TKinter
+[09:34:17-04/13/23] Line 1129: Loading Styles
+[09:34:17-04/13/23] Line 1195: Running dayCheck function
+[09:34:17-04/13/23] Line 171: dayCheck Function
+[09:34:17-04/13/23] Line 173: Current Date: Thu - 13/04/23
+[09:34:18-04/13/23] Line 179: Difference between last date and current date: 0
+[09:34:18-04/13/23] Line 197: Sheets all up to date, returning from dayCheck function
+[09:34:18-04/13/23] Line 1198: Opening 'options.txt' file
+[09:34:18-04/13/23] Line 1202: Stored info: ['False 0\n', '2023-04-13 09.34.15']
+[09:34:18-04/13/23] Line 1205: Getting line 1: ['False', '0']
+[09:34:18-04/13/23] Line 1207: Check if autoLogin is True
+[09:34:18-04/13/23] Line 1213: autoLogin is False, running loginPage
+[09:34:18-04/13/23] Line 374: Login Page
