@@ -1,0 +1,35 @@
+[2023-04-14 10.03.21] Running Program
+[10:03:22-04/14/23] Line 107: Opening Staff Hours sheet
+[10:03:23-04/14/23] Line 1120: Running TKinter
+[10:03:23-04/14/23] Line 1133: Loading Styles
+[10:03:23-04/14/23] Line 1199: Running dayCheck function
+[10:03:23-04/14/23] Line 171: dayCheck Function
+[10:03:23-04/14/23] Line 173: Current Date: Fri - 14/04/23
+[10:03:24-04/14/23] Line 179: Difference between last date and current date: 0
+[10:03:24-04/14/23] Line 198: Sheets all up to date, returning from dayCheck function
+[10:03:24-04/14/23] Line 1202: Opening 'options.txt' file
+[10:03:24-04/14/23] Line 1206: Stored info: ['False 6\n', '2023-04-14 10.03.21']
+[10:03:24-04/14/23] Line 1209: Getting line 1: ['False', '6']
+[10:03:24-04/14/23] Line 1211: Check if autoLogin is True
+[10:03:24-04/14/23] Line 1217: autoLogin is False, running loginPage
+[10:03:24-04/14/23] Line 375: Login Page
+[10:03:43-04/14/23] Line 223: Login button presses, attempting login
+[10:03:43-04/14/23] Line 224: Getting all values from sheets
+[10:03:43-04/14/23] Line 227: Checking for entered username: Test in the sheets
+[10:03:43-04/14/23] Line 230: Username is valid at position 6
+[10:03:43-04/14/23] Line 236: Checking if entered password matches password on sheets
+[10:03:43-04/14/23] Line 242: Passwords match
+[10:03:43-04/14/23] Line 244: Checking is Remember me? button was checked
+[10:03:43-04/14/23] Line 249: Button not checked setting remember to false
+[10:03:43-04/14/23] Line 252: Opening 'options.txt' file
+[10:03:43-04/14/23] Line 256: Setting the remmeber and userPos variables
+[10:03:43-04/14/23] Line 261: Closing file
+[10:03:43-04/14/23] Line 263: Destroying loginPage and running mainPage
+[10:03:43-04/14/23] Line 1045: Main Page
+[10:03:43-04/14/23] Line 1046: Getting current time and current day
+[10:03:43-04/14/23] Line 1052: Resizing the window
+[10:03:43-04/14/23] Line 1065: Checking if user is current clocked in
+[10:03:43-04/14/23] Line 1074: User is clocked in, displayed relevant info
+[10:03:43-04/14/23] Line 1078: Getting the clocked time
+[10:03:43-04/14/23] Line 1082: Current time: 1900-01-01 10:03:43
+[10:03:43-04/14/23] Line 1084: Last clocked time: 08:55:32
