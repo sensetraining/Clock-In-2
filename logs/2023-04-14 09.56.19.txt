@@ -1,0 +1,33 @@
+[2023-04-14 09.56.19] Running Program
+[09:56:20-04/14/23] Line 107: Opening Staff Hours sheet
+[09:56:21-04/14/23] Line 1118: Running TKinter
+[09:56:22-04/14/23] Line 1131: Loading Styles
+[09:56:22-04/14/23] Line 1197: Running dayCheck function
+[09:56:22-04/14/23] Line 171: dayCheck Function
+[09:56:22-04/14/23] Line 173: Current Date: Fri - 14/04/23
+[09:56:22-04/14/23] Line 179: Difference between last date and current date: 0
+[09:56:22-04/14/23] Line 198: Sheets all up to date, returning from dayCheck function
+[09:56:22-04/14/23] Line 1200: Opening 'options.txt' file
+[09:56:22-04/14/23] Line 1204: Stored info: ['False 6\n', '2023-04-14 09.56.19']
+[09:56:22-04/14/23] Line 1207: Getting line 1: ['False', '6']
+[09:56:22-04/14/23] Line 1209: Check if autoLogin is True
+[09:56:22-04/14/23] Line 1215: autoLogin is False, running loginPage
+[09:56:22-04/14/23] Line 375: Login Page
+[09:56:55-04/14/23] Line 223: Login button presses, attempting login
+[09:56:55-04/14/23] Line 224: Getting all values from sheets
+[09:56:55-04/14/23] Line 227: Checking for entered username: Test in the sheets
+[09:56:55-04/14/23] Line 230: Username is valid at position 6
+[09:56:55-04/14/23] Line 236: Checking if entered password matches password on sheets
+[09:56:55-04/14/23] Line 242: Passwords match
+[09:56:55-04/14/23] Line 244: Checking is Remember me? button was checked
+[09:56:55-04/14/23] Line 249: Button not checked setting remember to false
+[09:56:55-04/14/23] Line 252: Opening 'options.txt' file
+[09:56:55-04/14/23] Line 256: Setting the remmeber and userPos variables
+[09:56:55-04/14/23] Line 261: Closing file
+[09:56:55-04/14/23] Line 263: Destroying loginPage and running mainPage
+[09:56:55-04/14/23] Line 1045: Main Page
+[09:56:55-04/14/23] Line 1046: Getting current time and current day
+[09:56:55-04/14/23] Line 1052: Resizing the window
+[09:56:55-04/14/23] Line 1065: Checking if user is current clocked in
+[09:56:55-04/14/23] Line 1074: User is clocked in, displayed relevant info
+[09:56:55-04/14/23] Line 1078: Getting the clocked time
