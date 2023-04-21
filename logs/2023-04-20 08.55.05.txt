@@ -1,0 +1,7 @@
+[2023-04-20 08.55.05] Running Program
+[08:55:05-04/20/23] Line 107: Opening Staff Hours sheet
+[08:55:06-04/20/23] Line 1117: Running TKinter
+[08:55:06-04/20/23] Line 1130: Loading Styles
+[08:55:07-04/20/23] Line 1196: Running dayCheck function
+[08:55:07-04/20/23] Line 171: dayCheck Function
+[08:55:07-04/20/23] Line 173: Current Date: Thu - 20/04/23
