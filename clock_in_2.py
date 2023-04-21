@@ -294,11 +294,13 @@ def noClockOut(userPos,allValues,date,mainBox):
 
     lineNum(f"Checking for {date} in dates column")
     if date in dates:
-        lineNum(f"Date found, add clocked in time at specific date and setting clock status to FALSE")
+        lineNum(f"Date found, add clocked in time ({clockInTime}) at specific date and setting clock status to FALSE")
         datePos = dates.index(date)
 
+        lineNum(f"Date position: {datePos}")
+
         cell_list = [
-        sheet.cell(datePos, userPos+1),
+        sheet.cell(datePos+1, userPos+1),
         sheet.cell(3, userPos+1)]
 
         cell_list[0].value = f"R{clockInTime}"
