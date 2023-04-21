@@ -1,0 +1,3 @@
+[2023-04-21 13.31.50] Running Program
+[13:31:50-04/21/23] Line 79: Installing gspread oauth2client
+[13:32:17-04/21/23] Line 86: Installing gspread_formatting
