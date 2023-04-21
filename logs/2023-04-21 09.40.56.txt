@@ -1,0 +1,100 @@
+[2023-04-21 09.40.56] Running Program
+[09:40:57-04/21/23] Line 107: Opening Staff Hours sheet
+[09:40:58-04/21/23] Line 1129: Running TKinter
+[09:40:58-04/21/23] Line 1142: Loading Styles
+[09:40:58-04/21/23] Line 1208: Running dayCheck function
+[09:40:58-04/21/23] Line 171: dayCheck Function
+[09:40:58-04/21/23] Line 173: Current Date: Fri - 21/04/23
+[09:40:58-04/21/23] Line 185: Difference between last date and current date: 0
+[09:40:58-04/21/23] Line 204: Sheets all up to date, returning from dayCheck function
+[09:40:58-04/21/23] Line 1211: Opening 'options.txt' file
+[09:40:58-04/21/23] Line 1215: Stored info: ['False 6\n', '2023-04-21 09.40.56']
+[09:40:58-04/21/23] Line 1218: Getting line 1: ['False', '6']
+[09:40:58-04/21/23] Line 1220: Check if autoLogin is True
+[09:40:58-04/21/23] Line 1226: autoLogin is False, running loginPage
+[09:40:58-04/21/23] Line 381: Login Page
+[09:41:03-04/21/23] Line 229: Login button presses, attempting login
+[09:41:03-04/21/23] Line 230: Getting all values from sheets
+[09:41:03-04/21/23] Line 233: Checking for entered username: Test in the sheets
+[09:41:03-04/21/23] Line 236: Username is valid at position 6
+[09:41:03-04/21/23] Line 242: Checking if entered password matches password on sheets
+[09:41:03-04/21/23] Line 248: Passwords match
+[09:41:03-04/21/23] Line 250: Checking is Remember me? button was checked
+[09:41:03-04/21/23] Line 255: Button not checked setting remember to false
+[09:41:03-04/21/23] Line 258: Opening 'options.txt' file
+[09:41:03-04/21/23] Line 262: Setting the remmeber and userPos variables
+[09:41:03-04/21/23] Line 267: Closing file
+[09:41:03-04/21/23] Line 269: Destroying loginPage and running mainPage
+[09:41:03-04/21/23] Line 1051: Main Page
+[09:41:03-04/21/23] Line 1052: Getting current time and current day
+[09:41:04-04/21/23] Line 1058: Resizing the window
+[09:41:04-04/21/23] Line 1071: Checking if user is current clocked in
+[09:41:04-04/21/23] Line 1073: User is clocked out, displayed relevant info
+[09:41:04-04/21/23] Line 1111: Getting the usernames from allValues and removing any EMPTY
+[09:41:04-04/21/23] Line 1121: Checking that if the user is clocked in, it was from a different day
+[09:41:05-04/21/23] Line 816: Running settings page
+[09:41:05-04/21/23] Line 817: Destroying mainBox
+[09:41:05-04/21/23] Line 824: Checking if user has admin
+[09:41:05-04/21/23] Line 826: TRUE
+[09:41:05-04/21/23] Line 836: Loading hours page
+[09:41:07-04/21/23] Line 434: Running mainPageBack function
+[09:41:07-04/21/23] Line 435: Destroing adminBox
+[09:41:07-04/21/23] Line 437: Returning to mainPage
+[09:41:07-04/21/23] Line 1051: Main Page
+[09:41:07-04/21/23] Line 1052: Getting current time and current day
+[09:41:07-04/21/23] Line 1058: Resizing the window
+[09:41:07-04/21/23] Line 1071: Checking if user is current clocked in
+[09:41:07-04/21/23] Line 1073: User is clocked out, displayed relevant info
+[09:41:07-04/21/23] Line 1111: Getting the usernames from allValues and removing any EMPTY
+[09:41:07-04/21/23] Line 1121: Checking that if the user is clocked in, it was from a different day
+[09:46:05-04/21/23] Line 816: Running settings page
+[09:46:05-04/21/23] Line 817: Destroying mainBox
+[09:46:05-04/21/23] Line 824: Checking if user has admin
+[09:46:06-04/21/23] Line 826: TRUE
+[09:46:06-04/21/23] Line 836: Loading hours page
+[09:46:06-04/21/23] Line 417: Running accountPage function
+[09:46:06-04/21/23] Line 418: Setting page to 'accounts
+[09:46:06-04/21/23] Line 816: Running settings page
+[09:46:06-04/21/23] Line 817: Destroying mainBox
+[09:46:07-04/21/23] Line 824: Checking if user has admin
+[09:46:07-04/21/23] Line 826: TRUE
+[09:46:07-04/21/23] Line 946: Displaying accounts page
+[09:46:08-04/21/23] Line 425: Running developmentPage function
+[09:46:08-04/21/23] Line 426: Setting page to 'development
+[09:46:08-04/21/23] Line 429: Returning to settingsPage
+[09:46:08-04/21/23] Line 816: Running settings page
+[09:46:08-04/21/23] Line 817: Destroying mainBox
+[09:46:08-04/21/23] Line 824: Checking if user has admin
+[09:46:08-04/21/23] Line 826: TRUE
+[09:46:08-04/21/23] Line 1018: Displaying development page
+[09:46:08-04/21/23] Line 409: Running hoursPage function
+[09:46:08-04/21/23] Line 410: Setting page to 'hours
+[09:46:08-04/21/23] Line 816: Running settings page
+[09:46:08-04/21/23] Line 817: Destroying mainBox
+[09:46:09-04/21/23] Line 824: Checking if user has admin
+[09:46:09-04/21/23] Line 826: TRUE
+[09:46:09-04/21/23] Line 836: Loading hours page
+[09:46:09-04/21/23] Line 434: Running mainPageBack function
+[09:46:09-04/21/23] Line 435: Destroing adminBox
+[09:46:09-04/21/23] Line 437: Returning to mainPage
+[09:46:09-04/21/23] Line 1051: Main Page
+[09:46:09-04/21/23] Line 1052: Getting current time and current day
+[09:46:10-04/21/23] Line 1058: Resizing the window
+[09:46:10-04/21/23] Line 1071: Checking if user is current clocked in
+[09:46:10-04/21/23] Line 1073: User is clocked out, displayed relevant info
+[09:46:10-04/21/23] Line 1111: Getting the usernames from allValues and removing any EMPTY
+[09:46:10-04/21/23] Line 1121: Checking that if the user is clocked in, it was from a different day
+[09:46:11-04/21/23] Line 321: Running clockIn function
+[09:46:11-04/21/23] Line 171: dayCheck Function
+[09:46:11-04/21/23] Line 173: Current Date: Fri - 21/04/23
+[09:46:11-04/21/23] Line 185: Difference between last date and current date: 0
+[09:46:11-04/21/23] Line 204: Sheets all up to date, returning from dayCheck function
+[09:46:11-04/21/23] Line 208: Running updateCheck
+[09:46:11-04/21/23] Line 209: Getting version from GitHub
+[09:46:11-04/21/23] Line 211: GitHub version: 2.2.1
+
+[09:46:11-04/21/23] Line 213: Opening 'version.txt' file
+[09:46:11-04/21/23] Line 216: Installed version: 2.2.2
+
+[09:46:11-04/21/23] Line 223: Update is available, displaying message
+[09:46:21-04/21/23] Line 225: Closing application
