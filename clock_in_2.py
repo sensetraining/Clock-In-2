@@ -151,7 +151,7 @@ def monthEnd(i):
     for k in range(25):
         d1 = datetime.strftime(datetime.now() - timedelta(0), '%d/%m/%Y')
         d2 = datetime.strftime(datetime.now() - timedelta(i), '%d/%m/%Y')
-        num = i + i // 7 + 1 + (((int(d1[6:10]) - int(d2[6:10])) * 12 + int(d1[3:5]) - int(d2[3:5]))*2)
+        num = i + i // 7 + 2 + (((int(d1[6:10]) - int(d2[6:10])) * 12 + int(d1[3:5]) - int(d2[3:5]))*2)
         lineNum(f"Num variable: {num}")
         column = "=SUM("
         lineNum("Checking for end of week in month")
@@ -172,7 +172,13 @@ def dayCheck():
     currentDate = str(x.strftime("%a - %d/%m/%y"))
     lineNum(f"Current Date: {currentDate}")
     values_list = sheet.col_values(1)
-    diff = (datetime.strptime(values_list[8][6:14], "%d/%m/%y") - datetime.strptime(currentDate[6:14], "%d/%m/%y")).days
+    n = 8
+    if values_list[n] == "Week Total" or values_list[n] ==  "Month Total":
+        n+=1
+        if values_list[n] == "Week Total" or values_list[n] ==  "Month Total":
+            n+=1
+
+    diff = (datetime.strptime(values_list[n][6:14], "%d/%m/%y") - datetime.strptime(currentDate[6:14], "%d/%m/%y")).days
     if diff <0:
         diff = diff * -1
     values = []
@@ -193,6 +199,7 @@ def dayCheck():
                 values.append(weekEnd(i))
                 lineNum("Appending returned total from weekEnd")
         lineNum("All rows appended to values variable, adding to sheets")
+        lineNum(f"Values: {values}")
         sheet.insert_rows(values, row=9, value_input_option='USER_ENTERED', inherit_from_before=True)
     lineNum("Sheets all up to date, returning from dayCheck function")
     return
@@ -1078,9 +1085,14 @@ def mainPage(userPos):
         x = tm.datetime.now()
         currentTime = (x.strftime("%X"))
         currentTime = tm.datetime.strptime(currentTime,"%X")
+        lineNum(f"Current time: {currentTime}")
         lastClockedTime = allValues[3][userPos]
         lastClockedTime = tm.datetime.strptime(lastClockedTime,"%X")
         clockedTime = allValues[8][userPos]
+        lineNum(f"Last clocked time: {clockedTime}")
+        if clockedTime == '0':
+            clockedTime = '0:00:00'
+            sheet.update_cell(9,userPos+1,clockedTime)
         clockedTime = tm.datetime.strptime(clockedTime,"%X")
 
         timeDiff = currentTime - lastClockedTime + clockedTime
@@ -1122,6 +1134,7 @@ height = 350
 root.minsize(464, 214)
 root.geometry("600x350")
 root.title("Clock In")
+root.iconbitmap("clock.ico")
 x_cordinate = int((root.winfo_screenwidth() / 2) - width/2)
 y_cordinate = int((root.winfo_screenheight() / 2) - height/2)
 root.geometry("+{}+{}".format(x_cordinate, y_cordinate-20))
