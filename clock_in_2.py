@@ -1062,7 +1062,7 @@ def mainPage(userPos):
     mainBox = ttk.Label(root,style="blueBox.TLabel")
     mainBox.place(height=280,width=480,relx=0.5,rely=0.5,anchor="center")
 
-    welcomeLabel = ttk.Label(mainBox,text=f"Helloo {username}!",style="label.TLabel")
+    welcomeLabel = ttk.Label(mainBox,text=f"Hello {username}!",style="label.TLabel")
     welcomeLabel.place(x=20,y=20)
 
     currentLabel = ttk.Label(mainBox,text=f"You are currently ",style="label.TLabel")
