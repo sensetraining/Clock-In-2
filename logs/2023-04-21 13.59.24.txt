@@ -1,0 +1,54 @@
+[2023-04-21 13.59.24] Running Program
+[13:59:25-04/21/23] Line 107: Opening Staff Hours sheet
+[13:59:26-04/21/23] Line 1131: Running TKinter
+[13:59:26-04/21/23] Line 1144: Loading Styles
+[13:59:26-04/21/23] Line 1210: Running dayCheck function
+[13:59:26-04/21/23] Line 171: dayCheck Function
+[13:59:26-04/21/23] Line 173: Current Date: Fri - 21/04/23
+[13:59:26-04/21/23] Line 185: Difference between last date and current date: 0
+[13:59:26-04/21/23] Line 204: Sheets all up to date, returning from dayCheck function
+[13:59:26-04/21/23] Line 1213: Opening 'options.txt' file
+[13:59:26-04/21/23] Line 1217: Stored info: ['False 6\n', '2023-04-21 13.59.24']
+[13:59:26-04/21/23] Line 1220: Getting line 1: ['False', '6']
+[13:59:26-04/21/23] Line 1222: Check if autoLogin is True
+[13:59:26-04/21/23] Line 1228: autoLogin is False, running loginPage
+[13:59:26-04/21/23] Line 383: Login Page
+[13:59:32-04/21/23] Line 229: Login button presses, attempting login
+[13:59:32-04/21/23] Line 230: Getting all values from sheets
+[13:59:33-04/21/23] Line 233: Checking for entered username: Test in the sheets
+[13:59:33-04/21/23] Line 236: Username is valid at position 6
+[13:59:33-04/21/23] Line 242: Checking if entered password matches password on sheets
+[13:59:33-04/21/23] Line 248: Passwords match
+[13:59:33-04/21/23] Line 250: Checking is Remember me? button was checked
+[13:59:33-04/21/23] Line 252: Button was checked setting remember to True
+[13:59:33-04/21/23] Line 258: Opening 'options.txt' file
+[13:59:33-04/21/23] Line 262: Setting the remmeber and userPos variables
+[13:59:33-04/21/23] Line 267: Closing file
+[13:59:33-04/21/23] Line 269: Destroying loginPage and running mainPage
+[13:59:33-04/21/23] Line 1053: Main Page
+[13:59:33-04/21/23] Line 1054: Getting current time and current day
+[13:59:33-04/21/23] Line 1060: Resizing the window
+[13:59:33-04/21/23] Line 1073: Checking if user is current clocked in
+[13:59:33-04/21/23] Line 1082: User is clocked in, displayed relevant info
+[13:59:33-04/21/23] Line 1086: Getting the clocked time
+[13:59:33-04/21/23] Line 1090: Current time: 1900-01-01 13:59:33
+[13:59:33-04/21/23] Line 1094: Last clocked time: 0:00:00
+[13:59:33-04/21/23] Line 1102: Clocked time is 04:12:24
+[13:59:33-04/21/23] Line 1113: Getting the usernames from allValues and removing any EMPTY
+[13:59:33-04/21/23] Line 1123: Checking that if the user is clocked in, it was from a different day
+[13:59:33-04/21/23] Line 1125: TRUE, running noClockOut function
+[13:59:33-04/21/23] Line 287: noClockOut
+[13:59:33-04/21/23] Line 290: Getting dates from sheet
+[13:59:33-04/21/23] Line 293: Last clock in time: 9:47:09
+[13:59:33-04/21/23] Line 295: Checking for Thu - 20/04/23 in dates column
+[13:59:33-04/21/23] Line 297: Date found, add clocked in time (9:47:09) at specific date and setting clock status to FALSE
+[13:59:33-04/21/23] Line 300: Date position: 9
+[13:59:34-04/21/23] Line 314: Displaying warning message
+[13:59:36-04/21/23] Line 317: Destroying mainBox and going back to mainPage
+[13:59:36-04/21/23] Line 1053: Main Page
+[13:59:36-04/21/23] Line 1054: Getting current time and current day
+[13:59:36-04/21/23] Line 1060: Resizing the window
+[13:59:36-04/21/23] Line 1073: Checking if user is current clocked in
+[13:59:36-04/21/23] Line 1075: User is clocked out, displayed relevant info
+[13:59:36-04/21/23] Line 1113: Getting the usernames from allValues and removing any EMPTY
+[13:59:36-04/21/23] Line 1123: Checking that if the user is clocked in, it was from a different day
