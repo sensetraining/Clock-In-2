@@ -1,0 +1,1223 @@
+[2023-04-28 13.08.12] Running Program
+[13:08:12-04/28/23] Line 108: Opening Staff Hours sheet
+[13:08:14-04/28/23] Line 1140: Running TKinter
+[13:08:14-04/28/23] Line 1153: Loading Styles
+[13:08:14-04/28/23] Line 1231: Running dayCheck function
+[13:08:14-04/28/23] Line 172: dayCheck Function
+[13:08:14-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:08:14-04/28/23] Line 186: Difference between last date and current date: 0
+[13:08:14-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:08:14-04/28/23] Line 1234: Opening 'options.txt' file
+[13:08:14-04/28/23] Line 1238: Stored info: ['True 6\n', '2023-04-28 13.08.12']
+[13:08:14-04/28/23] Line 1241: Getting line 1: ['True', '6']
+[13:08:14-04/28/23] Line 1243: Check if autoLogin is True
+[13:08:14-04/28/23] Line 1245: autoLogin is True, going straight to mainPage
+[13:08:14-04/28/23] Line 1059: Main Page
+[13:08:14-04/28/23] Line 1060: Getting current time and current day
+[13:08:15-04/28/23] Line 1066: Resizing the window
+[13:08:15-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:15-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:15-04/28/23] Line 1092: Getting the clocked time
+[13:08:15-04/28/23] Line 1096: Current time: 1900-01-01 13:08:15
+[13:08:15-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:15-04/28/23] Line 1108: Clocked time is 02:22:24
+[13:08:15-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:15-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:21-04/28/23] Line 1059: Main Page
+[13:08:21-04/28/23] Line 1060: Getting current time and current day
+[13:08:22-04/28/23] Line 1066: Resizing the window
+[13:08:22-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:22-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:22-04/28/23] Line 1092: Getting the clocked time
+[13:08:22-04/28/23] Line 1096: Current time: 1900-01-01 13:08:22
+[13:08:22-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:22-04/28/23] Line 1108: Clocked time is 02:22:31
+[13:08:22-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:22-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:23-04/28/23] Line 1059: Main Page
+[13:08:23-04/28/23] Line 1060: Getting current time and current day
+[13:08:23-04/28/23] Line 1066: Resizing the window
+[13:08:23-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:23-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:23-04/28/23] Line 1092: Getting the clocked time
+[13:08:23-04/28/23] Line 1096: Current time: 1900-01-01 13:08:23
+[13:08:23-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:23-04/28/23] Line 1108: Clocked time is 02:22:32
+[13:08:23-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:23-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:24-04/28/23] Line 1059: Main Page
+[13:08:24-04/28/23] Line 1060: Getting current time and current day
+[13:08:24-04/28/23] Line 1066: Resizing the window
+[13:08:24-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:24-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:24-04/28/23] Line 1092: Getting the clocked time
+[13:08:24-04/28/23] Line 1096: Current time: 1900-01-01 13:08:24
+[13:08:24-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:24-04/28/23] Line 1108: Clocked time is 02:22:33
+[13:08:24-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:24-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:25-04/28/23] Line 1059: Main Page
+[13:08:25-04/28/23] Line 1060: Getting current time and current day
+[13:08:25-04/28/23] Line 1066: Resizing the window
+[13:08:25-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:25-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:25-04/28/23] Line 1092: Getting the clocked time
+[13:08:25-04/28/23] Line 1096: Current time: 1900-01-01 13:08:25
+[13:08:25-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:25-04/28/23] Line 1108: Clocked time is 02:22:34
+[13:08:25-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:25-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:26-04/28/23] Line 1059: Main Page
+[13:08:26-04/28/23] Line 1060: Getting current time and current day
+[13:08:26-04/28/23] Line 1066: Resizing the window
+[13:08:26-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:26-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:26-04/28/23] Line 1092: Getting the clocked time
+[13:08:26-04/28/23] Line 1096: Current time: 1900-01-01 13:08:26
+[13:08:26-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:26-04/28/23] Line 1108: Clocked time is 02:22:35
+[13:08:26-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:26-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:26-04/28/23] Line 1059: Main Page
+[13:08:26-04/28/23] Line 1060: Getting current time and current day
+[13:08:27-04/28/23] Line 1066: Resizing the window
+[13:08:27-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:27-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:27-04/28/23] Line 1092: Getting the clocked time
+[13:08:27-04/28/23] Line 1096: Current time: 1900-01-01 13:08:27
+[13:08:27-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:27-04/28/23] Line 1108: Clocked time is 02:22:36
+[13:08:27-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:27-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:27-04/28/23] Line 1059: Main Page
+[13:08:27-04/28/23] Line 1060: Getting current time and current day
+[13:08:27-04/28/23] Line 1066: Resizing the window
+[13:08:27-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:27-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:27-04/28/23] Line 1092: Getting the clocked time
+[13:08:27-04/28/23] Line 1096: Current time: 1900-01-01 13:08:27
+[13:08:27-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:27-04/28/23] Line 1108: Clocked time is 02:22:36
+[13:08:27-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:27-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:28-04/28/23] Line 1059: Main Page
+[13:08:28-04/28/23] Line 1060: Getting current time and current day
+[13:08:28-04/28/23] Line 1066: Resizing the window
+[13:08:28-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:28-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:28-04/28/23] Line 1092: Getting the clocked time
+[13:08:28-04/28/23] Line 1096: Current time: 1900-01-01 13:08:28
+[13:08:28-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:28-04/28/23] Line 1108: Clocked time is 02:22:37
+[13:08:28-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:28-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:28-04/28/23] Line 1059: Main Page
+[13:08:28-04/28/23] Line 1060: Getting current time and current day
+[13:08:28-04/28/23] Line 1066: Resizing the window
+[13:08:28-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:28-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:28-04/28/23] Line 1092: Getting the clocked time
+[13:08:28-04/28/23] Line 1096: Current time: 1900-01-01 13:08:28
+[13:08:28-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:28-04/28/23] Line 1108: Clocked time is 02:22:37
+[13:08:28-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:28-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:29-04/28/23] Line 1059: Main Page
+[13:08:29-04/28/23] Line 1060: Getting current time and current day
+[13:08:29-04/28/23] Line 1066: Resizing the window
+[13:08:29-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:29-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:29-04/28/23] Line 1092: Getting the clocked time
+[13:08:29-04/28/23] Line 1096: Current time: 1900-01-01 13:08:29
+[13:08:29-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:29-04/28/23] Line 1108: Clocked time is 02:22:38
+[13:08:29-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:29-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:30-04/28/23] Line 1059: Main Page
+[13:08:30-04/28/23] Line 1060: Getting current time and current day
+[13:08:30-04/28/23] Line 1066: Resizing the window
+[13:08:30-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:30-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:30-04/28/23] Line 1092: Getting the clocked time
+[13:08:30-04/28/23] Line 1096: Current time: 1900-01-01 13:08:30
+[13:08:30-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:30-04/28/23] Line 1108: Clocked time is 02:22:39
+[13:08:30-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:30-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:30-04/28/23] Line 1059: Main Page
+[13:08:30-04/28/23] Line 1060: Getting current time and current day
+[13:08:31-04/28/23] Line 1066: Resizing the window
+[13:08:31-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:31-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:31-04/28/23] Line 1092: Getting the clocked time
+[13:08:31-04/28/23] Line 1096: Current time: 1900-01-01 13:08:31
+[13:08:31-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:31-04/28/23] Line 1108: Clocked time is 02:22:40
+[13:08:31-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:31-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:31-04/28/23] Line 1059: Main Page
+[13:08:31-04/28/23] Line 1060: Getting current time and current day
+[13:08:31-04/28/23] Line 1066: Resizing the window
+[13:08:31-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:31-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:31-04/28/23] Line 1092: Getting the clocked time
+[13:08:31-04/28/23] Line 1096: Current time: 1900-01-01 13:08:31
+[13:08:31-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:31-04/28/23] Line 1108: Clocked time is 02:22:40
+[13:08:31-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:31-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:31-04/28/23] Line 1059: Main Page
+[13:08:31-04/28/23] Line 1060: Getting current time and current day
+[13:08:32-04/28/23] Line 1066: Resizing the window
+[13:08:32-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:32-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:32-04/28/23] Line 1092: Getting the clocked time
+[13:08:32-04/28/23] Line 1096: Current time: 1900-01-01 13:08:32
+[13:08:32-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:32-04/28/23] Line 1108: Clocked time is 02:22:41
+[13:08:32-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:32-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:34-04/28/23] Line 1059: Main Page
+[13:08:34-04/28/23] Line 1060: Getting current time and current day
+[13:08:35-04/28/23] Line 1066: Resizing the window
+[13:08:35-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:35-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:35-04/28/23] Line 1092: Getting the clocked time
+[13:08:35-04/28/23] Line 1096: Current time: 1900-01-01 13:08:35
+[13:08:35-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:35-04/28/23] Line 1108: Clocked time is 02:22:44
+[13:08:35-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:35-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:35-04/28/23] Line 1059: Main Page
+[13:08:35-04/28/23] Line 1060: Getting current time and current day
+[13:08:35-04/28/23] Line 1066: Resizing the window
+[13:08:35-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:35-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:35-04/28/23] Line 1092: Getting the clocked time
+[13:08:35-04/28/23] Line 1096: Current time: 1900-01-01 13:08:35
+[13:08:35-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:35-04/28/23] Line 1108: Clocked time is 02:22:44
+[13:08:35-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:35-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:38-04/28/23] Line 1059: Main Page
+[13:08:38-04/28/23] Line 1060: Getting current time and current day
+[13:08:38-04/28/23] Line 1066: Resizing the window
+[13:08:39-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:39-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:39-04/28/23] Line 1092: Getting the clocked time
+[13:08:39-04/28/23] Line 1096: Current time: 1900-01-01 13:08:39
+[13:08:39-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:39-04/28/23] Line 1108: Clocked time is 02:22:48
+[13:08:39-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:39-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:39-04/28/23] Line 1059: Main Page
+[13:08:39-04/28/23] Line 1060: Getting current time and current day
+[13:08:39-04/28/23] Line 1066: Resizing the window
+[13:08:39-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:39-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:39-04/28/23] Line 1092: Getting the clocked time
+[13:08:39-04/28/23] Line 1096: Current time: 1900-01-01 13:08:39
+[13:08:39-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:39-04/28/23] Line 1108: Clocked time is 02:22:48
+[13:08:39-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:39-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:40-04/28/23] Line 1059: Main Page
+[13:08:40-04/28/23] Line 1060: Getting current time and current day
+[13:08:41-04/28/23] Line 1066: Resizing the window
+[13:08:41-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:41-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:41-04/28/23] Line 1092: Getting the clocked time
+[13:08:41-04/28/23] Line 1096: Current time: 1900-01-01 13:08:41
+[13:08:41-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:41-04/28/23] Line 1108: Clocked time is 02:22:50
+[13:08:41-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:41-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:42-04/28/23] Line 1059: Main Page
+[13:08:42-04/28/23] Line 1060: Getting current time and current day
+[13:08:42-04/28/23] Line 1066: Resizing the window
+[13:08:42-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:42-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:42-04/28/23] Line 1092: Getting the clocked time
+[13:08:42-04/28/23] Line 1096: Current time: 1900-01-01 13:08:42
+[13:08:42-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:42-04/28/23] Line 1108: Clocked time is 02:22:51
+[13:08:42-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:42-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:43-04/28/23] Line 1059: Main Page
+[13:08:43-04/28/23] Line 1060: Getting current time and current day
+[13:08:43-04/28/23] Line 1066: Resizing the window
+[13:08:43-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:43-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:43-04/28/23] Line 1092: Getting the clocked time
+[13:08:43-04/28/23] Line 1096: Current time: 1900-01-01 13:08:43
+[13:08:43-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:43-04/28/23] Line 1108: Clocked time is 02:22:52
+[13:08:43-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:43-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:44-04/28/23] Line 1059: Main Page
+[13:08:44-04/28/23] Line 1060: Getting current time and current day
+[13:08:44-04/28/23] Line 1066: Resizing the window
+[13:08:44-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:44-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:44-04/28/23] Line 1092: Getting the clocked time
+[13:08:44-04/28/23] Line 1096: Current time: 1900-01-01 13:08:44
+[13:08:44-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:44-04/28/23] Line 1108: Clocked time is 02:22:53
+[13:08:44-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:44-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:08:44-04/28/23] Line 1059: Main Page
+[13:08:44-04/28/23] Line 1060: Getting current time and current day
+[13:08:45-04/28/23] Line 1066: Resizing the window
+[13:08:45-04/28/23] Line 1079: Checking if user is current clocked in
+[13:08:45-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:08:45-04/28/23] Line 1092: Getting the clocked time
+[13:08:45-04/28/23] Line 1096: Current time: 1900-01-01 13:08:45
+[13:08:45-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:08:45-04/28/23] Line 1108: Clocked time is 02:22:54
+[13:08:45-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:08:45-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:15:57-04/28/23] Line 1059: Main Page
+[13:15:57-04/28/23] Line 1060: Getting current time and current day
+[13:15:57-04/28/23] Line 1066: Resizing the window
+[13:15:57-04/28/23] Line 1079: Checking if user is current clocked in
+[13:15:57-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:15:57-04/28/23] Line 1092: Getting the clocked time
+[13:15:57-04/28/23] Line 1096: Current time: 1900-01-01 13:15:57
+[13:15:57-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:15:57-04/28/23] Line 1108: Clocked time is 02:30:06
+[13:15:57-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:15:57-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:20:18-04/28/23] Line 819: Running settings page
+[13:20:18-04/28/23] Line 820: Destroying mainBox
+[13:20:19-04/28/23] Line 827: Checking if user has admin
+[13:20:19-04/28/23] Line 829: TRUE
+[13:20:19-04/28/23] Line 839: Loading hours page
+[13:20:20-04/28/23] Line 420: Running accountPage function
+[13:20:20-04/28/23] Line 421: Setting page to 'accounts
+[13:20:20-04/28/23] Line 819: Running settings page
+[13:20:20-04/28/23] Line 820: Destroying mainBox
+[13:20:20-04/28/23] Line 827: Checking if user has admin
+[13:20:21-04/28/23] Line 829: TRUE
+[13:20:21-04/28/23] Line 949: Displaying accounts page
+[13:20:22-04/28/23] Line 667: Running staffSelection function
+[13:20:22-04/28/23] Line 668: Destroying adminBox
+[13:20:22-04/28/23] Line 670: Returning to settingsPage
+[13:20:22-04/28/23] Line 819: Running settings page
+[13:20:22-04/28/23] Line 820: Destroying mainBox
+[13:20:23-04/28/23] Line 827: Checking if user has admin
+[13:20:23-04/28/23] Line 829: TRUE
+[13:20:23-04/28/23] Line 949: Displaying accounts page
+[13:20:23-04/28/23] Line 971: Displaying account buttons
+[13:20:25-04/28/23] Line 683: Runnning editUser page
+[13:20:25-04/28/23] Line 686: Getting column of user from sheet
+[13:30:19-04/28/23] Line 720: Running editBack function
+[13:30:19-04/28/23] Line 721: Destroying editBox
+[13:30:19-04/28/23] Line 723: Returning to settingsPage
+[13:30:19-04/28/23] Line 819: Running settings page
+[13:30:19-04/28/23] Line 820: Destroying mainBox
+[13:30:19-04/28/23] Line 827: Checking if user has admin
+[13:30:20-04/28/23] Line 829: TRUE
+[13:30:20-04/28/23] Line 949: Displaying accounts page
+[13:30:20-04/28/23] Line 971: Displaying account buttons
+[13:30:21-04/28/23] Line 428: Running developmentPage function
+[13:30:21-04/28/23] Line 429: Setting page to 'development
+[13:30:21-04/28/23] Line 432: Returning to settingsPage
+[13:30:21-04/28/23] Line 819: Running settings page
+[13:30:21-04/28/23] Line 820: Destroying mainBox
+[13:30:21-04/28/23] Line 827: Checking if user has admin
+[13:30:22-04/28/23] Line 829: TRUE
+[13:30:22-04/28/23] Line 1021: Displaying development page
+[13:30:23-04/28/23] Line 412: Running hoursPage function
+[13:30:23-04/28/23] Line 413: Setting page to 'hours
+[13:30:23-04/28/23] Line 819: Running settings page
+[13:30:23-04/28/23] Line 820: Destroying mainBox
+[13:30:23-04/28/23] Line 827: Checking if user has admin
+[13:30:23-04/28/23] Line 829: TRUE
+[13:30:23-04/28/23] Line 839: Loading hours page
+[13:30:24-04/28/23] Line 420: Running accountPage function
+[13:30:24-04/28/23] Line 421: Setting page to 'accounts
+[13:30:24-04/28/23] Line 819: Running settings page
+[13:30:24-04/28/23] Line 820: Destroying mainBox
+[13:30:25-04/28/23] Line 827: Checking if user has admin
+[13:30:25-04/28/23] Line 829: TRUE
+[13:30:25-04/28/23] Line 949: Displaying accounts page
+[13:30:29-04/28/23] Line 412: Running hoursPage function
+[13:30:29-04/28/23] Line 413: Setting page to 'hours
+[13:30:29-04/28/23] Line 819: Running settings page
+[13:30:29-04/28/23] Line 820: Destroying mainBox
+[13:30:30-04/28/23] Line 827: Checking if user has admin
+[13:30:30-04/28/23] Line 829: TRUE
+[13:30:30-04/28/23] Line 839: Loading hours page
+[13:30:32-04/28/23] Line 428: Running developmentPage function
+[13:30:32-04/28/23] Line 429: Setting page to 'development
+[13:30:32-04/28/23] Line 432: Returning to settingsPage
+[13:30:32-04/28/23] Line 819: Running settings page
+[13:30:33-04/28/23] Line 820: Destroying mainBox
+[13:30:33-04/28/23] Line 827: Checking if user has admin
+[13:30:33-04/28/23] Line 829: TRUE
+[13:30:33-04/28/23] Line 1021: Displaying development page
+[13:30:34-04/28/23] Line 420: Running accountPage function
+[13:30:34-04/28/23] Line 421: Setting page to 'accounts
+[13:30:34-04/28/23] Line 819: Running settings page
+[13:30:34-04/28/23] Line 820: Destroying mainBox
+[13:30:34-04/28/23] Line 827: Checking if user has admin
+[13:30:34-04/28/23] Line 829: TRUE
+[13:30:34-04/28/23] Line 949: Displaying accounts page
+[13:30:35-04/28/23] Line 412: Running hoursPage function
+[13:30:35-04/28/23] Line 413: Setting page to 'hours
+[13:30:35-04/28/23] Line 819: Running settings page
+[13:30:35-04/28/23] Line 820: Destroying mainBox
+[13:30:35-04/28/23] Line 827: Checking if user has admin
+[13:30:35-04/28/23] Line 829: TRUE
+[13:30:35-04/28/23] Line 839: Loading hours page
+[13:30:40-04/28/23] Line 428: Running developmentPage function
+[13:30:40-04/28/23] Line 429: Setting page to 'development
+[13:30:40-04/28/23] Line 432: Returning to settingsPage
+[13:30:40-04/28/23] Line 819: Running settings page
+[13:30:40-04/28/23] Line 820: Destroying mainBox
+[13:30:41-04/28/23] Line 827: Checking if user has admin
+[13:30:41-04/28/23] Line 829: TRUE
+[13:30:41-04/28/23] Line 1021: Displaying development page
+[13:30:43-04/28/23] Line 412: Running hoursPage function
+[13:30:43-04/28/23] Line 413: Setting page to 'hours
+[13:30:43-04/28/23] Line 819: Running settings page
+[13:30:43-04/28/23] Line 820: Destroying mainBox
+[13:30:44-04/28/23] Line 827: Checking if user has admin
+[13:30:44-04/28/23] Line 829: TRUE
+[13:30:44-04/28/23] Line 839: Loading hours page
+[13:30:47-04/28/23] Line 420: Running accountPage function
+[13:30:47-04/28/23] Line 421: Setting page to 'accounts
+[13:30:47-04/28/23] Line 819: Running settings page
+[13:30:47-04/28/23] Line 820: Destroying mainBox
+[13:30:47-04/28/23] Line 827: Checking if user has admin
+[13:30:47-04/28/23] Line 829: TRUE
+[13:30:47-04/28/23] Line 949: Displaying accounts page
+[13:30:48-04/28/23] Line 428: Running developmentPage function
+[13:30:48-04/28/23] Line 429: Setting page to 'development
+[13:30:48-04/28/23] Line 432: Returning to settingsPage
+[13:30:48-04/28/23] Line 819: Running settings page
+[13:30:48-04/28/23] Line 820: Destroying mainBox
+[13:30:48-04/28/23] Line 827: Checking if user has admin
+[13:30:49-04/28/23] Line 829: TRUE
+[13:30:49-04/28/23] Line 1021: Displaying development page
+[13:30:50-04/28/23] Line 412: Running hoursPage function
+[13:30:50-04/28/23] Line 413: Setting page to 'hours
+[13:30:50-04/28/23] Line 819: Running settings page
+[13:30:50-04/28/23] Line 820: Destroying mainBox
+[13:30:50-04/28/23] Line 827: Checking if user has admin
+[13:30:50-04/28/23] Line 829: TRUE
+[13:30:50-04/28/23] Line 839: Loading hours page
+[13:30:53-04/28/23] Line 420: Running accountPage function
+[13:30:53-04/28/23] Line 421: Setting page to 'accounts
+[13:30:53-04/28/23] Line 819: Running settings page
+[13:30:53-04/28/23] Line 820: Destroying mainBox
+[13:30:53-04/28/23] Line 827: Checking if user has admin
+[13:30:53-04/28/23] Line 829: TRUE
+[13:30:53-04/28/23] Line 949: Displaying accounts page
+[13:30:54-04/28/23] Line 428: Running developmentPage function
+[13:30:54-04/28/23] Line 429: Setting page to 'development
+[13:30:54-04/28/23] Line 432: Returning to settingsPage
+[13:30:54-04/28/23] Line 819: Running settings page
+[13:30:54-04/28/23] Line 820: Destroying mainBox
+[13:30:55-04/28/23] Line 827: Checking if user has admin
+[13:30:55-04/28/23] Line 829: TRUE
+[13:30:55-04/28/23] Line 1021: Displaying development page
+[13:30:57-04/28/23] Line 420: Running accountPage function
+[13:30:57-04/28/23] Line 421: Setting page to 'accounts
+[13:30:57-04/28/23] Line 819: Running settings page
+[13:30:57-04/28/23] Line 820: Destroying mainBox
+[13:30:57-04/28/23] Line 827: Checking if user has admin
+[13:30:57-04/28/23] Line 829: TRUE
+[13:30:57-04/28/23] Line 949: Displaying accounts page
+[13:30:58-04/28/23] Line 412: Running hoursPage function
+[13:30:58-04/28/23] Line 413: Setting page to 'hours
+[13:30:58-04/28/23] Line 819: Running settings page
+[13:30:58-04/28/23] Line 820: Destroying mainBox
+[13:30:59-04/28/23] Line 827: Checking if user has admin
+[13:30:59-04/28/23] Line 829: TRUE
+[13:30:59-04/28/23] Line 839: Loading hours page
+[13:31:00-04/28/23] Line 420: Running accountPage function
+[13:31:00-04/28/23] Line 421: Setting page to 'accounts
+[13:31:00-04/28/23] Line 819: Running settings page
+[13:31:00-04/28/23] Line 820: Destroying mainBox
+[13:31:00-04/28/23] Line 827: Checking if user has admin
+[13:31:00-04/28/23] Line 829: TRUE
+[13:31:00-04/28/23] Line 949: Displaying accounts page
+[13:31:02-04/28/23] Line 428: Running developmentPage function
+[13:31:02-04/28/23] Line 429: Setting page to 'development
+[13:31:02-04/28/23] Line 432: Returning to settingsPage
+[13:31:02-04/28/23] Line 819: Running settings page
+[13:31:02-04/28/23] Line 820: Destroying mainBox
+[13:31:02-04/28/23] Line 827: Checking if user has admin
+[13:31:02-04/28/23] Line 829: TRUE
+[13:31:02-04/28/23] Line 1021: Displaying development page
+[13:31:04-04/28/23] Line 420: Running accountPage function
+[13:31:04-04/28/23] Line 421: Setting page to 'accounts
+[13:31:04-04/28/23] Line 819: Running settings page
+[13:31:04-04/28/23] Line 820: Destroying mainBox
+[13:31:04-04/28/23] Line 827: Checking if user has admin
+[13:31:04-04/28/23] Line 829: TRUE
+[13:31:04-04/28/23] Line 949: Displaying accounts page
+[13:31:09-04/28/23] Line 412: Running hoursPage function
+[13:31:09-04/28/23] Line 413: Setting page to 'hours
+[13:31:09-04/28/23] Line 819: Running settings page
+[13:31:09-04/28/23] Line 820: Destroying mainBox
+[13:31:09-04/28/23] Line 827: Checking if user has admin
+[13:31:09-04/28/23] Line 829: TRUE
+[13:31:09-04/28/23] Line 839: Loading hours page
+[13:31:11-04/28/23] Line 420: Running accountPage function
+[13:31:11-04/28/23] Line 421: Setting page to 'accounts
+[13:31:11-04/28/23] Line 819: Running settings page
+[13:31:11-04/28/23] Line 820: Destroying mainBox
+[13:31:11-04/28/23] Line 827: Checking if user has admin
+[13:31:11-04/28/23] Line 829: TRUE
+[13:31:11-04/28/23] Line 949: Displaying accounts page
+[13:31:13-04/28/23] Line 428: Running developmentPage function
+[13:31:13-04/28/23] Line 429: Setting page to 'development
+[13:31:13-04/28/23] Line 432: Returning to settingsPage
+[13:31:13-04/28/23] Line 819: Running settings page
+[13:31:13-04/28/23] Line 820: Destroying mainBox
+[13:31:13-04/28/23] Line 827: Checking if user has admin
+[13:31:14-04/28/23] Line 829: TRUE
+[13:31:14-04/28/23] Line 1021: Displaying development page
+[13:31:16-04/28/23] Line 412: Running hoursPage function
+[13:31:16-04/28/23] Line 413: Setting page to 'hours
+[13:31:16-04/28/23] Line 819: Running settings page
+[13:31:16-04/28/23] Line 820: Destroying mainBox
+[13:31:17-04/28/23] Line 827: Checking if user has admin
+[13:31:17-04/28/23] Line 829: TRUE
+[13:31:17-04/28/23] Line 839: Loading hours page
+[13:31:18-04/28/23] Line 437: Running mainPageBack function
+[13:31:18-04/28/23] Line 438: Destroing adminBox
+[13:31:18-04/28/23] Line 440: Returning to mainPage
+[13:31:18-04/28/23] Line 1059: Main Page
+[13:31:18-04/28/23] Line 1060: Getting current time and current day
+[13:31:18-04/28/23] Line 1066: Resizing the window
+[13:31:18-04/28/23] Line 1079: Checking if user is current clocked in
+[13:31:18-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:31:18-04/28/23] Line 1092: Getting the clocked time
+[13:31:18-04/28/23] Line 1096: Current time: 1900-01-01 13:31:18
+[13:31:18-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:31:18-04/28/23] Line 1108: Clocked time is 02:45:27
+[13:31:18-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:31:18-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:31:20-04/28/23] Line 819: Running settings page
+[13:31:20-04/28/23] Line 820: Destroying mainBox
+[13:31:20-04/28/23] Line 827: Checking if user has admin
+[13:31:20-04/28/23] Line 829: TRUE
+[13:31:20-04/28/23] Line 839: Loading hours page
+[13:31:22-04/28/23] Line 437: Running mainPageBack function
+[13:31:22-04/28/23] Line 438: Destroing adminBox
+[13:31:22-04/28/23] Line 440: Returning to mainPage
+[13:31:22-04/28/23] Line 1059: Main Page
+[13:31:22-04/28/23] Line 1060: Getting current time and current day
+[13:31:22-04/28/23] Line 1066: Resizing the window
+[13:31:22-04/28/23] Line 1079: Checking if user is current clocked in
+[13:31:22-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:31:22-04/28/23] Line 1092: Getting the clocked time
+[13:31:22-04/28/23] Line 1096: Current time: 1900-01-01 13:31:22
+[13:31:22-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:31:22-04/28/23] Line 1108: Clocked time is 02:45:31
+[13:31:22-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:31:22-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:31:23-04/28/23] Line 384: Login Page
+[13:31:29-04/28/23] Line 230: Login button presses, attempting login
+[13:31:29-04/28/23] Line 231: Getting all values from sheets
+[13:31:29-04/28/23] Line 234: Checking for entered username: Test in the sheets
+[13:31:29-04/28/23] Line 237: Username is valid at position 6
+[13:31:29-04/28/23] Line 243: Checking if entered password matches password on sheets
+[13:31:29-04/28/23] Line 249: Passwords match
+[13:31:29-04/28/23] Line 251: Checking is Remember me? button was checked
+[13:31:29-04/28/23] Line 253: Button was checked setting remember to True
+[13:31:29-04/28/23] Line 259: Opening 'options.txt' file
+[13:31:29-04/28/23] Line 263: Setting the remmeber and userPos variables
+[13:31:29-04/28/23] Line 268: Closing file
+[13:31:29-04/28/23] Line 270: Destroying loginPage and running mainPage
+[13:31:29-04/28/23] Line 1059: Main Page
+[13:31:29-04/28/23] Line 1060: Getting current time and current day
+[13:31:30-04/28/23] Line 1066: Resizing the window
+[13:31:30-04/28/23] Line 1079: Checking if user is current clocked in
+[13:31:30-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:31:30-04/28/23] Line 1092: Getting the clocked time
+[13:31:30-04/28/23] Line 1096: Current time: 1900-01-01 13:31:30
+[13:31:30-04/28/23] Line 1100: Last clocked time: 00:00:00
+[13:31:30-04/28/23] Line 1108: Clocked time is 02:45:39
+[13:31:30-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:31:30-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:31:31-04/28/23] Line 343: Running clockOut function
+[13:31:31-04/28/23] Line 172: dayCheck Function
+[13:31:31-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:31:31-04/28/23] Line 186: Difference between last date and current date: 0
+[13:31:31-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:31:31-04/28/23] Line 209: Running updateCheck
+[13:31:31-04/28/23] Line 210: Getting version from GitHub
+[13:31:31-04/28/23] Line 212: GitHub version: 2.3.2
+
+[13:31:31-04/28/23] Line 214: Opening 'version.txt' file
+[13:31:31-04/28/23] Line 217: Installed version: 2.3.2
+
+[13:31:31-04/28/23] Line 220: Program up to date
+[13:31:31-04/28/23] Line 348: Getting current time and current dates
+[13:31:31-04/28/23] Line 353: Getting column data for the user
+[13:31:31-04/28/23] Line 356: Last clock in time: 10:45:51
+[13:31:31-04/28/23] Line 358: Clocked time: 00:00:00
+[13:31:31-04/28/23] Line 367: Total clocked time: 1900-01-01 02:45:40
+[13:31:31-04/28/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[13:31:31-04/28/23] Line 375: Updating sheet
+[13:31:32-04/28/23] Line 378: Destroing mainBox and returning to mainPage
+[13:31:32-04/28/23] Line 1059: Main Page
+[13:31:32-04/28/23] Line 1060: Getting current time and current day
+[13:31:32-04/28/23] Line 1066: Resizing the window
+[13:31:32-04/28/23] Line 1079: Checking if user is current clocked in
+[13:31:32-04/28/23] Line 1081: User is clocked out, displayed relevant info
+[13:31:32-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:31:32-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:31:33-04/28/23] Line 324: Running clockIn function
+[13:31:33-04/28/23] Line 172: dayCheck Function
+[13:31:33-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:31:34-04/28/23] Line 186: Difference between last date and current date: 0
+[13:31:34-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:31:34-04/28/23] Line 209: Running updateCheck
+[13:31:34-04/28/23] Line 210: Getting version from GitHub
+[13:31:34-04/28/23] Line 212: GitHub version: 2.3.2
+
+[13:31:34-04/28/23] Line 214: Opening 'version.txt' file
+[13:31:34-04/28/23] Line 217: Installed version: 2.3.2
+
+[13:31:34-04/28/23] Line 220: Program up to date
+[13:31:34-04/28/23] Line 329: Getting current time and current date
+[13:31:34-04/28/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[13:31:34-04/28/23] Line 337: Destroying mainBox and going back to mainPage
+[13:31:34-04/28/23] Line 1059: Main Page
+[13:31:34-04/28/23] Line 1060: Getting current time and current day
+[13:31:34-04/28/23] Line 1066: Resizing the window
+[13:31:34-04/28/23] Line 1079: Checking if user is current clocked in
+[13:31:34-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:31:34-04/28/23] Line 1092: Getting the clocked time
+[13:31:34-04/28/23] Line 1096: Current time: 1900-01-01 13:31:34
+[13:31:34-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:31:34-04/28/23] Line 1108: Clocked time is 02:45:40
+[13:31:34-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:31:34-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:31:35-04/28/23] Line 1059: Main Page
+[13:31:35-04/28/23] Line 1060: Getting current time and current day
+[13:31:35-04/28/23] Line 1066: Resizing the window
+[13:31:35-04/28/23] Line 1079: Checking if user is current clocked in
+[13:31:35-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:31:35-04/28/23] Line 1092: Getting the clocked time
+[13:31:35-04/28/23] Line 1096: Current time: 1900-01-01 13:31:35
+[13:31:35-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:31:35-04/28/23] Line 1108: Clocked time is 02:45:41
+[13:31:35-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:31:35-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:31:37-04/28/23] Line 819: Running settings page
+[13:31:37-04/28/23] Line 820: Destroying mainBox
+[13:31:38-04/28/23] Line 827: Checking if user has admin
+[13:31:38-04/28/23] Line 829: TRUE
+[13:31:38-04/28/23] Line 839: Loading hours page
+[13:31:40-04/28/23] Line 445: Running addUser function
+[13:31:40-04/28/23] Line 446: Removing Test from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[13:31:40-04/28/23] Line 448: Adding Test to []
+[13:31:40-04/28/23] Line 451: Returning to settingsPage
+[13:31:40-04/28/23] Line 819: Running settings page
+[13:31:40-04/28/23] Line 820: Destroying mainBox
+[13:31:40-04/28/23] Line 827: Checking if user has admin
+[13:31:41-04/28/23] Line 829: TRUE
+[13:31:41-04/28/23] Line 839: Loading hours page
+[13:31:41-04/28/23] Line 861: Displaying selected staff box
+[13:31:45-04/28/23] Line 467: Running searchHours function
+[13:31:45-04/28/23] Line 469: Checking if entered date is valid
+[13:31:45-04/28/23] Line 482: Date is valid
+[13:31:45-04/28/23] Line 492: Checking if year is valid
+[13:31:45-04/28/23] Line 501: Getting the difference between the 2 dates
+[13:31:45-04/28/23] Line 505: Difference is: 6
+[13:31:45-04/28/23] Line 510: Getting all values from sheet
+[13:31:45-04/28/23] Line 515: Getting all positions where there is a Month or Week Total
+[13:31:45-04/28/23] Line 517: Skip positions: [14, 22, 30, 38, 41, 47, 55, 63, 71, 77, 80, 88, 96, 104, 110, 113, 121, 129, 137, 145, 147, 154, 162, 170, 178, 183, 187, 195, 203, 211, 219, 227, 235, 243, 251, 254, 260]
+[13:31:45-04/28/23] Line 519: Check if date 1: Mon - 17/04/23 is in date column
+[13:31:45-04/28/23] Line 522: TRUE at postion 21
+[13:31:45-04/28/23] Line 528: Check if date 2: Sun - 23/04/23 is in date column
+[13:31:45-04/28/23] Line 531: TRUE at postion 15
+[13:31:45-04/28/23] Line 542: Creating new window
+[13:31:45-04/28/23] Line 575: Getting hours for each user inside specified date range
+[13:31:45-04/28/23] Line 597: User: Test
+[13:31:45-04/28/23] Line 598: Total Min: 12
+[13:31:45-04/28/23] Line 600: Total Hour: 0.2
+[13:31:45-04/28/23] Line 601: Total Fail: 0
+[13:31:45-04/28/23] Line 604: All Hours: 0.2
+[13:31:45-04/28/23] Line 606: Inserting user hours into text box
+[13:31:45-04/28/23] Line 610: Inserting total hours into text box
+[13:31:48-04/28/23] Line 467: Running searchHours function
+[13:31:48-04/28/23] Line 469: Checking if entered date is valid
+[13:31:48-04/28/23] Line 482: Date is valid
+[13:31:48-04/28/23] Line 492: Checking if year is valid
+[13:31:48-04/28/23] Line 501: Getting the difference between the 2 dates
+[13:31:48-04/28/23] Line 505: Difference is: 30
+[13:31:48-04/28/23] Line 510: Getting all values from sheet
+[13:31:48-04/28/23] Line 515: Getting all positions where there is a Month or Week Total
+[13:31:48-04/28/23] Line 517: Skip positions: [14, 22, 30, 38, 41, 47, 55, 63, 71, 77, 80, 88, 96, 104, 110, 113, 121, 129, 137, 145, 147, 154, 162, 170, 178, 183, 187, 195, 203, 211, 219, 227, 235, 243, 251, 254, 260]
+[13:31:48-04/28/23] Line 519: Check if date 1: Wed - 01/03/23 is in date column
+[13:31:48-04/28/23] Line 522: TRUE at postion 76
+[13:31:48-04/28/23] Line 528: Check if date 2: Fri - 31/03/23 is in date column
+[13:31:48-04/28/23] Line 531: TRUE at postion 42
+[13:31:48-04/28/23] Line 542: Creating new window
+[13:31:48-04/28/23] Line 575: Getting hours for each user inside specified date range
+[13:31:48-04/28/23] Line 597: User: Test
+[13:31:48-04/28/23] Line 598: Total Min: 200
+[13:31:48-04/28/23] Line 600: Total Hour: 3.3333333333333335
+[13:31:48-04/28/23] Line 601: Total Fail: 2
+[13:31:48-04/28/23] Line 604: All Hours: 3.3333333333333335
+[13:31:48-04/28/23] Line 606: Inserting user hours into text box
+[13:31:48-04/28/23] Line 610: Inserting total hours into text box
+[13:31:53-04/28/23] Line 445: Running addUser function
+[13:31:53-04/28/23] Line 446: Removing Aiden from ['Bruce', 'Emily', 'Gloria', 'Aiden']
+[13:31:53-04/28/23] Line 448: Adding Aiden to ['Test']
+[13:31:53-04/28/23] Line 451: Returning to settingsPage
+[13:31:53-04/28/23] Line 819: Running settings page
+[13:31:53-04/28/23] Line 820: Destroying mainBox
+[13:31:53-04/28/23] Line 827: Checking if user has admin
+[13:31:53-04/28/23] Line 829: TRUE
+[13:31:53-04/28/23] Line 839: Loading hours page
+[13:31:53-04/28/23] Line 861: Displaying selected staff box
+[13:31:55-04/28/23] Line 445: Running addUser function
+[13:31:55-04/28/23] Line 446: Removing Emily from ['Bruce', 'Emily', 'Gloria']
+[13:31:55-04/28/23] Line 448: Adding Emily to ['Test', 'Aiden']
+[13:31:55-04/28/23] Line 451: Returning to settingsPage
+[13:31:55-04/28/23] Line 819: Running settings page
+[13:31:55-04/28/23] Line 820: Destroying mainBox
+[13:31:55-04/28/23] Line 827: Checking if user has admin
+[13:31:56-04/28/23] Line 829: TRUE
+[13:31:56-04/28/23] Line 839: Loading hours page
+[13:31:56-04/28/23] Line 861: Displaying selected staff box
+[13:31:56-04/28/23] Line 467: Running searchHours function
+[13:31:56-04/28/23] Line 469: Checking if entered date is valid
+[13:31:56-04/28/23] Line 482: Date is valid
+[13:31:56-04/28/23] Line 492: Checking if year is valid
+[13:31:56-04/28/23] Line 501: Getting the difference between the 2 dates
+[13:31:56-04/28/23] Line 505: Difference is: 30
+[13:31:56-04/28/23] Line 510: Getting all values from sheet
+[13:31:57-04/28/23] Line 515: Getting all positions where there is a Month or Week Total
+[13:31:57-04/28/23] Line 517: Skip positions: [14, 22, 30, 38, 41, 47, 55, 63, 71, 77, 80, 88, 96, 104, 110, 113, 121, 129, 137, 145, 147, 154, 162, 170, 178, 183, 187, 195, 203, 211, 219, 227, 235, 243, 251, 254, 260]
+[13:31:57-04/28/23] Line 519: Check if date 1: Wed - 01/03/23 is in date column
+[13:31:57-04/28/23] Line 522: TRUE at postion 76
+[13:31:57-04/28/23] Line 528: Check if date 2: Fri - 31/03/23 is in date column
+[13:31:57-04/28/23] Line 531: TRUE at postion 42
+[13:31:57-04/28/23] Line 542: Creating new window
+[13:31:57-04/28/23] Line 575: Getting hours for each user inside specified date range
+[13:31:57-04/28/23] Line 597: User: Test
+[13:31:57-04/28/23] Line 598: Total Min: 200
+[13:31:57-04/28/23] Line 600: Total Hour: 3.3333333333333335
+[13:31:57-04/28/23] Line 601: Total Fail: 2
+[13:31:57-04/28/23] Line 604: All Hours: 3.3333333333333335
+[13:31:57-04/28/23] Line 606: Inserting user hours into text box
+[13:31:57-04/28/23] Line 597: User: Aiden
+[13:31:57-04/28/23] Line 598: Total Min: 0
+[13:31:57-04/28/23] Line 600: Total Hour: 0.0
+[13:31:57-04/28/23] Line 601: Total Fail: 0
+[13:31:57-04/28/23] Line 604: All Hours: 3.3333333333333335
+[13:31:57-04/28/23] Line 606: Inserting user hours into text box
+[13:31:57-04/28/23] Line 597: User: Emily
+[13:31:57-04/28/23] Line 598: Total Min: 1978
+[13:31:57-04/28/23] Line 600: Total Hour: 32.96666666666667
+[13:31:57-04/28/23] Line 601: Total Fail: 1
+[13:31:57-04/28/23] Line 604: All Hours: 36.300000000000004
+[13:31:57-04/28/23] Line 606: Inserting user hours into text box
+[13:31:57-04/28/23] Line 610: Inserting total hours into text box
+[13:32:02-04/28/23] Line 420: Running accountPage function
+[13:32:02-04/28/23] Line 421: Setting page to 'accounts
+[13:32:02-04/28/23] Line 819: Running settings page
+[13:32:02-04/28/23] Line 820: Destroying mainBox
+[13:32:03-04/28/23] Line 827: Checking if user has admin
+[13:32:03-04/28/23] Line 829: TRUE
+[13:32:03-04/28/23] Line 949: Displaying accounts page
+[13:32:05-04/28/23] Line 667: Running staffSelection function
+[13:32:05-04/28/23] Line 668: Destroying adminBox
+[13:32:05-04/28/23] Line 670: Returning to settingsPage
+[13:32:05-04/28/23] Line 819: Running settings page
+[13:32:05-04/28/23] Line 820: Destroying mainBox
+[13:32:05-04/28/23] Line 827: Checking if user has admin
+[13:32:06-04/28/23] Line 829: TRUE
+[13:32:06-04/28/23] Line 949: Displaying accounts page
+[13:32:06-04/28/23] Line 971: Displaying account buttons
+[13:32:08-04/28/23] Line 634: Running removeAdmin function
+[13:32:08-04/28/23] Line 635: Displaying popup option
+[13:32:10-04/28/23] Line 637: Reponse was: no
+[13:32:10-04/28/23] Line 644: Returning to settingsPage
+[13:32:10-04/28/23] Line 819: Running settings page
+[13:32:10-04/28/23] Line 820: Destroying mainBox
+[13:32:10-04/28/23] Line 827: Checking if user has admin
+[13:32:10-04/28/23] Line 829: TRUE
+[13:32:10-04/28/23] Line 949: Displaying accounts page
+[13:32:10-04/28/23] Line 971: Displaying account buttons
+[13:32:11-04/28/23] Line 683: Runnning editUser page
+[13:32:11-04/28/23] Line 686: Getting column of user from sheet
+[13:32:18-04/28/23] Line 728: Running userUpdate function
+[13:32:18-04/28/23] Line 736: Updating sheets with entered username and pass
+[13:32:18-04/28/23] Line 738: Displaying popup message
+[13:32:19-04/28/23] Line 740: Returning to settingsPage
+[13:32:19-04/28/23] Line 819: Running settings page
+[13:32:19-04/28/23] Line 820: Destroying mainBox
+[13:32:19-04/28/23] Line 827: Checking if user has admin
+[13:32:20-04/28/23] Line 829: TRUE
+[13:32:20-04/28/23] Line 949: Displaying accounts page
+[13:32:20-04/28/23] Line 971: Displaying account buttons
+[13:32:22-04/28/23] Line 428: Running developmentPage function
+[13:32:22-04/28/23] Line 429: Setting page to 'development
+[13:32:22-04/28/23] Line 432: Returning to settingsPage
+[13:32:22-04/28/23] Line 819: Running settings page
+[13:32:22-04/28/23] Line 820: Destroying mainBox
+[13:32:22-04/28/23] Line 827: Checking if user has admin
+[13:32:22-04/28/23] Line 829: TRUE
+[13:32:22-04/28/23] Line 1021: Displaying development page
+[13:32:27-04/28/23] Line 675: Running developmentSelection function
+[13:32:27-04/28/23] Line 676: Destroying adminBox
+[13:32:27-04/28/23] Line 678: Returning to settignsPage
+[13:32:27-04/28/23] Line 819: Running settings page
+[13:32:27-04/28/23] Line 820: Destroying mainBox
+[13:32:27-04/28/23] Line 827: Checking if user has admin
+[13:32:27-04/28/23] Line 829: TRUE
+[13:32:27-04/28/23] Line 1021: Displaying development page
+[13:32:29-04/28/23] Line 675: Running developmentSelection function
+[13:32:29-04/28/23] Line 676: Destroying adminBox
+[13:32:29-04/28/23] Line 678: Returning to settignsPage
+[13:32:29-04/28/23] Line 819: Running settings page
+[13:32:29-04/28/23] Line 820: Destroying mainBox
+[13:32:29-04/28/23] Line 827: Checking if user has admin
+[13:32:29-04/28/23] Line 829: TRUE
+[13:32:30-04/28/23] Line 1021: Displaying development page
+[13:32:31-04/28/23] Line 437: Running mainPageBack function
+[13:32:31-04/28/23] Line 438: Destroing adminBox
+[13:32:31-04/28/23] Line 440: Returning to mainPage
+[13:32:31-04/28/23] Line 1059: Main Page
+[13:32:31-04/28/23] Line 1060: Getting current time and current day
+[13:32:31-04/28/23] Line 1066: Resizing the window
+[13:32:31-04/28/23] Line 1079: Checking if user is current clocked in
+[13:32:31-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:32:31-04/28/23] Line 1092: Getting the clocked time
+[13:32:31-04/28/23] Line 1096: Current time: 1900-01-01 13:32:31
+[13:32:31-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:32:31-04/28/23] Line 1108: Clocked time is 02:46:37
+[13:32:31-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:32:31-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:32:33-04/28/23] Line 819: Running settings page
+[13:32:33-04/28/23] Line 820: Destroying mainBox
+[13:32:33-04/28/23] Line 827: Checking if user has admin
+[13:32:33-04/28/23] Line 829: TRUE
+[13:32:33-04/28/23] Line 839: Loading hours page
+[13:32:35-04/28/23] Line 420: Running accountPage function
+[13:32:35-04/28/23] Line 421: Setting page to 'accounts
+[13:32:35-04/28/23] Line 819: Running settings page
+[13:32:35-04/28/23] Line 820: Destroying mainBox
+[13:32:35-04/28/23] Line 827: Checking if user has admin
+[13:32:35-04/28/23] Line 829: TRUE
+[13:32:35-04/28/23] Line 949: Displaying accounts page
+[13:32:36-04/28/23] Line 412: Running hoursPage function
+[13:32:36-04/28/23] Line 413: Setting page to 'hours
+[13:32:36-04/28/23] Line 819: Running settings page
+[13:32:36-04/28/23] Line 820: Destroying mainBox
+[13:32:36-04/28/23] Line 827: Checking if user has admin
+[13:32:36-04/28/23] Line 829: TRUE
+[13:32:36-04/28/23] Line 839: Loading hours page
+[13:32:37-04/28/23] Line 428: Running developmentPage function
+[13:32:37-04/28/23] Line 429: Setting page to 'development
+[13:32:37-04/28/23] Line 432: Returning to settingsPage
+[13:32:37-04/28/23] Line 819: Running settings page
+[13:32:37-04/28/23] Line 820: Destroying mainBox
+[13:32:38-04/28/23] Line 827: Checking if user has admin
+[13:32:38-04/28/23] Line 829: TRUE
+[13:32:38-04/28/23] Line 1021: Displaying development page
+[13:32:38-04/28/23] Line 420: Running accountPage function
+[13:32:38-04/28/23] Line 421: Setting page to 'accounts
+[13:32:38-04/28/23] Line 819: Running settings page
+[13:32:38-04/28/23] Line 820: Destroying mainBox
+[13:32:39-04/28/23] Line 827: Checking if user has admin
+[13:32:39-04/28/23] Line 829: TRUE
+[13:32:39-04/28/23] Line 949: Displaying accounts page
+[13:32:39-04/28/23] Line 412: Running hoursPage function
+[13:32:39-04/28/23] Line 413: Setting page to 'hours
+[13:32:40-04/28/23] Line 819: Running settings page
+[13:32:40-04/28/23] Line 820: Destroying mainBox
+[13:32:40-04/28/23] Line 827: Checking if user has admin
+[13:32:40-04/28/23] Line 829: TRUE
+[13:32:40-04/28/23] Line 839: Loading hours page
+[13:32:41-04/28/23] Line 420: Running accountPage function
+[13:32:41-04/28/23] Line 421: Setting page to 'accounts
+[13:32:41-04/28/23] Line 819: Running settings page
+[13:32:41-04/28/23] Line 820: Destroying mainBox
+[13:32:41-04/28/23] Line 827: Checking if user has admin
+[13:32:42-04/28/23] Line 829: TRUE
+[13:32:42-04/28/23] Line 949: Displaying accounts page
+[13:32:43-04/28/23] Line 412: Running hoursPage function
+[13:32:43-04/28/23] Line 413: Setting page to 'hours
+[13:32:43-04/28/23] Line 819: Running settings page
+[13:32:43-04/28/23] Line 820: Destroying mainBox
+[13:32:43-04/28/23] Line 827: Checking if user has admin
+[13:32:43-04/28/23] Line 829: TRUE
+[13:32:43-04/28/23] Line 839: Loading hours page
+[13:32:44-04/28/23] Line 420: Running accountPage function
+[13:32:44-04/28/23] Line 421: Setting page to 'accounts
+[13:32:44-04/28/23] Line 819: Running settings page
+[13:32:44-04/28/23] Line 820: Destroying mainBox
+[13:32:44-04/28/23] Line 827: Checking if user has admin
+[13:32:44-04/28/23] Line 829: TRUE
+[13:32:44-04/28/23] Line 949: Displaying accounts page
+[13:32:46-04/28/23] Line 412: Running hoursPage function
+[13:32:46-04/28/23] Line 413: Setting page to 'hours
+[13:32:46-04/28/23] Line 819: Running settings page
+[13:32:46-04/28/23] Line 820: Destroying mainBox
+[13:32:46-04/28/23] Line 827: Checking if user has admin
+[13:32:46-04/28/23] Line 829: TRUE
+[13:32:46-04/28/23] Line 839: Loading hours page
+[13:32:47-04/28/23] Line 420: Running accountPage function
+[13:32:47-04/28/23] Line 421: Setting page to 'accounts
+[13:32:47-04/28/23] Line 819: Running settings page
+[13:32:47-04/28/23] Line 820: Destroying mainBox
+[13:32:47-04/28/23] Line 827: Checking if user has admin
+[13:32:48-04/28/23] Line 829: TRUE
+[13:32:48-04/28/23] Line 949: Displaying accounts page
+[13:32:49-04/28/23] Line 428: Running developmentPage function
+[13:32:49-04/28/23] Line 429: Setting page to 'development
+[13:32:49-04/28/23] Line 432: Returning to settingsPage
+[13:32:49-04/28/23] Line 819: Running settings page
+[13:32:49-04/28/23] Line 820: Destroying mainBox
+[13:32:49-04/28/23] Line 827: Checking if user has admin
+[13:32:49-04/28/23] Line 829: TRUE
+[13:32:49-04/28/23] Line 1021: Displaying development page
+[13:32:50-04/28/23] Line 420: Running accountPage function
+[13:32:50-04/28/23] Line 421: Setting page to 'accounts
+[13:32:50-04/28/23] Line 819: Running settings page
+[13:32:50-04/28/23] Line 820: Destroying mainBox
+[13:32:50-04/28/23] Line 827: Checking if user has admin
+[13:32:50-04/28/23] Line 829: TRUE
+[13:32:50-04/28/23] Line 949: Displaying accounts page
+[13:32:51-04/28/23] Line 412: Running hoursPage function
+[13:32:51-04/28/23] Line 413: Setting page to 'hours
+[13:32:51-04/28/23] Line 819: Running settings page
+[13:32:51-04/28/23] Line 820: Destroying mainBox
+[13:32:51-04/28/23] Line 827: Checking if user has admin
+[13:32:51-04/28/23] Line 829: TRUE
+[13:32:51-04/28/23] Line 839: Loading hours page
+[13:32:52-04/28/23] Line 437: Running mainPageBack function
+[13:32:52-04/28/23] Line 438: Destroing adminBox
+[13:32:52-04/28/23] Line 440: Returning to mainPage
+[13:32:52-04/28/23] Line 1059: Main Page
+[13:32:52-04/28/23] Line 1060: Getting current time and current day
+[13:32:52-04/28/23] Line 1066: Resizing the window
+[13:32:52-04/28/23] Line 1079: Checking if user is current clocked in
+[13:32:52-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:32:52-04/28/23] Line 1092: Getting the clocked time
+[13:32:52-04/28/23] Line 1096: Current time: 1900-01-01 13:32:52
+[13:32:52-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:32:52-04/28/23] Line 1108: Clocked time is 02:46:58
+[13:32:52-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:32:52-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:32:54-04/28/23] Line 819: Running settings page
+[13:32:54-04/28/23] Line 820: Destroying mainBox
+[13:32:54-04/28/23] Line 827: Checking if user has admin
+[13:32:55-04/28/23] Line 829: TRUE
+[13:32:55-04/28/23] Line 839: Loading hours page
+[13:32:55-04/28/23] Line 437: Running mainPageBack function
+[13:32:55-04/28/23] Line 438: Destroing adminBox
+[13:32:55-04/28/23] Line 440: Returning to mainPage
+[13:32:55-04/28/23] Line 1059: Main Page
+[13:32:55-04/28/23] Line 1060: Getting current time and current day
+[13:32:55-04/28/23] Line 1066: Resizing the window
+[13:32:55-04/28/23] Line 1079: Checking if user is current clocked in
+[13:32:55-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:32:55-04/28/23] Line 1092: Getting the clocked time
+[13:32:55-04/28/23] Line 1096: Current time: 1900-01-01 13:32:55
+[13:32:55-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:32:55-04/28/23] Line 1108: Clocked time is 02:47:01
+[13:32:55-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:32:55-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:32:57-04/28/23] Line 1059: Main Page
+[13:32:57-04/28/23] Line 1060: Getting current time and current day
+[13:32:57-04/28/23] Line 1066: Resizing the window
+[13:32:57-04/28/23] Line 1079: Checking if user is current clocked in
+[13:32:57-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:32:57-04/28/23] Line 1092: Getting the clocked time
+[13:32:57-04/28/23] Line 1096: Current time: 1900-01-01 13:32:57
+[13:32:57-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:32:57-04/28/23] Line 1108: Clocked time is 02:47:03
+[13:32:57-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:32:57-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:32:58-04/28/23] Line 1059: Main Page
+[13:32:58-04/28/23] Line 1060: Getting current time and current day
+[13:32:58-04/28/23] Line 1066: Resizing the window
+[13:32:58-04/28/23] Line 1079: Checking if user is current clocked in
+[13:32:58-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:32:58-04/28/23] Line 1092: Getting the clocked time
+[13:32:58-04/28/23] Line 1096: Current time: 1900-01-01 13:32:58
+[13:32:58-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:32:58-04/28/23] Line 1108: Clocked time is 02:47:04
+[13:32:58-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:32:58-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:32:59-04/28/23] Line 1059: Main Page
+[13:32:59-04/28/23] Line 1060: Getting current time and current day
+[13:32:59-04/28/23] Line 1066: Resizing the window
+[13:32:59-04/28/23] Line 1079: Checking if user is current clocked in
+[13:32:59-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:32:59-04/28/23] Line 1092: Getting the clocked time
+[13:32:59-04/28/23] Line 1096: Current time: 1900-01-01 13:32:59
+[13:32:59-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:32:59-04/28/23] Line 1108: Clocked time is 02:47:05
+[13:32:59-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:32:59-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:33:00-04/28/23] Line 1059: Main Page
+[13:33:00-04/28/23] Line 1060: Getting current time and current day
+[13:33:00-04/28/23] Line 1066: Resizing the window
+[13:33:00-04/28/23] Line 1079: Checking if user is current clocked in
+[13:33:00-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:33:00-04/28/23] Line 1092: Getting the clocked time
+[13:33:00-04/28/23] Line 1096: Current time: 1900-01-01 13:33:00
+[13:33:00-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:33:00-04/28/23] Line 1108: Clocked time is 02:47:06
+[13:33:00-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:33:00-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:33:00-04/28/23] Line 1059: Main Page
+[13:33:00-04/28/23] Line 1060: Getting current time and current day
+[13:33:01-04/28/23] Line 1066: Resizing the window
+[13:33:01-04/28/23] Line 1079: Checking if user is current clocked in
+[13:33:01-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:33:01-04/28/23] Line 1092: Getting the clocked time
+[13:33:01-04/28/23] Line 1096: Current time: 1900-01-01 13:33:01
+[13:33:01-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:33:01-04/28/23] Line 1108: Clocked time is 02:47:07
+[13:33:01-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:33:01-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:33:01-04/28/23] Line 1059: Main Page
+[13:33:01-04/28/23] Line 1060: Getting current time and current day
+[13:33:01-04/28/23] Line 1066: Resizing the window
+[13:33:01-04/28/23] Line 1079: Checking if user is current clocked in
+[13:33:01-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:33:01-04/28/23] Line 1092: Getting the clocked time
+[13:33:01-04/28/23] Line 1096: Current time: 1900-01-01 13:33:01
+[13:33:01-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:33:01-04/28/23] Line 1108: Clocked time is 02:47:07
+[13:33:01-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:33:01-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:33:02-04/28/23] Line 1059: Main Page
+[13:33:02-04/28/23] Line 1060: Getting current time and current day
+[13:33:03-04/28/23] Line 1066: Resizing the window
+[13:33:03-04/28/23] Line 1079: Checking if user is current clocked in
+[13:33:03-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:33:03-04/28/23] Line 1092: Getting the clocked time
+[13:33:03-04/28/23] Line 1096: Current time: 1900-01-01 13:33:03
+[13:33:03-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:33:03-04/28/23] Line 1108: Clocked time is 02:47:09
+[13:33:03-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:33:03-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:33:03-04/28/23] Line 1059: Main Page
+[13:33:03-04/28/23] Line 1060: Getting current time and current day
+[13:33:03-04/28/23] Line 1066: Resizing the window
+[13:33:03-04/28/23] Line 1079: Checking if user is current clocked in
+[13:33:03-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:33:03-04/28/23] Line 1092: Getting the clocked time
+[13:33:03-04/28/23] Line 1096: Current time: 1900-01-01 13:33:03
+[13:33:03-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:33:03-04/28/23] Line 1108: Clocked time is 02:47:09
+[13:33:03-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:33:03-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:33:06-04/28/23] Line 1059: Main Page
+[13:33:06-04/28/23] Line 1060: Getting current time and current day
+[13:33:07-04/28/23] Line 1066: Resizing the window
+[13:33:07-04/28/23] Line 1079: Checking if user is current clocked in
+[13:33:07-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:33:07-04/28/23] Line 1092: Getting the clocked time
+[13:33:07-04/28/23] Line 1096: Current time: 1900-01-01 13:33:07
+[13:33:07-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:33:07-04/28/23] Line 1108: Clocked time is 02:47:13
+[13:33:07-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:33:07-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:33:13-04/28/23] Line 819: Running settings page
+[13:33:13-04/28/23] Line 820: Destroying mainBox
+[13:33:14-04/28/23] Line 827: Checking if user has admin
+[13:33:14-04/28/23] Line 829: TRUE
+[13:33:14-04/28/23] Line 839: Loading hours page
+[13:33:15-04/28/23] Line 428: Running developmentPage function
+[13:33:15-04/28/23] Line 429: Setting page to 'development
+[13:33:15-04/28/23] Line 432: Returning to settingsPage
+[13:33:15-04/28/23] Line 819: Running settings page
+[13:33:15-04/28/23] Line 820: Destroying mainBox
+[13:33:15-04/28/23] Line 827: Checking if user has admin
+[13:33:15-04/28/23] Line 829: TRUE
+[13:33:15-04/28/23] Line 1021: Displaying development page
+[13:33:16-04/28/23] Line 420: Running accountPage function
+[13:33:16-04/28/23] Line 421: Setting page to 'accounts
+[13:33:16-04/28/23] Line 819: Running settings page
+[13:33:16-04/28/23] Line 820: Destroying mainBox
+[13:33:17-04/28/23] Line 827: Checking if user has admin
+[13:33:17-04/28/23] Line 829: TRUE
+[13:33:17-04/28/23] Line 949: Displaying accounts page
+[13:33:18-04/28/23] Line 667: Running staffSelection function
+[13:33:18-04/28/23] Line 668: Destroying adminBox
+[13:33:18-04/28/23] Line 670: Returning to settingsPage
+[13:33:18-04/28/23] Line 819: Running settings page
+[13:33:18-04/28/23] Line 820: Destroying mainBox
+[13:33:18-04/28/23] Line 827: Checking if user has admin
+[13:33:19-04/28/23] Line 829: TRUE
+[13:33:19-04/28/23] Line 949: Displaying accounts page
+[13:33:19-04/28/23] Line 971: Displaying account buttons
+[13:33:32-04/28/23] Line 437: Running mainPageBack function
+[13:33:32-04/28/23] Line 438: Destroing adminBox
+[13:33:32-04/28/23] Line 440: Returning to mainPage
+[13:33:32-04/28/23] Line 1059: Main Page
+[13:33:32-04/28/23] Line 1060: Getting current time and current day
+[13:33:33-04/28/23] Line 1066: Resizing the window
+[13:33:33-04/28/23] Line 1079: Checking if user is current clocked in
+[13:33:33-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:33:33-04/28/23] Line 1092: Getting the clocked time
+[13:33:33-04/28/23] Line 1096: Current time: 1900-01-01 13:33:33
+[13:33:33-04/28/23] Line 1100: Last clocked time: 02:45:40
+[13:33:33-04/28/23] Line 1108: Clocked time is 02:47:39
+[13:33:33-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:33:33-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:36:14-04/28/23] Line 343: Running clockOut function
+[13:36:14-04/28/23] Line 172: dayCheck Function
+[13:36:14-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:36:14-04/28/23] Line 186: Difference between last date and current date: 0
+[13:36:14-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:36:14-04/28/23] Line 209: Running updateCheck
+[13:36:14-04/28/23] Line 210: Getting version from GitHub
+[13:36:14-04/28/23] Line 212: GitHub version: 2.3.2
+
+[13:36:14-04/28/23] Line 214: Opening 'version.txt' file
+[13:36:14-04/28/23] Line 217: Installed version: 2.3.2
+
+[13:36:14-04/28/23] Line 220: Program up to date
+[13:36:14-04/28/23] Line 348: Getting current time and current dates
+[13:36:14-04/28/23] Line 353: Getting column data for the user
+[13:36:14-04/28/23] Line 356: Last clock in time: 13:31:34
+[13:36:14-04/28/23] Line 358: Clocked time: 02:50:12
+[13:36:14-04/28/23] Line 367: Total clocked time: 1900-01-01 02:54:52
+[13:36:14-04/28/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[13:36:14-04/28/23] Line 375: Updating sheet
+[13:36:15-04/28/23] Line 378: Destroing mainBox and returning to mainPage
+[13:36:15-04/28/23] Line 1059: Main Page
+[13:36:15-04/28/23] Line 1060: Getting current time and current day
+[13:36:15-04/28/23] Line 1066: Resizing the window
+[13:36:15-04/28/23] Line 1079: Checking if user is current clocked in
+[13:36:15-04/28/23] Line 1081: User is clocked out, displayed relevant info
+[13:36:15-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:36:15-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:36:28-04/28/23] Line 324: Running clockIn function
+[13:36:28-04/28/23] Line 172: dayCheck Function
+[13:36:28-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:36:28-04/28/23] Line 186: Difference between last date and current date: 0
+[13:36:28-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:36:28-04/28/23] Line 209: Running updateCheck
+[13:36:28-04/28/23] Line 210: Getting version from GitHub
+[13:36:28-04/28/23] Line 212: GitHub version: 2.3.2
+
+[13:36:28-04/28/23] Line 214: Opening 'version.txt' file
+[13:36:28-04/28/23] Line 217: Installed version: 2.3.2
+
+[13:36:28-04/28/23] Line 220: Program up to date
+[13:36:28-04/28/23] Line 329: Getting current time and current date
+[13:36:28-04/28/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[13:36:28-04/28/23] Line 337: Destroying mainBox and going back to mainPage
+[13:36:28-04/28/23] Line 1059: Main Page
+[13:36:28-04/28/23] Line 1060: Getting current time and current day
+[13:36:29-04/28/23] Line 1066: Resizing the window
+[13:36:29-04/28/23] Line 1079: Checking if user is current clocked in
+[13:36:29-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:36:29-04/28/23] Line 1092: Getting the clocked time
+[13:36:29-04/28/23] Line 1096: Current time: 1900-01-01 13:36:29
+[13:36:29-04/28/23] Line 1100: Last clocked time: 02:54:52
+[13:36:29-04/28/23] Line 1108: Clocked time is 02:54:53
+[13:36:29-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:36:29-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:36:44-04/28/23] Line 343: Running clockOut function
+[13:36:44-04/28/23] Line 172: dayCheck Function
+[13:36:44-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:36:45-04/28/23] Line 186: Difference between last date and current date: 0
+[13:36:45-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:36:45-04/28/23] Line 209: Running updateCheck
+[13:36:45-04/28/23] Line 210: Getting version from GitHub
+[13:36:45-04/28/23] Line 212: GitHub version: 2.3.2
+
+[13:36:45-04/28/23] Line 214: Opening 'version.txt' file
+[13:36:45-04/28/23] Line 217: Installed version: 2.3.2
+
+[13:36:45-04/28/23] Line 220: Program up to date
+[13:36:45-04/28/23] Line 348: Getting current time and current dates
+[13:36:45-04/28/23] Line 353: Getting column data for the user
+[13:36:45-04/28/23] Line 356: Last clock in time: 13:36:32
+[13:36:45-04/28/23] Line 358: Clocked time: 02:55:00
+[13:36:45-04/28/23] Line 367: Total clocked time: 1900-01-01 02:55:13
+[13:36:45-04/28/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[13:36:45-04/28/23] Line 375: Updating sheet
+[13:36:45-04/28/23] Line 378: Destroing mainBox and returning to mainPage
+[13:36:45-04/28/23] Line 1059: Main Page
+[13:36:45-04/28/23] Line 1060: Getting current time and current day
+[13:36:46-04/28/23] Line 1066: Resizing the window
+[13:36:46-04/28/23] Line 1079: Checking if user is current clocked in
+[13:36:46-04/28/23] Line 1081: User is clocked out, displayed relevant info
+[13:36:46-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:36:46-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:36:48-04/28/23] Line 324: Running clockIn function
+[13:36:48-04/28/23] Line 172: dayCheck Function
+[13:36:48-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:36:48-04/28/23] Line 186: Difference between last date and current date: 0
+[13:36:48-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:36:48-04/28/23] Line 209: Running updateCheck
+[13:36:48-04/28/23] Line 210: Getting version from GitHub
+[13:36:48-04/28/23] Line 212: GitHub version: 2.3.2
+
+[13:36:48-04/28/23] Line 214: Opening 'version.txt' file
+[13:36:48-04/28/23] Line 217: Installed version: 2.3.2
+
+[13:36:48-04/28/23] Line 220: Program up to date
+[13:36:48-04/28/23] Line 329: Getting current time and current date
+[13:36:48-04/28/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[13:36:48-04/28/23] Line 337: Destroying mainBox and going back to mainPage
+[13:36:48-04/28/23] Line 1059: Main Page
+[13:36:48-04/28/23] Line 1060: Getting current time and current day
+[13:36:49-04/28/23] Line 1066: Resizing the window
+[13:36:49-04/28/23] Line 1079: Checking if user is current clocked in
+[13:36:49-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:36:49-04/28/23] Line 1092: Getting the clocked time
+[13:36:49-04/28/23] Line 1096: Current time: 1900-01-01 13:36:49
+[13:36:49-04/28/23] Line 1100: Last clocked time: 02:55:13
+[13:36:49-04/28/23] Line 1108: Clocked time is 02:55:14
+[13:36:49-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:36:49-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:36:51-04/28/23] Line 1059: Main Page
+[13:36:51-04/28/23] Line 1060: Getting current time and current day
+[13:36:52-04/28/23] Line 1066: Resizing the window
+[13:36:52-04/28/23] Line 1079: Checking if user is current clocked in
+[13:36:52-04/28/23] Line 1088: User is clocked in, displayed relevant info
+[13:36:52-04/28/23] Line 1092: Getting the clocked time
+[13:36:52-04/28/23] Line 1096: Current time: 1900-01-01 13:36:52
+[13:36:52-04/28/23] Line 1100: Last clocked time: 02:55:13
+[13:36:52-04/28/23] Line 1108: Clocked time is 02:55:17
+[13:36:52-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:36:52-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:36:58-04/28/23] Line 343: Running clockOut function
+[13:36:58-04/28/23] Line 172: dayCheck Function
+[13:36:58-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[13:36:58-04/28/23] Line 186: Difference between last date and current date: 0
+[13:36:58-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:36:58-04/28/23] Line 209: Running updateCheck
+[13:36:58-04/28/23] Line 210: Getting version from GitHub
+[13:36:58-04/28/23] Line 212: GitHub version: 2.3.2
+
+[13:36:58-04/28/23] Line 214: Opening 'version.txt' file
+[13:36:58-04/28/23] Line 217: Installed version: 2.3.2
+
+[13:36:58-04/28/23] Line 220: Program up to date
+[13:36:58-04/28/23] Line 348: Getting current time and current dates
+[13:36:58-04/28/23] Line 353: Getting column data for the user
+[13:36:58-04/28/23] Line 356: Last clock in time: 13:36:55
+[13:36:58-04/28/23] Line 358: Clocked time: 02:55:13
+[13:36:58-04/28/23] Line 367: Total clocked time: 1900-01-01 02:55:16
+[13:36:58-04/28/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[13:36:58-04/28/23] Line 375: Updating sheet
+[13:36:59-04/28/23] Line 378: Destroing mainBox and returning to mainPage
+[13:36:59-04/28/23] Line 1059: Main Page
+[13:36:59-04/28/23] Line 1060: Getting current time and current day
+[13:36:59-04/28/23] Line 1066: Resizing the window
+[13:36:59-04/28/23] Line 1079: Checking if user is current clocked in
+[13:36:59-04/28/23] Line 1081: User is clocked out, displayed relevant info
+[13:36:59-04/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:36:59-04/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
