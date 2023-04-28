@@ -1111,7 +1111,7 @@ def mainPage(userPos):
         clockTime.place(x=20,y=90)
 
         refreshButton = ttk.Button(mainBox,style="refresh.TButton",command=lambda:refresh(mainBox,userPos))
-        refreshButton.place(x=290,y=95,height=22,width=22)
+        refreshButton.place(x=290,y=94,height=22,width=22)
 
         clockOutButton = ttk.Button(mainBox,text="Clock Out",style='clockOut.TButton',command=lambda:clockOut(userPos,mainBox))
         clockOutButton.place(height=48,relx=0.5,rely=0.6,anchor="center")
