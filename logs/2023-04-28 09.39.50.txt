@@ -1,0 +1,27 @@
+[2023-04-28 09.39.50] Running Program
+[09:39:52-04/28/23] Line 107: Opening Staff Hours sheet
+[09:39:53-04/28/23] Line 1131: Running TKinter
+[09:39:54-04/28/23] Line 1144: Loading Styles
+[09:39:54-04/28/23] Line 1210: Running dayCheck function
+[09:39:54-04/28/23] Line 171: dayCheck Function
+[09:39:54-04/28/23] Line 173: Current Date: Fri - 28/04/23
+[09:39:54-04/28/23] Line 185: Difference between last date and current date: 1
+[09:39:54-04/28/23] Line 187: Difference 1 is more than 1, filling in dates
+[09:39:54-04/28/23] Line 189: Adding black row
+[09:39:54-04/28/23] Line 191: Checking for end of month
+[09:39:54-04/28/23] Line 196: Checking for end of week
+[09:39:54-04/28/23] Line 201: All rows appended to values variable, adding to sheets
+[09:39:54-04/28/23] Line 202: Values: [['Fri - 28/04/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000']]
+[09:39:55-04/28/23] Line 204: Sheets all up to date, returning from dayCheck function
+[09:39:55-04/28/23] Line 1213: Opening 'options.txt' file
+[09:39:55-04/28/23] Line 1217: Stored info: ['True 6\n', '2023-04-28 09.39.50']
+[09:39:55-04/28/23] Line 1220: Getting line 1: ['True', '6']
+[09:39:55-04/28/23] Line 1222: Check if autoLogin is True
+[09:39:55-04/28/23] Line 1224: autoLogin is True, going straight to mainPage
+[09:39:55-04/28/23] Line 1053: Main Page
+[09:39:55-04/28/23] Line 1054: Getting current time and current day
+[09:39:55-04/28/23] Line 1060: Resizing the window
+[09:39:55-04/28/23] Line 1073: Checking if user is current clocked in
+[09:39:55-04/28/23] Line 1075: User is clocked out, displayed relevant info
+[09:39:55-04/28/23] Line 1113: Getting the usernames from allValues and removing any EMPTY
+[09:39:55-04/28/23] Line 1123: Checking that if the user is clocked in, it was from a different day
