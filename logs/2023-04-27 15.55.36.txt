@@ -1,0 +1,158 @@
+[2023-04-27 15.55.36] Running Program
+[15:55:36-04/27/23] Line 107: Opening Staff Hours sheet
+[15:55:37-04/27/23] Line 1131: Running TKinter
+[15:55:38-04/27/23] Line 1144: Loading Styles
+[15:55:38-04/27/23] Line 1210: Running dayCheck function
+[15:55:38-04/27/23] Line 171: dayCheck Function
+[15:55:38-04/27/23] Line 173: Current Date: Thu - 27/04/23
+[15:55:38-04/27/23] Line 185: Difference between last date and current date: 0
+[15:55:38-04/27/23] Line 204: Sheets all up to date, returning from dayCheck function
+[15:55:38-04/27/23] Line 1213: Opening 'options.txt' file
+[15:55:38-04/27/23] Line 1217: Stored info: ['True 6\n', '2023-04-27 15.55.36']
+[15:55:38-04/27/23] Line 1220: Getting line 1: ['True', '6']
+[15:55:38-04/27/23] Line 1222: Check if autoLogin is True
+[15:55:38-04/27/23] Line 1224: autoLogin is True, going straight to mainPage
+[15:55:38-04/27/23] Line 1053: Main Page
+[15:55:38-04/27/23] Line 1054: Getting current time and current day
+[15:55:38-04/27/23] Line 1060: Resizing the window
+[15:55:38-04/27/23] Line 1073: Checking if user is current clocked in
+[15:55:38-04/27/23] Line 1075: User is clocked out, displayed relevant info
+[15:55:38-04/27/23] Line 1113: Getting the usernames from allValues and removing any EMPTY
+[15:55:38-04/27/23] Line 1123: Checking that if the user is clocked in, it was from a different day
+[15:55:40-04/27/23] Line 818: Running settings page
+[15:55:40-04/27/23] Line 819: Destroying mainBox
+[15:55:40-04/27/23] Line 826: Checking if user has admin
+[15:55:40-04/27/23] Line 828: TRUE
+[15:55:40-04/27/23] Line 838: Loading hours page
+[15:55:44-04/27/23] Line 444: Running addUser function
+[15:55:44-04/27/23] Line 445: Removing Test from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[15:55:44-04/27/23] Line 447: Adding Test to []
+[15:55:44-04/27/23] Line 450: Returning to settingsPage
+[15:55:44-04/27/23] Line 818: Running settings page
+[15:55:44-04/27/23] Line 819: Destroying mainBox
+[15:55:44-04/27/23] Line 826: Checking if user has admin
+[15:55:45-04/27/23] Line 828: TRUE
+[15:55:45-04/27/23] Line 838: Loading hours page
+[15:55:45-04/27/23] Line 860: Displaying selected staff box
+[15:56:20-04/27/23] Line 466: Running searchHours function
+[15:56:20-04/27/23] Line 468: Checking if entered date is valid
+[15:56:20-04/27/23] Line 481: Date is valid
+[15:56:20-04/27/23] Line 491: Checking if year is valid
+[15:56:20-04/27/23] Line 493: Invalid year, displaying error popup message
+[15:56:38-04/27/23] Line 466: Running searchHours function
+[15:56:38-04/27/23] Line 468: Checking if entered date is valid
+[15:56:38-04/27/23] Line 481: Date is valid
+[15:56:38-04/27/23] Line 491: Checking if year is valid
+[15:56:38-04/27/23] Line 500: Getting the difference between the 2 dates
+[15:56:38-04/27/23] Line 504: Difference is: 458
+[15:56:38-04/27/23] Line 509: Getting all values from sheet
+[15:56:39-04/27/23] Line 514: Getting all positions where there is a Month or Week Total
+[15:56:39-04/27/23] Line 516: Skip positions: [12, 24, 32, 40, 43, 49, 57, 65, 73, 79, 82, 90, 98, 106, 112, 115, 123, 131, 139, 147, 149, 156, 164, 172, 180, 185, 189, 197, 205, 213, 221, 229, 237, 245, 253, 256, 262]
+[15:56:39-04/27/23] Line 518: Check if date 1: Sun - 05/06/22 is in date column
+[15:56:39-04/27/23] Line 523: Displaying error popup message
+[15:56:47-04/27/23] Line 466: Running searchHours function
+[15:56:47-04/27/23] Line 468: Checking if entered date is valid
+[15:56:47-04/27/23] Line 481: Date is valid
+[15:56:47-04/27/23] Line 491: Checking if year is valid
+[15:56:47-04/27/23] Line 500: Getting the difference between the 2 dates
+[15:56:47-04/27/23] Line 504: Difference is: 335
+[15:56:47-04/27/23] Line 509: Getting all values from sheet
+[15:56:47-04/27/23] Line 514: Getting all positions where there is a Month or Week Total
+[15:56:47-04/27/23] Line 516: Skip positions: [12, 24, 32, 40, 43, 49, 57, 65, 73, 79, 82, 90, 98, 106, 112, 115, 123, 131, 139, 147, 149, 156, 164, 172, 180, 185, 189, 197, 205, 213, 221, 229, 237, 245, 253, 256, 262]
+[15:56:47-04/27/23] Line 518: Check if date 1: Sun - 05/06/22 is in date column
+[15:56:47-04/27/23] Line 523: Displaying error popup message
+[15:57:01-04/27/23] Line 466: Running searchHours function
+[15:57:01-04/27/23] Line 468: Checking if entered date is valid
+[15:57:01-04/27/23] Line 481: Date is valid
+[15:57:01-04/27/23] Line 491: Checking if year is valid
+[15:57:01-04/27/23] Line 500: Getting the difference between the 2 dates
+[15:57:01-04/27/23] Line 504: Difference is: 355
+[15:57:01-04/27/23] Line 509: Getting all values from sheet
+[15:57:01-04/27/23] Line 514: Getting all positions where there is a Month or Week Total
+[15:57:01-04/27/23] Line 516: Skip positions: [12, 24, 32, 40, 43, 49, 57, 65, 73, 79, 82, 90, 98, 106, 112, 115, 123, 131, 139, 147, 149, 156, 164, 172, 180, 185, 189, 197, 205, 213, 221, 229, 237, 245, 253, 256, 262]
+[15:57:01-04/27/23] Line 518: Check if date 1: Thu - 14/04/22 is in date column
+[15:57:01-04/27/23] Line 523: Displaying error popup message
+[15:57:31-04/27/23] Line 466: Running searchHours function
+[15:57:31-04/27/23] Line 468: Checking if entered date is valid
+[15:57:31-04/27/23] Line 481: Date is valid
+[15:57:31-04/27/23] Line 491: Checking if year is valid
+[15:57:31-04/27/23] Line 500: Getting the difference between the 2 dates
+[15:57:31-04/27/23] Line 504: Difference is: 202
+[15:57:31-04/27/23] Line 509: Getting all values from sheet
+[15:57:31-04/27/23] Line 514: Getting all positions where there is a Month or Week Total
+[15:57:31-04/27/23] Line 516: Skip positions: [12, 24, 32, 40, 43, 49, 57, 65, 73, 79, 82, 90, 98, 106, 112, 115, 123, 131, 139, 147, 149, 156, 164, 172, 180, 185, 189, 197, 205, 213, 221, 229, 237, 245, 253, 256, 262]
+[15:57:31-04/27/23] Line 518: Check if date 1: Wed - 14/09/22 is in date column
+[15:57:31-04/27/23] Line 523: Displaying error popup message
+[15:57:37-04/27/23] Line 466: Running searchHours function
+[15:57:37-04/27/23] Line 468: Checking if entered date is valid
+[15:57:37-04/27/23] Line 481: Date is valid
+[15:57:37-04/27/23] Line 491: Checking if year is valid
+[15:57:37-04/27/23] Line 500: Getting the difference between the 2 dates
+[15:57:37-04/27/23] Line 504: Difference is: 172
+[15:57:37-04/27/23] Line 509: Getting all values from sheet
+[15:57:37-04/27/23] Line 514: Getting all positions where there is a Month or Week Total
+[15:57:37-04/27/23] Line 516: Skip positions: [12, 24, 32, 40, 43, 49, 57, 65, 73, 79, 82, 90, 98, 106, 112, 115, 123, 131, 139, 147, 149, 156, 164, 172, 180, 185, 189, 197, 205, 213, 221, 229, 237, 245, 253, 256, 262]
+[15:57:37-04/27/23] Line 518: Check if date 1: Fri - 14/10/22 is in date column
+[15:57:37-04/27/23] Line 521: TRUE at postion 240
+[15:57:37-04/27/23] Line 527: Check if date 2: Tue - 04/04/23 is in date column
+[15:57:37-04/27/23] Line 530: TRUE at postion 38
+[15:57:37-04/27/23] Line 541: Creating new window
+[15:57:37-04/27/23] Line 574: Getting hours for each user inside specified date range
+[15:57:37-04/27/23] Line 596: User: Test
+[15:57:37-04/27/23] Line 597: Total Min: 7561
+[15:57:37-04/27/23] Line 599: Total Hour: 126.01666666666667
+[15:57:37-04/27/23] Line 600: Total Fail: 15
+[15:57:37-04/27/23] Line 603: All Hours: 126.01666666666667
+[15:57:37-04/27/23] Line 605: Inserting user hours into text box
+[15:57:37-04/27/23] Line 609: Inserting total hours into text box
+[15:57:44-04/27/23] Line 444: Running addUser function
+[15:57:44-04/27/23] Line 445: Removing Aiden from ['Bruce', 'Emily', 'Gloria', 'Aiden']
+[15:57:44-04/27/23] Line 447: Adding Aiden to ['Test']
+[15:57:44-04/27/23] Line 450: Returning to settingsPage
+[15:57:44-04/27/23] Line 818: Running settings page
+[15:57:44-04/27/23] Line 819: Destroying mainBox
+[15:57:44-04/27/23] Line 826: Checking if user has admin
+[15:57:44-04/27/23] Line 828: TRUE
+[15:57:44-04/27/23] Line 838: Loading hours page
+[15:57:44-04/27/23] Line 860: Displaying selected staff box
+[15:57:46-04/27/23] Line 444: Running addUser function
+[15:57:46-04/27/23] Line 445: Removing Emily from ['Bruce', 'Emily', 'Gloria']
+[15:57:46-04/27/23] Line 447: Adding Emily to ['Test', 'Aiden']
+[15:57:46-04/27/23] Line 450: Returning to settingsPage
+[15:57:46-04/27/23] Line 818: Running settings page
+[15:57:46-04/27/23] Line 819: Destroying mainBox
+[15:57:46-04/27/23] Line 826: Checking if user has admin
+[15:57:46-04/27/23] Line 828: TRUE
+[15:57:46-04/27/23] Line 838: Loading hours page
+[15:57:46-04/27/23] Line 860: Displaying selected staff box
+[15:57:48-04/27/23] Line 444: Running addUser function
+[15:57:48-04/27/23] Line 445: Removing Gloria from ['Bruce', 'Gloria']
+[15:57:48-04/27/23] Line 447: Adding Gloria to ['Test', 'Aiden', 'Emily']
+[15:57:48-04/27/23] Line 450: Returning to settingsPage
+[15:57:48-04/27/23] Line 818: Running settings page
+[15:57:48-04/27/23] Line 819: Destroying mainBox
+[15:57:48-04/27/23] Line 826: Checking if user has admin
+[15:57:49-04/27/23] Line 828: TRUE
+[15:57:49-04/27/23] Line 838: Loading hours page
+[15:57:49-04/27/23] Line 860: Displaying selected staff box
+[15:57:50-04/27/23] Line 444: Running addUser function
+[15:57:50-04/27/23] Line 445: Removing Bruce from ['Bruce']
+[15:57:50-04/27/23] Line 447: Adding Bruce to ['Test', 'Aiden', 'Emily', 'Gloria']
+[15:57:50-04/27/23] Line 450: Returning to settingsPage
+[15:57:50-04/27/23] Line 818: Running settings page
+[15:57:50-04/27/23] Line 819: Destroying mainBox
+[15:57:50-04/27/23] Line 826: Checking if user has admin
+[15:57:51-04/27/23] Line 828: TRUE
+[15:57:51-04/27/23] Line 838: Loading hours page
+[15:57:51-04/27/23] Line 860: Displaying selected staff box
+[15:58:10-04/27/23] Line 466: Running searchHours function
+[15:58:10-04/27/23] Line 468: Checking if entered date is valid
+[15:58:10-04/27/23] Line 481: Date is valid
+[15:58:10-04/27/23] Line 491: Checking if year is valid
+[15:58:10-04/27/23] Line 500: Getting the difference between the 2 dates
+[15:58:10-04/27/23] Line 504: Difference is: 163
+[15:58:10-04/27/23] Line 509: Getting all values from sheet
+[15:58:10-04/27/23] Line 514: Getting all positions where there is a Month or Week Total
+[15:58:10-04/27/23] Line 516: Skip positions: [12, 24, 32, 40, 43, 49, 57, 65, 73, 79, 82, 90, 98, 106, 112, 115, 123, 131, 139, 147, 149, 156, 164, 172, 180, 185, 189, 197, 205, 213, 221, 229, 237, 245, 253, 256, 262]
+[15:58:10-04/27/23] Line 518: Check if date 1: Fri - 29/09/23 is in date column
+[15:58:10-04/27/23] Line 523: Displaying error popup message
