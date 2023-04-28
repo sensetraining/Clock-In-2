@@ -1,0 +1,17 @@
+[2023-04-21 11.42.24] Running Program
+[11:42:24-04/21/23] Line 79: Installing gspread oauth2client
+[11:42:43-04/21/23] Line 86: Installing gspread_formatting
+[11:42:49-04/21/23] Line 107: Opening Staff Hours sheet
+[11:42:50-04/21/23] Line 1131: Running TKinter
+[11:42:50-04/21/23] Line 1144: Loading Styles
+[11:42:50-04/21/23] Line 1210: Running dayCheck function
+[11:42:50-04/21/23] Line 171: dayCheck Function
+[11:42:50-04/21/23] Line 173: Current Date: Fri - 21/04/23
+[11:42:51-04/21/23] Line 185: Difference between last date and current date: 0
+[11:42:51-04/21/23] Line 204: Sheets all up to date, returning from dayCheck function
+[11:42:51-04/21/23] Line 1213: Opening 'options.txt' file
+[11:42:51-04/21/23] Line 1217: Stored info: ['False 6\n', '2023-04-21 11.42.24']
+[11:42:51-04/21/23] Line 1220: Getting line 1: ['False', '6']
+[11:42:51-04/21/23] Line 1222: Check if autoLogin is True
+[11:42:51-04/21/23] Line 1228: autoLogin is False, running loginPage
+[11:42:51-04/21/23] Line 383: Login Page
