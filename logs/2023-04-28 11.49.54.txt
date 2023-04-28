@@ -1,0 +1,128 @@
+[2023-04-28 11.49.54] Running Program
+[11:49:55-04/28/23] Line 108: Opening Staff Hours sheet
+[11:49:56-04/28/23] Line 1150: Running TKinter
+[11:49:56-04/28/23] Line 1163: Loading Styles
+[11:49:56-04/28/23] Line 1241: Running dayCheck function
+[11:49:56-04/28/23] Line 172: dayCheck Function
+[11:49:56-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[11:49:56-04/28/23] Line 186: Difference between last date and current date: 0
+[11:49:56-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[11:49:56-04/28/23] Line 1244: Opening 'options.txt' file
+[11:49:56-04/28/23] Line 1248: Stored info: ['True 6\n', '2023-04-28 11.49.54']
+[11:49:56-04/28/23] Line 1251: Getting line 1: ['True', '6']
+[11:49:56-04/28/23] Line 1253: Check if autoLogin is True
+[11:49:56-04/28/23] Line 1255: autoLogin is True, going straight to mainPage
+[11:49:56-04/28/23] Line 1069: Main Page
+[11:49:56-04/28/23] Line 1070: Getting current time and current day
+[11:49:56-04/28/23] Line 1076: Resizing the window
+[11:49:56-04/28/23] Line 1089: Checking if user is current clocked in
+[11:49:56-04/28/23] Line 1098: User is clocked in, displayed relevant info
+[11:49:56-04/28/23] Line 1102: Getting the clocked time
+[11:49:56-04/28/23] Line 1106: Current time: 1900-01-01 11:49:56
+[11:49:56-04/28/23] Line 1110: Last clocked time: 00:00:00
+[11:49:56-04/28/23] Line 1118: Clocked time is 01:04:05
+[11:49:56-04/28/23] Line 1132: Getting the usernames from allValues and removing any EMPTY
+[11:49:56-04/28/23] Line 1142: Checking that if the user is clocked in, it was from a different day
+[11:49:58-04/28/23] Line 829: Running settings page
+[11:49:58-04/28/23] Line 830: Destroying mainBox
+[11:49:58-04/28/23] Line 837: Checking if user has admin
+[11:49:58-04/28/23] Line 839: TRUE
+[11:49:58-04/28/23] Line 849: Loading hours page
+[11:50:00-04/28/23] Line 445: Running addUser function
+[11:50:00-04/28/23] Line 446: Removing Test from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[11:50:00-04/28/23] Line 448: Adding Test to []
+[11:50:00-04/28/23] Line 451: Returning to settingsPage
+[11:50:00-04/28/23] Line 829: Running settings page
+[11:50:00-04/28/23] Line 830: Destroying mainBox
+[11:50:01-04/28/23] Line 837: Checking if user has admin
+[11:50:01-04/28/23] Line 839: TRUE
+[11:50:01-04/28/23] Line 849: Loading hours page
+[11:50:01-04/28/23] Line 871: Displaying selected staff box
+[11:50:03-04/28/23] Line 445: Running addUser function
+[11:50:03-04/28/23] Line 446: Removing Aiden from ['Bruce', 'Emily', 'Gloria', 'Aiden']
+[11:50:03-04/28/23] Line 448: Adding Aiden to ['Test']
+[11:50:03-04/28/23] Line 451: Returning to settingsPage
+[11:50:03-04/28/23] Line 829: Running settings page
+[11:50:03-04/28/23] Line 830: Destroying mainBox
+[11:50:03-04/28/23] Line 837: Checking if user has admin
+[11:50:04-04/28/23] Line 839: TRUE
+[11:50:04-04/28/23] Line 849: Loading hours page
+[11:50:04-04/28/23] Line 871: Displaying selected staff box
+[11:50:05-04/28/23] Line 420: Running accountPage function
+[11:50:05-04/28/23] Line 421: Setting page to 'accounts
+[11:50:05-04/28/23] Line 829: Running settings page
+[11:50:05-04/28/23] Line 830: Destroying mainBox
+[11:50:05-04/28/23] Line 837: Checking if user has admin
+[11:50:05-04/28/23] Line 839: TRUE
+[11:50:05-04/28/23] Line 959: Displaying accounts page
+[11:50:06-04/28/23] Line 412: Running hoursPage function
+[11:50:06-04/28/23] Line 413: Setting page to 'hours
+[11:50:06-04/28/23] Line 829: Running settings page
+[11:50:06-04/28/23] Line 830: Destroying mainBox
+[11:50:06-04/28/23] Line 837: Checking if user has admin
+[11:50:06-04/28/23] Line 839: TRUE
+[11:50:06-04/28/23] Line 849: Loading hours page
+[11:50:06-04/28/23] Line 871: Displaying selected staff box
+[11:50:07-04/28/23] Line 428: Running developmentPage function
+[11:50:07-04/28/23] Line 429: Setting page to 'development
+[11:50:07-04/28/23] Line 432: Returning to settingsPage
+[11:50:07-04/28/23] Line 829: Running settings page
+[11:50:07-04/28/23] Line 830: Destroying mainBox
+[11:50:07-04/28/23] Line 837: Checking if user has admin
+[11:50:08-04/28/23] Line 839: TRUE
+[11:50:08-04/28/23] Line 1031: Displaying development page
+[11:50:08-04/28/23] Line 420: Running accountPage function
+[11:50:08-04/28/23] Line 421: Setting page to 'accounts
+[11:50:08-04/28/23] Line 829: Running settings page
+[11:50:08-04/28/23] Line 830: Destroying mainBox
+[11:50:08-04/28/23] Line 837: Checking if user has admin
+[11:50:08-04/28/23] Line 839: TRUE
+[11:50:08-04/28/23] Line 959: Displaying accounts page
+[11:50:10-04/28/23] Line 672: Running staffSelection function
+[11:50:10-04/28/23] Line 673: Destroying adminBox
+[11:50:10-04/28/23] Line 675: Returning to settingsPage
+[11:50:10-04/28/23] Line 829: Running settings page
+[11:50:10-04/28/23] Line 830: Destroying mainBox
+[11:50:11-04/28/23] Line 837: Checking if user has admin
+[11:50:11-04/28/23] Line 839: TRUE
+[11:50:11-04/28/23] Line 959: Displaying accounts page
+[11:50:11-04/28/23] Line 981: Displaying account buttons
+[11:50:12-04/28/23] Line 412: Running hoursPage function
+[11:50:12-04/28/23] Line 413: Setting page to 'hours
+[11:50:12-04/28/23] Line 829: Running settings page
+[11:50:12-04/28/23] Line 830: Destroying mainBox
+[11:50:13-04/28/23] Line 837: Checking if user has admin
+[11:50:13-04/28/23] Line 839: TRUE
+[11:50:13-04/28/23] Line 849: Loading hours page
+[11:50:13-04/28/23] Line 871: Displaying selected staff box
+[11:50:16-04/28/23] Line 420: Running accountPage function
+[11:50:16-04/28/23] Line 421: Setting page to 'accounts
+[11:50:16-04/28/23] Line 829: Running settings page
+[11:50:16-04/28/23] Line 830: Destroying mainBox
+[11:50:17-04/28/23] Line 837: Checking if user has admin
+[11:50:17-04/28/23] Line 839: TRUE
+[11:50:17-04/28/23] Line 959: Displaying accounts page
+[11:50:20-04/28/23] Line 672: Running staffSelection function
+[11:50:20-04/28/23] Line 673: Destroying adminBox
+[11:50:20-04/28/23] Line 675: Returning to settingsPage
+[11:50:20-04/28/23] Line 829: Running settings page
+[11:50:20-04/28/23] Line 830: Destroying mainBox
+[11:50:20-04/28/23] Line 837: Checking if user has admin
+[11:50:20-04/28/23] Line 839: TRUE
+[11:50:20-04/28/23] Line 959: Displaying accounts page
+[11:50:20-04/28/23] Line 981: Displaying account buttons
+[11:50:26-04/28/23] Line 412: Running hoursPage function
+[11:50:26-04/28/23] Line 413: Setting page to 'hours
+[11:50:26-04/28/23] Line 829: Running settings page
+[11:50:26-04/28/23] Line 830: Destroying mainBox
+[11:50:26-04/28/23] Line 837: Checking if user has admin
+[11:50:27-04/28/23] Line 839: TRUE
+[11:50:27-04/28/23] Line 849: Loading hours page
+[11:50:27-04/28/23] Line 871: Displaying selected staff box
+[11:50:28-04/28/23] Line 420: Running accountPage function
+[11:50:28-04/28/23] Line 421: Setting page to 'accounts
+[11:50:28-04/28/23] Line 829: Running settings page
+[11:50:28-04/28/23] Line 830: Destroying mainBox
+[11:50:28-04/28/23] Line 837: Checking if user has admin
+[11:50:28-04/28/23] Line 839: TRUE
+[11:50:28-04/28/23] Line 959: Displaying accounts page
