@@ -1,0 +1,60 @@
+[2023-04-28 11.43.59] Running Program
+[11:43:59-04/28/23] Line 108: Opening Staff Hours sheet
+[11:44:00-04/28/23] Line 1146: Running TKinter
+[11:44:00-04/28/23] Line 1159: Loading Styles
+[11:44:00-04/28/23] Line 1237: Running dayCheck function
+[11:44:00-04/28/23] Line 172: dayCheck Function
+[11:44:00-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[11:44:01-04/28/23] Line 186: Difference between last date and current date: 0
+[11:44:01-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[11:44:01-04/28/23] Line 1240: Opening 'options.txt' file
+[11:44:01-04/28/23] Line 1244: Stored info: ['True 6\n', '2023-04-28 11.43.59']
+[11:44:01-04/28/23] Line 1247: Getting line 1: ['True', '6']
+[11:44:01-04/28/23] Line 1249: Check if autoLogin is True
+[11:44:01-04/28/23] Line 1251: autoLogin is True, going straight to mainPage
+[11:44:01-04/28/23] Line 1065: Main Page
+[11:44:01-04/28/23] Line 1066: Getting current time and current day
+[11:44:01-04/28/23] Line 1072: Resizing the window
+[11:44:01-04/28/23] Line 1085: Checking if user is current clocked in
+[11:44:01-04/28/23] Line 1094: User is clocked in, displayed relevant info
+[11:44:01-04/28/23] Line 1098: Getting the clocked time
+[11:44:01-04/28/23] Line 1102: Current time: 1900-01-01 11:44:01
+[11:44:01-04/28/23] Line 1106: Last clocked time: 00:00:00
+[11:44:01-04/28/23] Line 1114: Clocked time is 00:58:10
+[11:44:01-04/28/23] Line 1128: Getting the usernames from allValues and removing any EMPTY
+[11:44:01-04/28/23] Line 1138: Checking that if the user is clocked in, it was from a different day
+[11:44:03-04/28/23] Line 825: Running settings page
+[11:44:03-04/28/23] Line 826: Destroying mainBox
+[11:44:03-04/28/23] Line 833: Checking if user has admin
+[11:44:03-04/28/23] Line 835: TRUE
+[11:44:03-04/28/23] Line 845: Loading hours page
+[11:44:05-04/28/23] Line 420: Running accountPage function
+[11:44:05-04/28/23] Line 421: Setting page to 'accounts
+[11:44:05-04/28/23] Line 825: Running settings page
+[11:44:05-04/28/23] Line 826: Destroying mainBox
+[11:44:05-04/28/23] Line 833: Checking if user has admin
+[11:44:05-04/28/23] Line 835: TRUE
+[11:44:05-04/28/23] Line 955: Displaying accounts page
+[11:44:18-04/28/23] Line 746: Running addAccount function
+[11:44:18-04/28/23] Line 752: Finding a free position
+[11:44:18-04/28/23] Line 755: Adding new user details to sheet
+[11:44:19-04/28/23] Line 761: Displaying popup message
+[11:44:23-04/28/23] Line 764: Returning to settings page
+[11:44:23-04/28/23] Line 825: Running settings page
+[11:44:23-04/28/23] Line 826: Destroying mainBox
+[11:44:23-04/28/23] Line 833: Checking if user has admin
+[11:44:23-04/28/23] Line 835: TRUE
+[11:44:23-04/28/23] Line 955: Displaying accounts page
+[11:44:23-04/28/23] Line 977: Displaying account buttons
+[11:44:26-04/28/23] Line 684: Runnning editUser page
+[11:44:26-04/28/23] Line 687: Getting column of user from sheet
+[11:44:32-04/28/23] Line 729: Running userUpdate function
+[11:44:32-04/28/23] Line 737: Updating sheets with entered username and pass
+[11:44:32-04/28/23] Line 739: Displaying popup message
+[11:44:34-04/28/23] Line 741: Returning to settingsPage
+[11:44:34-04/28/23] Line 825: Running settings page
+[11:44:34-04/28/23] Line 826: Destroying mainBox
+[11:44:34-04/28/23] Line 833: Checking if user has admin
+[11:44:34-04/28/23] Line 835: TRUE
+[11:44:34-04/28/23] Line 955: Displaying accounts page
+[11:44:34-04/28/23] Line 977: Displaying account buttons
