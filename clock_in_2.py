@@ -660,7 +660,7 @@ def deleteUser(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
         response = tkm.showinfo("User Added", f"{staff} has been removed")
     adminBox.destroy()
     lineNum("Returning to settingsPage")
-    settingsPage(userPos,mainBox,page,usernames,selectedUsers)
+    settingsPage(userPos,mainBox,page,usernames,selectedUsers,staff)
     return
 
 def staffSelection(userPos,mainBox,page,usernames,selectedUsers,adminBox,staff):
