@@ -4,6 +4,7 @@ import os
 import sys
 import time
 import logging
+import urllib
 import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox as tkm
@@ -1049,6 +1050,11 @@ def settingsPage(userPos,mainBox,page,usernames,selectedUsers,selectedStaff="Acc
     settingsButton.place(width=48,height=48,relx=0.9,rely=.85,anchor="center")
     return
 
+def refresh(mainBox,userPos):
+    mainBox.destroy()
+    mainPage(userPos)
+    return
+
 def mainPage(userPos):
     lineNum("Main Page")
     lineNum("Getting current time and current day")
@@ -1104,6 +1110,9 @@ def mainPage(userPos):
         clockTime = ttk.Label(mainBox,text=f"Clocked Time: {timeDiff}",style="label.TLabel")
         clockTime.place(x=20,y=90)
 
+        refreshButton = ttk.Button(mainBox,style="refresh.TButton",command=lambda:refresh(mainBox,userPos))
+        refreshButton.place(x=290,y=95,height=22,width=22)
+
         clockOutButton = ttk.Button(mainBox,text="Clock Out",style='clockOut.TButton',command=lambda:clockOut(userPos,mainBox))
         clockOutButton.place(height=48,relx=0.5,rely=0.6,anchor="center")
 
@@ -1144,6 +1153,13 @@ root.geometry("+{}+{}".format(x_cordinate, y_cordinate-20))
 lineNum(f"Loading Styles")
 CheckVar = tk.IntVar(value=0)
 settingsIcon = tk.PhotoImage(file="setting_icon.png")
+try:   
+    refreshIcon = tk.PhotoImage(file="refresh_icon.png")
+except:
+    lineNum(f"Image not found, downloading from github")
+    img = "https://raw.githubusercontent.com/sensetraining/Clock-In-2/main/refresh_icon.png"
+    urllib.request.urlretrieve(img, "refresh_icon.png")
+    refreshIcon = tk.PhotoImage(file="refresh_icon.png")
 style = ttk.Style()
 style.theme_use('default')
 style.configure("blueBox.TLabel", relief="solid", background="#113f8c")
@@ -1182,6 +1198,7 @@ style.map("setting.TButton",
     background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
     relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
 style.configure('setting.TButton', background="white", image=settingsIcon)
+
 style.map("tabFlat.TButton",
     background=[('pressed', '#1651b5'), ('active', '#1651b5'), ('!active', '#0e3373')],
     foreground=[('pressed', '#e6e6e6'), ('active', '#e6e6e6'), ('!active', '#878787')],
@@ -1206,6 +1223,10 @@ style.map("removeBtn.TButton",
 style.configure('removeBtn.TButton', background="white",font=("Helvetica", 32, "bold"),padding=(0, -10, 0, 0))
 style.configure('TCombobox',background="#e0eef9",arrowsize=15, relief="flat", font=('Helvetica', 14))
 style.configure('TScrollbar', background = "white",troughcolor ="white")
+style.map("refresh.TButton",
+    background=[('pressed', '#cce4f7'), ('active', '#e0eef9'), ('!active', '#FFFFFF')],
+    relief=[('pressed', 'flat'), ('active', 'flat'),('!active','flat')],)
+style.configure('refresh.TButton', background="white", image=refreshIcon,padding=(-3,-3, 0, 0))
 
 lineNum("Running dayCheck function")
 dayCheck()
