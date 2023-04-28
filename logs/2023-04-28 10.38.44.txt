@@ -1,0 +1,25 @@
+[2023-04-28 10.38.44] Running Program
+[10:38:45-04/28/23] Line 108: Opening Staff Hours sheet
+[10:38:46-04/28/23] Line 1135: Running TKinter
+[10:38:46-04/28/23] Line 1148: Loading Styles
+[10:38:46-04/28/23] Line 1227: Running dayCheck function
+[10:38:46-04/28/23] Line 172: dayCheck Function
+[10:38:46-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[10:38:47-04/28/23] Line 186: Difference between last date and current date: 0
+[10:38:47-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[10:38:47-04/28/23] Line 1230: Opening 'options.txt' file
+[10:38:47-04/28/23] Line 1234: Stored info: ['True 6\n', '2023-04-28 10.38.44']
+[10:38:47-04/28/23] Line 1237: Getting line 1: ['True', '6']
+[10:38:47-04/28/23] Line 1239: Check if autoLogin is True
+[10:38:47-04/28/23] Line 1241: autoLogin is True, going straight to mainPage
+[10:38:47-04/28/23] Line 1054: Main Page
+[10:38:47-04/28/23] Line 1055: Getting current time and current day
+[10:38:47-04/28/23] Line 1061: Resizing the window
+[10:38:47-04/28/23] Line 1074: Checking if user is current clocked in
+[10:38:47-04/28/23] Line 1083: User is clocked in, displayed relevant info
+[10:38:47-04/28/23] Line 1087: Getting the clocked time
+[10:38:47-04/28/23] Line 1091: Current time: 1900-01-01 10:38:47
+[10:38:47-04/28/23] Line 1095: Last clocked time: 00:00:00
+[10:38:47-04/28/23] Line 1103: Clocked time is 00:20:58
+[10:38:47-04/28/23] Line 1117: Getting the usernames from allValues and removing any EMPTY
+[10:38:47-04/28/23] Line 1127: Checking that if the user is clocked in, it was from a different day
