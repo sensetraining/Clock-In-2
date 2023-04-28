@@ -1,0 +1,47 @@
+[2023-04-28 10.42.46] Running Program
+[10:42:47-04/28/23] Line 108: Opening Staff Hours sheet
+[10:42:48-04/28/23] Line 1141: Running TKinter
+[10:42:48-04/28/23] Line 1154: Loading Styles
+[10:42:48-04/28/23] Line 1232: Running dayCheck function
+[10:42:48-04/28/23] Line 172: dayCheck Function
+[10:42:48-04/28/23] Line 174: Current Date: Fri - 28/04/23
+[10:42:48-04/28/23] Line 186: Difference between last date and current date: 0
+[10:42:48-04/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[10:42:48-04/28/23] Line 1235: Opening 'options.txt' file
+[10:42:48-04/28/23] Line 1239: Stored info: ['True 6\n', '2023-04-28 10.42.46']
+[10:42:49-04/28/23] Line 1242: Getting line 1: ['True', '6']
+[10:42:49-04/28/23] Line 1244: Check if autoLogin is True
+[10:42:49-04/28/23] Line 1246: autoLogin is True, going straight to mainPage
+[10:42:49-04/28/23] Line 1060: Main Page
+[10:42:49-04/28/23] Line 1061: Getting current time and current day
+[10:42:49-04/28/23] Line 1067: Resizing the window
+[10:42:49-04/28/23] Line 1080: Checking if user is current clocked in
+[10:42:49-04/28/23] Line 1089: User is clocked in, displayed relevant info
+[10:42:49-04/28/23] Line 1093: Getting the clocked time
+[10:42:49-04/28/23] Line 1097: Current time: 1900-01-01 10:42:49
+[10:42:49-04/28/23] Line 1101: Last clocked time: 00:00:00
+[10:42:49-04/28/23] Line 1109: Clocked time is 00:25:00
+[10:42:49-04/28/23] Line 1123: Getting the usernames from allValues and removing any EMPTY
+[10:42:49-04/28/23] Line 1133: Checking that if the user is clocked in, it was from a different day
+[10:42:50-04/28/23] Line 1060: Main Page
+[10:42:50-04/28/23] Line 1061: Getting current time and current day
+[10:42:50-04/28/23] Line 1067: Resizing the window
+[10:42:50-04/28/23] Line 1080: Checking if user is current clocked in
+[10:42:50-04/28/23] Line 1089: User is clocked in, displayed relevant info
+[10:42:50-04/28/23] Line 1093: Getting the clocked time
+[10:42:50-04/28/23] Line 1097: Current time: 1900-01-01 10:42:50
+[10:42:50-04/28/23] Line 1101: Last clocked time: 00:00:00
+[10:42:50-04/28/23] Line 1109: Clocked time is 00:25:01
+[10:42:50-04/28/23] Line 1123: Getting the usernames from allValues and removing any EMPTY
+[10:42:50-04/28/23] Line 1133: Checking that if the user is clocked in, it was from a different day
+[10:42:52-04/28/23] Line 1060: Main Page
+[10:42:52-04/28/23] Line 1061: Getting current time and current day
+[10:42:52-04/28/23] Line 1067: Resizing the window
+[10:42:52-04/28/23] Line 1080: Checking if user is current clocked in
+[10:42:52-04/28/23] Line 1089: User is clocked in, displayed relevant info
+[10:42:52-04/28/23] Line 1093: Getting the clocked time
+[10:42:52-04/28/23] Line 1097: Current time: 1900-01-01 10:42:52
+[10:42:52-04/28/23] Line 1101: Last clocked time: 00:00:00
+[10:42:52-04/28/23] Line 1109: Clocked time is 00:25:03
+[10:42:52-04/28/23] Line 1123: Getting the usernames from allValues and removing any EMPTY
+[10:42:52-04/28/23] Line 1133: Checking that if the user is clocked in, it was from a different day
