@@ -1,0 +1,38 @@
+[2023-04-28 10.23.46] Running Program
+[10:23:46-04/28/23] Line 107: Opening Staff Hours sheet
+[10:23:47-04/28/23] Line 1134: Running TKinter
+[10:23:48-04/28/23] Line 1147: Loading Styles
+[10:23:48-04/28/23] Line 1213: Running dayCheck function
+[10:23:48-04/28/23] Line 171: dayCheck Function
+[10:23:48-04/28/23] Line 173: Current Date: Fri - 28/04/23
+[10:23:48-04/28/23] Line 185: Difference between last date and current date: 0
+[10:23:48-04/28/23] Line 204: Sheets all up to date, returning from dayCheck function
+[10:23:48-04/28/23] Line 1216: Opening 'options.txt' file
+[10:23:48-04/28/23] Line 1220: Stored info: ['False 6\n', '2023-04-28 10.23.46']
+[10:23:48-04/28/23] Line 1223: Getting line 1: ['False', '6']
+[10:23:48-04/28/23] Line 1225: Check if autoLogin is True
+[10:23:48-04/28/23] Line 1231: autoLogin is False, running loginPage
+[10:23:48-04/28/23] Line 383: Login Page
+[10:23:53-04/28/23] Line 229: Login button presses, attempting login
+[10:23:53-04/28/23] Line 230: Getting all values from sheets
+[10:23:54-04/28/23] Line 233: Checking for entered username: Test in the sheets
+[10:23:54-04/28/23] Line 236: Username is valid at position 6
+[10:23:54-04/28/23] Line 242: Checking if entered password matches password on sheets
+[10:23:54-04/28/23] Line 248: Passwords match
+[10:23:54-04/28/23] Line 250: Checking is Remember me? button was checked
+[10:23:54-04/28/23] Line 255: Button not checked setting remember to false
+[10:23:54-04/28/23] Line 258: Opening 'options.txt' file
+[10:23:54-04/28/23] Line 262: Setting the remmeber and userPos variables
+[10:23:54-04/28/23] Line 267: Closing file
+[10:23:54-04/28/23] Line 269: Destroying loginPage and running mainPage
+[10:23:54-04/28/23] Line 1053: Main Page
+[10:23:54-04/28/23] Line 1054: Getting current time and current day
+[10:23:54-04/28/23] Line 1060: Resizing the window
+[10:23:54-04/28/23] Line 1073: Checking if user is current clocked in
+[10:23:54-04/28/23] Line 1082: User is clocked in, displayed relevant info
+[10:23:54-04/28/23] Line 1086: Getting the clocked time
+[10:23:54-04/28/23] Line 1090: Current time: 1900-01-01 10:23:54
+[10:23:54-04/28/23] Line 1094: Last clocked time: 00:00:00
+[10:23:54-04/28/23] Line 1102: Clocked time is 00:06:05
+[10:23:54-04/28/23] Line 1116: Getting the usernames from allValues and removing any EMPTY
+[10:23:54-04/28/23] Line 1126: Checking that if the user is clocked in, it was from a different day
