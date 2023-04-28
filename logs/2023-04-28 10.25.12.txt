@@ -1,0 +1,52 @@
+[2023-04-28 10.25.12] Running Program
+[10:25:12-04/28/23] Line 107: Opening Staff Hours sheet
+[10:25:13-04/28/23] Line 1134: Running TKinter
+[10:25:14-04/28/23] Line 1147: Loading Styles
+[10:25:14-04/28/23] Line 1214: Running dayCheck function
+[10:25:14-04/28/23] Line 171: dayCheck Function
+[10:25:14-04/28/23] Line 173: Current Date: Fri - 28/04/23
+[10:25:14-04/28/23] Line 185: Difference between last date and current date: 0
+[10:25:14-04/28/23] Line 204: Sheets all up to date, returning from dayCheck function
+[10:25:14-04/28/23] Line 1217: Opening 'options.txt' file
+[10:25:14-04/28/23] Line 1221: Stored info: ['False 6\n', '2023-04-28 10.25.12']
+[10:25:14-04/28/23] Line 1224: Getting line 1: ['False', '6']
+[10:25:14-04/28/23] Line 1226: Check if autoLogin is True
+[10:25:14-04/28/23] Line 1232: autoLogin is False, running loginPage
+[10:25:14-04/28/23] Line 383: Login Page
+[10:25:18-04/28/23] Line 229: Login button presses, attempting login
+[10:25:18-04/28/23] Line 230: Getting all values from sheets
+[10:25:19-04/28/23] Line 233: Checking for entered username: Test in the sheets
+[10:25:19-04/28/23] Line 236: Username is valid at position 6
+[10:25:19-04/28/23] Line 242: Checking if entered password matches password on sheets
+[10:25:19-04/28/23] Line 248: Passwords match
+[10:25:19-04/28/23] Line 250: Checking is Remember me? button was checked
+[10:25:19-04/28/23] Line 252: Button was checked setting remember to True
+[10:25:19-04/28/23] Line 258: Opening 'options.txt' file
+[10:25:19-04/28/23] Line 262: Setting the remmeber and userPos variables
+[10:25:19-04/28/23] Line 267: Closing file
+[10:25:19-04/28/23] Line 269: Destroying loginPage and running mainPage
+[10:25:19-04/28/23] Line 1053: Main Page
+[10:25:19-04/28/23] Line 1054: Getting current time and current day
+[10:25:19-04/28/23] Line 1060: Resizing the window
+[10:25:19-04/28/23] Line 1073: Checking if user is current clocked in
+[10:25:19-04/28/23] Line 1082: User is clocked in, displayed relevant info
+[10:25:19-04/28/23] Line 1086: Getting the clocked time
+[10:25:19-04/28/23] Line 1090: Current time: 1900-01-01 10:25:19
+[10:25:19-04/28/23] Line 1094: Last clocked time: 00:00:00
+[10:25:19-04/28/23] Line 1102: Clocked time is 00:07:30
+[10:25:19-04/28/23] Line 1116: Getting the usernames from allValues and removing any EMPTY
+[10:25:19-04/28/23] Line 1126: Checking that if the user is clocked in, it was from a different day
+[10:25:24-04/28/23] Line 342: Running clockOut function
+[10:25:24-04/28/23] Line 171: dayCheck Function
+[10:25:24-04/28/23] Line 173: Current Date: Fri - 28/04/23
+[10:25:24-04/28/23] Line 185: Difference between last date and current date: 0
+[10:25:24-04/28/23] Line 204: Sheets all up to date, returning from dayCheck function
+[10:25:24-04/28/23] Line 208: Running updateCheck
+[10:25:24-04/28/23] Line 209: Getting version from GitHub
+[10:25:24-04/28/23] Line 211: GitHub version: 2.2.2
+
+[10:25:24-04/28/23] Line 213: Opening 'version.txt' file
+[10:25:24-04/28/23] Line 216: Installed version: 2.1.6
+
+[10:25:24-04/28/23] Line 223: Update is available, displaying message
+[10:25:29-04/28/23] Line 225: Closing application
