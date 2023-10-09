@@ -1,0 +1,59 @@
+[2023-10-09 13.16.50] Running Program
+[13:16:51-10/09/23] Line 108: Opening Staff Hours sheet
+[13:16:52-10/09/23] Line 1146: Running TKinter
+[13:16:52-10/09/23] Line 1159: Loading Styles
+[13:16:53-10/09/23] Line 1237: Running dayCheck function
+[13:16:53-10/09/23] Line 172: dayCheck Function
+[13:16:53-10/09/23] Line 174: Current Date: Mon - 09/10/23
+[13:16:53-10/09/23] Line 186: Difference between last date and current date: 0
+[13:16:53-10/09/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:16:53-10/09/23] Line 1240: Stored info: ['True 6\n', '2023-10-09 13.16.50']
+[13:16:53-10/09/23] Line 1243: Getting line 1: ['True', '6']
+[13:16:53-10/09/23] Line 1245: Check if autoLogin is True
+[13:16:53-10/09/23] Line 1247: autoLogin is True, going straight to mainPage
+[13:16:53-10/09/23] Line 1064: Main Page
+[13:16:53-10/09/23] Line 1065: Getting current time and current day
+[13:16:53-10/09/23] Line 1071: Resizing the window
+[13:16:53-10/09/23] Line 1084: Checking if user is current clocked in
+[13:16:53-10/09/23] Line 1086: User is clocked out, displayed relevant info
+[13:16:53-10/09/23] Line 1127: Getting the usernames from allValues and removing any EMPTY
+[13:16:53-10/09/23] Line 1137: Checking that if the user is clocked in, it was from a different day
+[13:16:53-10/09/23] Line 1141: False
+[13:17:05-10/09/23] Line 823: Running settings page
+[13:17:05-10/09/23] Line 824: Destroying mainBox
+[13:17:06-10/09/23] Line 831: Checking if user has admin
+[13:17:06-10/09/23] Line 833: TRUE
+[13:17:06-10/09/23] Line 843: Loading hours page
+[13:17:08-10/09/23] Line 414: Running accountPage function
+[13:17:08-10/09/23] Line 415: Setting page to 'accounts
+[13:17:08-10/09/23] Line 823: Running settings page
+[13:17:08-10/09/23] Line 824: Destroying mainBox
+[13:17:08-10/09/23] Line 831: Checking if user has admin
+[13:17:08-10/09/23] Line 833: TRUE
+[13:17:08-10/09/23] Line 953: Displaying accounts page
+[13:17:09-10/09/23] Line 422: Running developmentPage function
+[13:17:09-10/09/23] Line 423: Setting page to 'development
+[13:17:09-10/09/23] Line 426: Returning to settingsPage
+[13:17:09-10/09/23] Line 823: Running settings page
+[13:17:09-10/09/23] Line 824: Destroying mainBox
+[13:17:09-10/09/23] Line 831: Checking if user has admin
+[13:17:10-10/09/23] Line 833: TRUE
+[13:17:10-10/09/23] Line 1026: Displaying development page
+[13:17:11-10/09/23] Line 406: Running hoursPage function
+[13:17:11-10/09/23] Line 407: Setting page to 'hours
+[13:17:11-10/09/23] Line 823: Running settings page
+[13:17:11-10/09/23] Line 824: Destroying mainBox
+[13:17:11-10/09/23] Line 831: Checking if user has admin
+[13:17:11-10/09/23] Line 833: TRUE
+[13:17:11-10/09/23] Line 843: Loading hours page
+[13:17:14-10/09/23] Line 431: Running mainPageBack function
+[13:17:14-10/09/23] Line 432: Destroing adminBox
+[13:17:14-10/09/23] Line 434: Returning to mainPage
+[13:17:14-10/09/23] Line 1064: Main Page
+[13:17:14-10/09/23] Line 1065: Getting current time and current day
+[13:17:15-10/09/23] Line 1071: Resizing the window
+[13:17:15-10/09/23] Line 1084: Checking if user is current clocked in
+[13:17:15-10/09/23] Line 1086: User is clocked out, displayed relevant info
+[13:17:15-10/09/23] Line 1127: Getting the usernames from allValues and removing any EMPTY
+[13:17:15-10/09/23] Line 1137: Checking that if the user is clocked in, it was from a different day
+[13:17:15-10/09/23] Line 1141: False
