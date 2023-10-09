@@ -1,0 +1,804 @@
+[2023-07-12 16.04.57] Running Program
+[16:05:04-07/12/23] Line 108: Opening Staff Hours sheet
+[16:05:08-07/12/23] Line 1140: Running TKinter
+[16:05:08-07/12/23] Line 1153: Loading Styles
+[16:05:08-07/12/23] Line 1231: Running dayCheck function
+[16:05:08-07/12/23] Line 172: dayCheck Function
+[16:05:08-07/12/23] Line 174: Current Date: Wed - 12/07/23
+[16:05:09-07/12/23] Line 186: Difference between last date and current date: 2
+[16:05:09-07/12/23] Line 188: Difference 2 is more than 1, filling in dates
+[16:05:09-07/12/23] Line 190: Adding black row
+[16:05:09-07/12/23] Line 192: Checking for end of month
+[16:05:09-07/12/23] Line 197: Checking for end of week
+[16:05:09-07/12/23] Line 190: Adding black row
+[16:05:09-07/12/23] Line 192: Checking for end of month
+[16:05:09-07/12/23] Line 197: Checking for end of week
+[16:05:09-07/12/23] Line 202: All rows appended to values variable, adding to sheets
+[16:05:09-07/12/23] Line 203: Values: [['Wed - 12/07/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000'], ['Tue - 11/07/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000']]
+[16:05:14-07/12/23] Line 205: Sheets all up to date, returning from dayCheck function
+[16:05:14-07/12/23] Line 1234: Opening 'options.txt' file
+[16:05:14-07/12/23] Line 1238: Stored info: ['True 2\n', '2023-07-12 16.04.57']
+[16:05:14-07/12/23] Line 1241: Getting line 1: ['True', '2']
+[16:05:14-07/12/23] Line 1243: Check if autoLogin is True
+[16:05:14-07/12/23] Line 1245: autoLogin is True, going straight to mainPage
+[16:05:14-07/12/23] Line 1059: Main Page
+[16:05:14-07/12/23] Line 1060: Getting current time and current day
+[16:05:16-07/12/23] Line 1066: Resizing the window
+[16:05:16-07/12/23] Line 1079: Checking if user is current clocked in
+[16:05:16-07/12/23] Line 1088: User is clocked in, displayed relevant info
+[16:05:16-07/12/23] Line 1092: Getting the clocked time
+[16:05:16-07/12/23] Line 1096: Current time: 1900-01-01 16:05:16
+[16:05:16-07/12/23] Line 1100: Last clocked time: 00:00:00
+[16:05:16-07/12/23] Line 1108: Clocked time is 06:52:51
+[16:05:16-07/12/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[16:05:16-07/12/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[16:05:18-07/12/23] Line 343: Running clockOut function
+[16:05:18-07/12/23] Line 172: dayCheck Function
+[16:05:18-07/12/23] Line 174: Current Date: Wed - 12/07/23
+[16:05:20-07/12/23] Line 186: Difference between last date and current date: 0
+[16:05:20-07/12/23] Line 205: Sheets all up to date, returning from dayCheck function
+[16:05:20-07/12/23] Line 209: Running updateCheck
+[16:05:20-07/12/23] Line 210: Getting version from GitHub
+[16:05:20-07/12/23] Line 212: GitHub version: 2.3.2
+
+[16:05:20-07/12/23] Line 214: Opening 'version.txt' file
+[16:05:20-07/12/23] Line 217: Installed version: 2.3.2
+
+[16:05:20-07/12/23] Line 220: Program up to date
+[16:05:20-07/12/23] Line 348: Getting current time and current dates
+[16:05:20-07/12/23] Line 353: Getting column data for the user
+[16:05:22-07/12/23] Line 356: Last clock in time: 09:12:25
+[16:05:22-07/12/23] Line 358: Clocked time: 00:00:00
+[16:05:22-07/12/23] Line 367: Total clocked time: 1900-01-01 06:52:55
+[16:05:22-07/12/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[16:05:22-07/12/23] Line 375: Updating sheet
+[16:05:23-07/12/23] Line 378: Destroing mainBox and returning to mainPage
+[16:05:23-07/12/23] Line 1059: Main Page
+[16:05:23-07/12/23] Line 1060: Getting current time and current day
+[16:05:26-07/12/23] Line 1066: Resizing the window
+[16:05:26-07/12/23] Line 1079: Checking if user is current clocked in
+[16:05:26-07/12/23] Line 1081: User is clocked out, displayed relevant info
+[16:05:26-07/12/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[16:05:26-07/12/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:15:16-07/13/23] Line 324: Running clockIn function
+[08:15:16-07/13/23] Line 172: dayCheck Function
+[08:15:16-07/13/23] Line 174: Current Date: Wed - 12/07/23
+[08:15:17-07/13/23] Line 186: Difference between last date and current date: 0
+[08:15:17-07/13/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:15:17-07/13/23] Line 209: Running updateCheck
+[08:15:17-07/13/23] Line 210: Getting version from GitHub
+[08:15:17-07/13/23] Line 212: GitHub version: 2.3.2
+
+[08:15:17-07/13/23] Line 214: Opening 'version.txt' file
+[08:15:17-07/13/23] Line 217: Installed version: 2.3.2
+
+[08:15:17-07/13/23] Line 220: Program up to date
+[08:15:17-07/13/23] Line 329: Getting current time and current date
+[08:15:17-07/13/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:15:18-07/13/23] Line 337: Destroying mainBox and going back to mainPage
+[08:15:18-07/13/23] Line 1059: Main Page
+[08:15:18-07/13/23] Line 1060: Getting current time and current day
+[08:15:18-07/13/23] Line 1066: Resizing the window
+[08:15:18-07/13/23] Line 1079: Checking if user is current clocked in
+[08:15:18-07/13/23] Line 1088: User is clocked in, displayed relevant info
+[08:15:18-07/13/23] Line 1092: Getting the clocked time
+[08:15:18-07/13/23] Line 1096: Current time: 1900-01-01 08:15:18
+[08:15:18-07/13/23] Line 1100: Last clocked time: 06:52:55
+[08:15:18-07/13/23] Line 1108: Clocked time is 06:52:56
+[08:15:18-07/13/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:15:18-07/13/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:39:03-07/13/23] Line 343: Running clockOut function
+[15:39:03-07/13/23] Line 172: dayCheck Function
+[15:39:03-07/13/23] Line 174: Current Date: Wed - 12/07/23
+[15:39:04-07/13/23] Line 186: Difference between last date and current date: 0
+[15:39:04-07/13/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:39:04-07/13/23] Line 209: Running updateCheck
+[15:39:04-07/13/23] Line 210: Getting version from GitHub
+[15:39:04-07/13/23] Line 212: GitHub version: 2.3.2
+
+[15:39:04-07/13/23] Line 214: Opening 'version.txt' file
+[15:39:04-07/13/23] Line 217: Installed version: 2.3.2
+
+[15:39:04-07/13/23] Line 220: Program up to date
+[15:39:04-07/13/23] Line 348: Getting current time and current dates
+[15:39:04-07/13/23] Line 353: Getting column data for the user
+[15:39:04-07/13/23] Line 356: Last clock in time: 08:15:17
+[15:39:04-07/13/23] Line 358: Clocked time: 06:52:55
+[15:39:04-07/13/23] Line 367: Total clocked time: 1900-01-01 14:16:42
+[15:39:04-07/13/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:39:04-07/13/23] Line 375: Updating sheet
+[15:39:05-07/13/23] Line 378: Destroing mainBox and returning to mainPage
+[15:39:05-07/13/23] Line 1059: Main Page
+[15:39:05-07/13/23] Line 1060: Getting current time and current day
+[15:39:05-07/13/23] Line 1066: Resizing the window
+[15:39:05-07/13/23] Line 1079: Checking if user is current clocked in
+[15:39:05-07/13/23] Line 1081: User is clocked out, displayed relevant info
+[15:39:05-07/13/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:39:05-07/13/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:23:16-07/14/23] Line 324: Running clockIn function
+[08:23:16-07/14/23] Line 172: dayCheck Function
+[08:23:16-07/14/23] Line 174: Current Date: Wed - 12/07/23
+[08:23:17-07/14/23] Line 186: Difference between last date and current date: 0
+[08:23:17-07/14/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:23:17-07/14/23] Line 209: Running updateCheck
+[08:23:17-07/14/23] Line 210: Getting version from GitHub
+[08:23:18-07/14/23] Line 212: GitHub version: 2.3.2
+
+[08:23:18-07/14/23] Line 214: Opening 'version.txt' file
+[08:23:18-07/14/23] Line 217: Installed version: 2.3.2
+
+[08:23:18-07/14/23] Line 220: Program up to date
+[08:23:18-07/14/23] Line 329: Getting current time and current date
+[08:23:18-07/14/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:23:18-07/14/23] Line 337: Destroying mainBox and going back to mainPage
+[08:23:18-07/14/23] Line 1059: Main Page
+[08:23:18-07/14/23] Line 1060: Getting current time and current day
+[08:23:19-07/14/23] Line 1066: Resizing the window
+[08:23:19-07/14/23] Line 1079: Checking if user is current clocked in
+[08:23:19-07/14/23] Line 1088: User is clocked in, displayed relevant info
+[08:23:19-07/14/23] Line 1092: Getting the clocked time
+[08:23:19-07/14/23] Line 1096: Current time: 1900-01-01 08:23:19
+[08:23:19-07/14/23] Line 1100: Last clocked time: 14:16:42
+[08:23:19-07/14/23] Line 1108: Clocked time is 14:16:43
+[08:23:19-07/14/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:23:19-07/14/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:49:29-07/14/23] Line 343: Running clockOut function
+[15:49:29-07/14/23] Line 172: dayCheck Function
+[15:49:29-07/14/23] Line 174: Current Date: Wed - 12/07/23
+[15:49:30-07/14/23] Line 186: Difference between last date and current date: 0
+[15:49:30-07/14/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:49:30-07/14/23] Line 209: Running updateCheck
+[15:49:30-07/14/23] Line 210: Getting version from GitHub
+[15:49:30-07/14/23] Line 212: GitHub version: 2.3.2
+
+[15:49:30-07/14/23] Line 214: Opening 'version.txt' file
+[15:49:30-07/14/23] Line 217: Installed version: 2.3.2
+
+[15:49:30-07/14/23] Line 220: Program up to date
+[15:49:30-07/14/23] Line 348: Getting current time and current dates
+[15:49:30-07/14/23] Line 353: Getting column data for the user
+[15:49:31-07/14/23] Line 356: Last clock in time: 08:23:18
+[15:49:31-07/14/23] Line 358: Clocked time: 14:16:42
+[15:49:31-07/14/23] Line 367: Total clocked time: 1900-01-01 21:42:54
+[15:49:31-07/14/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:49:31-07/14/23] Line 375: Updating sheet
+[15:49:31-07/14/23] Line 378: Destroing mainBox and returning to mainPage
+[15:49:31-07/14/23] Line 1059: Main Page
+[15:49:31-07/14/23] Line 1060: Getting current time and current day
+[15:49:32-07/14/23] Line 1066: Resizing the window
+[15:49:32-07/14/23] Line 1079: Checking if user is current clocked in
+[15:49:32-07/14/23] Line 1081: User is clocked out, displayed relevant info
+[15:49:32-07/14/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:49:32-07/14/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:25:36-07/17/23] Line 324: Running clockIn function
+[08:25:36-07/17/23] Line 172: dayCheck Function
+[08:25:36-07/17/23] Line 174: Current Date: Wed - 12/07/23
+[08:25:37-07/17/23] Line 186: Difference between last date and current date: 0
+[08:25:37-07/17/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:25:37-07/17/23] Line 209: Running updateCheck
+[08:25:37-07/17/23] Line 210: Getting version from GitHub
+[08:25:37-07/17/23] Line 212: GitHub version: 2.3.2
+
+[08:25:37-07/17/23] Line 214: Opening 'version.txt' file
+[08:25:37-07/17/23] Line 217: Installed version: 2.3.2
+
+[08:25:37-07/17/23] Line 220: Program up to date
+[08:25:37-07/17/23] Line 329: Getting current time and current date
+[08:25:37-07/17/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:25:38-07/17/23] Line 337: Destroying mainBox and going back to mainPage
+[08:25:38-07/17/23] Line 1059: Main Page
+[08:25:38-07/17/23] Line 1060: Getting current time and current day
+[08:25:38-07/17/23] Line 1066: Resizing the window
+[08:25:38-07/17/23] Line 1079: Checking if user is current clocked in
+[08:25:38-07/17/23] Line 1088: User is clocked in, displayed relevant info
+[08:25:38-07/17/23] Line 1092: Getting the clocked time
+[08:25:38-07/17/23] Line 1096: Current time: 1900-01-01 08:25:38
+[08:25:38-07/17/23] Line 1100: Last clocked time: 21:42:54
+[08:25:38-07/17/23] Line 1108: Clocked time is 21:42:55
+[08:25:38-07/17/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:25:38-07/17/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:54:04-07/18/23] Line 343: Running clockOut function
+[15:54:04-07/18/23] Line 172: dayCheck Function
+[15:54:04-07/18/23] Line 174: Current Date: Wed - 12/07/23
+[15:54:05-07/18/23] Line 186: Difference between last date and current date: 0
+[15:54:05-07/18/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:54:05-07/18/23] Line 209: Running updateCheck
+[15:54:05-07/18/23] Line 210: Getting version from GitHub
+[15:54:05-07/18/23] Line 212: GitHub version: 2.3.2
+
+[15:54:05-07/18/23] Line 214: Opening 'version.txt' file
+[15:54:05-07/18/23] Line 217: Installed version: 2.3.2
+
+[15:54:05-07/18/23] Line 220: Program up to date
+[15:54:05-07/18/23] Line 348: Getting current time and current dates
+[15:54:05-07/18/23] Line 353: Getting column data for the user
+[15:54:05-07/18/23] Line 356: Last clock in time: 08:25:37
+[15:54:05-07/18/23] Line 358: Clocked time: 21:42:54
+[15:54:05-07/18/23] Line 367: Total clocked time: 1900-01-02 05:11:22
+[15:54:05-07/18/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:54:05-07/18/23] Line 375: Updating sheet
+[15:54:06-07/18/23] Line 378: Destroing mainBox and returning to mainPage
+[15:54:06-07/18/23] Line 1059: Main Page
+[15:54:06-07/18/23] Line 1060: Getting current time and current day
+[15:54:06-07/18/23] Line 1066: Resizing the window
+[15:54:06-07/18/23] Line 1079: Checking if user is current clocked in
+[15:54:06-07/18/23] Line 1081: User is clocked out, displayed relevant info
+[15:54:06-07/18/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:54:06-07/18/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:01:23-07/19/23] Line 324: Running clockIn function
+[08:01:23-07/19/23] Line 172: dayCheck Function
+[08:01:23-07/19/23] Line 174: Current Date: Wed - 12/07/23
+[08:01:24-07/19/23] Line 186: Difference between last date and current date: 0
+[08:01:24-07/19/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:01:24-07/19/23] Line 209: Running updateCheck
+[08:01:24-07/19/23] Line 210: Getting version from GitHub
+[08:01:24-07/19/23] Line 212: GitHub version: 2.3.2
+
+[08:01:24-07/19/23] Line 214: Opening 'version.txt' file
+[08:01:24-07/19/23] Line 217: Installed version: 2.3.2
+
+[08:01:24-07/19/23] Line 220: Program up to date
+[08:01:24-07/19/23] Line 329: Getting current time and current date
+[08:01:24-07/19/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:01:25-07/19/23] Line 337: Destroying mainBox and going back to mainPage
+[08:01:25-07/19/23] Line 1059: Main Page
+[08:01:25-07/19/23] Line 1060: Getting current time and current day
+[08:01:25-07/19/23] Line 1066: Resizing the window
+[08:01:25-07/19/23] Line 1079: Checking if user is current clocked in
+[08:01:25-07/19/23] Line 1088: User is clocked in, displayed relevant info
+[08:01:25-07/19/23] Line 1092: Getting the clocked time
+[08:01:25-07/19/23] Line 1096: Current time: 1900-01-01 08:01:25
+[08:01:25-07/19/23] Line 1100: Last clocked time: 05:11:22
+[08:01:25-07/19/23] Line 1108: Clocked time is 05:11:23
+[08:01:25-07/19/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:01:25-07/19/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[14:56:25-07/19/23] Line 343: Running clockOut function
+[14:56:25-07/19/23] Line 172: dayCheck Function
+[14:56:25-07/19/23] Line 174: Current Date: Wed - 12/07/23
+[14:56:27-07/19/23] Line 186: Difference between last date and current date: 0
+[14:56:27-07/19/23] Line 205: Sheets all up to date, returning from dayCheck function
+[14:56:27-07/19/23] Line 209: Running updateCheck
+[14:56:27-07/19/23] Line 210: Getting version from GitHub
+[14:56:27-07/19/23] Line 212: GitHub version: 2.3.2
+
+[14:56:27-07/19/23] Line 214: Opening 'version.txt' file
+[14:56:27-07/19/23] Line 217: Installed version: 2.3.2
+
+[14:56:27-07/19/23] Line 220: Program up to date
+[14:56:27-07/19/23] Line 348: Getting current time and current dates
+[14:56:27-07/19/23] Line 353: Getting column data for the user
+[14:56:28-07/19/23] Line 356: Last clock in time: 08:01:24
+[14:56:28-07/19/23] Line 358: Clocked time: 05:11:22
+[14:56:28-07/19/23] Line 367: Total clocked time: 1900-01-01 12:06:25
+[14:56:28-07/19/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[14:56:28-07/19/23] Line 375: Updating sheet
+[14:56:28-07/19/23] Line 378: Destroing mainBox and returning to mainPage
+[14:56:28-07/19/23] Line 1059: Main Page
+[14:56:28-07/19/23] Line 1060: Getting current time and current day
+[14:56:29-07/19/23] Line 1066: Resizing the window
+[14:56:29-07/19/23] Line 1079: Checking if user is current clocked in
+[14:56:29-07/19/23] Line 1081: User is clocked out, displayed relevant info
+[14:56:29-07/19/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[14:56:29-07/19/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[09:29:32-07/20/23] Line 324: Running clockIn function
+[09:29:32-07/20/23] Line 172: dayCheck Function
+[09:29:32-07/20/23] Line 174: Current Date: Wed - 12/07/23
+[09:29:33-07/20/23] Line 186: Difference between last date and current date: 0
+[09:29:33-07/20/23] Line 205: Sheets all up to date, returning from dayCheck function
+[09:29:33-07/20/23] Line 209: Running updateCheck
+[09:29:33-07/20/23] Line 210: Getting version from GitHub
+[09:29:33-07/20/23] Line 212: GitHub version: 2.3.2
+
+[09:29:33-07/20/23] Line 214: Opening 'version.txt' file
+[09:29:33-07/20/23] Line 217: Installed version: 2.3.2
+
+[09:29:33-07/20/23] Line 220: Program up to date
+[09:29:33-07/20/23] Line 329: Getting current time and current date
+[09:29:33-07/20/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[09:29:34-07/20/23] Line 337: Destroying mainBox and going back to mainPage
+[09:29:34-07/20/23] Line 1059: Main Page
+[09:29:34-07/20/23] Line 1060: Getting current time and current day
+[09:29:34-07/20/23] Line 1066: Resizing the window
+[09:29:34-07/20/23] Line 1079: Checking if user is current clocked in
+[09:29:34-07/20/23] Line 1088: User is clocked in, displayed relevant info
+[09:29:34-07/20/23] Line 1092: Getting the clocked time
+[09:29:34-07/20/23] Line 1096: Current time: 1900-01-01 09:29:34
+[09:29:34-07/20/23] Line 1100: Last clocked time: 12:06:25
+[09:29:34-07/20/23] Line 1108: Clocked time is 12:06:26
+[09:29:34-07/20/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[09:29:34-07/20/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:12:12-07/20/23] Line 343: Running clockOut function
+[15:12:12-07/20/23] Line 172: dayCheck Function
+[15:12:12-07/20/23] Line 174: Current Date: Wed - 12/07/23
+[15:12:13-07/20/23] Line 186: Difference between last date and current date: 0
+[15:12:13-07/20/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:12:13-07/20/23] Line 209: Running updateCheck
+[15:12:13-07/20/23] Line 210: Getting version from GitHub
+[15:12:13-07/20/23] Line 212: GitHub version: 2.3.2
+
+[15:12:13-07/20/23] Line 214: Opening 'version.txt' file
+[15:12:13-07/20/23] Line 217: Installed version: 2.3.2
+
+[15:12:13-07/20/23] Line 220: Program up to date
+[15:12:13-07/20/23] Line 348: Getting current time and current dates
+[15:12:13-07/20/23] Line 353: Getting column data for the user
+[15:12:13-07/20/23] Line 356: Last clock in time: 09:29:33
+[15:12:13-07/20/23] Line 358: Clocked time: 12:06:25
+[15:12:13-07/20/23] Line 367: Total clocked time: 1900-01-01 17:49:05
+[15:12:13-07/20/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:12:13-07/20/23] Line 375: Updating sheet
+[15:12:14-07/20/23] Line 378: Destroing mainBox and returning to mainPage
+[15:12:14-07/20/23] Line 1059: Main Page
+[15:12:14-07/20/23] Line 1060: Getting current time and current day
+[15:12:14-07/20/23] Line 1066: Resizing the window
+[15:12:14-07/20/23] Line 1079: Checking if user is current clocked in
+[15:12:14-07/20/23] Line 1081: User is clocked out, displayed relevant info
+[15:12:14-07/20/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:12:14-07/20/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[09:16:59-07/21/23] Line 324: Running clockIn function
+[09:16:59-07/21/23] Line 172: dayCheck Function
+[09:16:59-07/21/23] Line 174: Current Date: Wed - 12/07/23
+[09:17:00-07/21/23] Line 186: Difference between last date and current date: 0
+[09:17:00-07/21/23] Line 205: Sheets all up to date, returning from dayCheck function
+[09:17:00-07/21/23] Line 209: Running updateCheck
+[09:17:00-07/21/23] Line 210: Getting version from GitHub
+[09:17:00-07/21/23] Line 212: GitHub version: 2.3.2
+
+[09:17:00-07/21/23] Line 214: Opening 'version.txt' file
+[09:17:00-07/21/23] Line 217: Installed version: 2.3.2
+
+[09:17:00-07/21/23] Line 220: Program up to date
+[09:17:00-07/21/23] Line 329: Getting current time and current date
+[09:17:00-07/21/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[09:17:01-07/21/23] Line 337: Destroying mainBox and going back to mainPage
+[09:17:01-07/21/23] Line 1059: Main Page
+[09:17:01-07/21/23] Line 1060: Getting current time and current day
+[09:17:01-07/21/23] Line 1066: Resizing the window
+[09:17:01-07/21/23] Line 1079: Checking if user is current clocked in
+[09:17:01-07/21/23] Line 1088: User is clocked in, displayed relevant info
+[09:17:01-07/21/23] Line 1092: Getting the clocked time
+[09:17:01-07/21/23] Line 1096: Current time: 1900-01-01 09:17:01
+[09:17:01-07/21/23] Line 1100: Last clocked time: 17:49:05
+[09:17:01-07/21/23] Line 1108: Clocked time is 17:49:06
+[09:17:01-07/21/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[09:17:01-07/21/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[16:03:33-07/21/23] Line 343: Running clockOut function
+[16:03:33-07/21/23] Line 172: dayCheck Function
+[16:03:33-07/21/23] Line 174: Current Date: Wed - 12/07/23
+[16:03:34-07/21/23] Line 186: Difference between last date and current date: 0
+[16:03:34-07/21/23] Line 205: Sheets all up to date, returning from dayCheck function
+[16:03:34-07/21/23] Line 209: Running updateCheck
+[16:03:34-07/21/23] Line 210: Getting version from GitHub
+[16:03:34-07/21/23] Line 212: GitHub version: 2.3.2
+
+[16:03:34-07/21/23] Line 214: Opening 'version.txt' file
+[16:03:34-07/21/23] Line 217: Installed version: 2.3.2
+
+[16:03:34-07/21/23] Line 220: Program up to date
+[16:03:35-07/21/23] Line 348: Getting current time and current dates
+[16:03:35-07/21/23] Line 353: Getting column data for the user
+[16:03:35-07/21/23] Line 356: Last clock in time: 09:17:00
+[16:03:35-07/21/23] Line 358: Clocked time: 17:49:05
+[16:03:35-07/21/23] Line 367: Total clocked time: 1900-01-02 00:35:40
+[16:03:35-07/21/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[16:03:35-07/21/23] Line 375: Updating sheet
+[16:03:36-07/21/23] Line 378: Destroing mainBox and returning to mainPage
+[16:03:36-07/21/23] Line 1059: Main Page
+[16:03:36-07/21/23] Line 1060: Getting current time and current day
+[16:03:36-07/21/23] Line 1066: Resizing the window
+[16:03:36-07/21/23] Line 1079: Checking if user is current clocked in
+[16:03:36-07/21/23] Line 1081: User is clocked out, displayed relevant info
+[16:03:36-07/21/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[16:03:36-07/21/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[09:05:42-07/24/23] Line 324: Running clockIn function
+[09:05:42-07/24/23] Line 172: dayCheck Function
+[09:05:42-07/24/23] Line 174: Current Date: Wed - 12/07/23
+[09:05:43-07/24/23] Line 186: Difference between last date and current date: 0
+[09:05:43-07/24/23] Line 205: Sheets all up to date, returning from dayCheck function
+[09:05:43-07/24/23] Line 209: Running updateCheck
+[09:05:43-07/24/23] Line 210: Getting version from GitHub
+[09:05:43-07/24/23] Line 212: GitHub version: 2.3.2
+
+[09:05:43-07/24/23] Line 214: Opening 'version.txt' file
+[09:05:43-07/24/23] Line 217: Installed version: 2.3.2
+
+[09:05:43-07/24/23] Line 220: Program up to date
+[09:05:43-07/24/23] Line 329: Getting current time and current date
+[09:05:43-07/24/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[09:05:44-07/24/23] Line 337: Destroying mainBox and going back to mainPage
+[09:05:44-07/24/23] Line 1059: Main Page
+[09:05:44-07/24/23] Line 1060: Getting current time and current day
+[09:05:44-07/24/23] Line 1066: Resizing the window
+[09:05:44-07/24/23] Line 1079: Checking if user is current clocked in
+[09:05:44-07/24/23] Line 1088: User is clocked in, displayed relevant info
+[09:05:44-07/24/23] Line 1092: Getting the clocked time
+[09:05:44-07/24/23] Line 1096: Current time: 1900-01-01 09:05:44
+[09:05:44-07/24/23] Line 1100: Last clocked time: 00:35:40
+[09:05:44-07/24/23] Line 1108: Clocked time is 00:35:41
+[09:05:44-07/24/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[09:05:44-07/24/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:05:32-07/24/23] Line 343: Running clockOut function
+[15:05:32-07/24/23] Line 172: dayCheck Function
+[15:05:32-07/24/23] Line 174: Current Date: Wed - 12/07/23
+[15:05:33-07/24/23] Line 186: Difference between last date and current date: 0
+[15:05:33-07/24/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:05:33-07/24/23] Line 209: Running updateCheck
+[15:05:33-07/24/23] Line 210: Getting version from GitHub
+[15:05:34-07/24/23] Line 212: GitHub version: 2.3.2
+
+[15:05:34-07/24/23] Line 214: Opening 'version.txt' file
+[15:05:34-07/24/23] Line 217: Installed version: 2.3.2
+
+[15:05:34-07/24/23] Line 220: Program up to date
+[15:05:34-07/24/23] Line 348: Getting current time and current dates
+[15:05:34-07/24/23] Line 353: Getting column data for the user
+[15:05:34-07/24/23] Line 356: Last clock in time: 09:05:43
+[15:05:34-07/24/23] Line 358: Clocked time: 00:35:40
+[15:05:34-07/24/23] Line 367: Total clocked time: 1900-01-01 06:35:31
+[15:05:34-07/24/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:05:34-07/24/23] Line 375: Updating sheet
+[15:05:34-07/24/23] Line 378: Destroing mainBox and returning to mainPage
+[15:05:35-07/24/23] Line 1059: Main Page
+[15:05:35-07/24/23] Line 1060: Getting current time and current day
+[15:05:35-07/24/23] Line 1066: Resizing the window
+[15:05:35-07/24/23] Line 1079: Checking if user is current clocked in
+[15:05:35-07/24/23] Line 1081: User is clocked out, displayed relevant info
+[15:05:35-07/24/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:05:35-07/24/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[09:19:18-07/25/23] Line 324: Running clockIn function
+[09:19:18-07/25/23] Line 172: dayCheck Function
+[09:19:18-07/25/23] Line 174: Current Date: Wed - 12/07/23
+[09:19:19-07/25/23] Line 186: Difference between last date and current date: 0
+[09:19:19-07/25/23] Line 205: Sheets all up to date, returning from dayCheck function
+[09:19:19-07/25/23] Line 209: Running updateCheck
+[09:19:19-07/25/23] Line 210: Getting version from GitHub
+[09:19:19-07/25/23] Line 212: GitHub version: 2.3.2
+
+[09:19:19-07/25/23] Line 214: Opening 'version.txt' file
+[09:19:19-07/25/23] Line 217: Installed version: 2.3.2
+
+[09:19:19-07/25/23] Line 220: Program up to date
+[09:19:19-07/25/23] Line 329: Getting current time and current date
+[09:19:19-07/25/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[09:19:19-07/25/23] Line 337: Destroying mainBox and going back to mainPage
+[09:19:19-07/25/23] Line 1059: Main Page
+[09:19:19-07/25/23] Line 1060: Getting current time and current day
+[09:19:20-07/25/23] Line 1066: Resizing the window
+[09:19:20-07/25/23] Line 1079: Checking if user is current clocked in
+[09:19:20-07/25/23] Line 1088: User is clocked in, displayed relevant info
+[09:19:20-07/25/23] Line 1092: Getting the clocked time
+[09:19:20-07/25/23] Line 1096: Current time: 1900-01-01 09:19:20
+[09:19:20-07/25/23] Line 1100: Last clocked time: 06:35:31
+[09:19:20-07/25/23] Line 1108: Clocked time is 06:35:32
+[09:19:20-07/25/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[09:19:20-07/25/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:29:23-07/25/23] Line 343: Running clockOut function
+[15:29:23-07/25/23] Line 172: dayCheck Function
+[15:29:23-07/25/23] Line 174: Current Date: Wed - 12/07/23
+[15:29:24-07/25/23] Line 186: Difference between last date and current date: 0
+[15:29:24-07/25/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:29:24-07/25/23] Line 209: Running updateCheck
+[15:29:24-07/25/23] Line 210: Getting version from GitHub
+[15:29:24-07/25/23] Line 212: GitHub version: 2.3.2
+
+[15:29:24-07/25/23] Line 214: Opening 'version.txt' file
+[15:29:24-07/25/23] Line 217: Installed version: 2.3.2
+
+[15:29:24-07/25/23] Line 220: Program up to date
+[15:29:24-07/25/23] Line 348: Getting current time and current dates
+[15:29:24-07/25/23] Line 353: Getting column data for the user
+[15:29:24-07/25/23] Line 356: Last clock in time: 09:19:19
+[15:29:24-07/25/23] Line 358: Clocked time: 06:35:31
+[15:29:24-07/25/23] Line 367: Total clocked time: 1900-01-01 12:45:36
+[15:29:24-07/25/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:29:24-07/25/23] Line 375: Updating sheet
+[15:29:25-07/25/23] Line 378: Destroing mainBox and returning to mainPage
+[15:29:25-07/25/23] Line 1059: Main Page
+[15:29:25-07/25/23] Line 1060: Getting current time and current day
+[15:29:26-07/25/23] Line 1066: Resizing the window
+[15:29:26-07/25/23] Line 1079: Checking if user is current clocked in
+[15:29:26-07/25/23] Line 1081: User is clocked out, displayed relevant info
+[15:29:26-07/25/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:29:26-07/25/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[09:15:55-07/26/23] Line 324: Running clockIn function
+[09:15:55-07/26/23] Line 172: dayCheck Function
+[09:15:55-07/26/23] Line 174: Current Date: Wed - 12/07/23
+[09:15:56-07/26/23] Line 186: Difference between last date and current date: 0
+[09:15:56-07/26/23] Line 205: Sheets all up to date, returning from dayCheck function
+[09:15:56-07/26/23] Line 209: Running updateCheck
+[09:15:56-07/26/23] Line 210: Getting version from GitHub
+[09:15:56-07/26/23] Line 212: GitHub version: 2.3.2
+
+[09:15:56-07/26/23] Line 214: Opening 'version.txt' file
+[09:15:56-07/26/23] Line 217: Installed version: 2.3.2
+
+[09:15:56-07/26/23] Line 220: Program up to date
+[09:15:56-07/26/23] Line 329: Getting current time and current date
+[09:15:56-07/26/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[09:15:56-07/26/23] Line 337: Destroying mainBox and going back to mainPage
+[09:15:56-07/26/23] Line 1059: Main Page
+[09:15:56-07/26/23] Line 1060: Getting current time and current day
+[09:15:57-07/26/23] Line 1066: Resizing the window
+[09:15:57-07/26/23] Line 1079: Checking if user is current clocked in
+[09:15:57-07/26/23] Line 1088: User is clocked in, displayed relevant info
+[09:15:57-07/26/23] Line 1092: Getting the clocked time
+[09:15:57-07/26/23] Line 1096: Current time: 1900-01-01 09:15:57
+[09:15:57-07/26/23] Line 1100: Last clocked time: 12:45:36
+[09:15:57-07/26/23] Line 1108: Clocked time is 12:45:37
+[09:15:57-07/26/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[09:15:57-07/26/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[14:58:33-07/26/23] Line 343: Running clockOut function
+[14:58:33-07/26/23] Line 172: dayCheck Function
+[14:58:33-07/26/23] Line 174: Current Date: Wed - 12/07/23
+[14:58:34-07/26/23] Line 186: Difference between last date and current date: 0
+[14:58:34-07/26/23] Line 205: Sheets all up to date, returning from dayCheck function
+[14:58:34-07/26/23] Line 209: Running updateCheck
+[14:58:34-07/26/23] Line 210: Getting version from GitHub
+[14:58:35-07/26/23] Line 212: GitHub version: 2.3.2
+
+[14:58:35-07/26/23] Line 214: Opening 'version.txt' file
+[14:58:35-07/26/23] Line 217: Installed version: 2.3.2
+
+[14:58:35-07/26/23] Line 220: Program up to date
+[14:58:35-07/26/23] Line 348: Getting current time and current dates
+[14:58:35-07/26/23] Line 353: Getting column data for the user
+[14:58:35-07/26/23] Line 356: Last clock in time: 09:15:56
+[14:58:35-07/26/23] Line 358: Clocked time: 12:45:36
+[14:58:35-07/26/23] Line 367: Total clocked time: 1900-01-01 18:28:15
+[14:58:35-07/26/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[14:58:35-07/26/23] Line 375: Updating sheet
+[14:58:35-07/26/23] Line 378: Destroing mainBox and returning to mainPage
+[14:58:35-07/26/23] Line 1059: Main Page
+[14:58:35-07/26/23] Line 1060: Getting current time and current day
+[14:58:36-07/26/23] Line 1066: Resizing the window
+[14:58:36-07/26/23] Line 1079: Checking if user is current clocked in
+[14:58:36-07/26/23] Line 1081: User is clocked out, displayed relevant info
+[14:58:36-07/26/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[14:58:36-07/26/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:15:45-07/27/23] Line 324: Running clockIn function
+[08:15:45-07/27/23] Line 172: dayCheck Function
+[08:15:45-07/27/23] Line 174: Current Date: Wed - 12/07/23
+[08:15:47-07/27/23] Line 186: Difference between last date and current date: 0
+[08:15:47-07/27/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:15:47-07/27/23] Line 209: Running updateCheck
+[08:15:47-07/27/23] Line 210: Getting version from GitHub
+[08:15:47-07/27/23] Line 212: GitHub version: 2.3.2
+
+[08:15:47-07/27/23] Line 214: Opening 'version.txt' file
+[08:15:47-07/27/23] Line 217: Installed version: 2.3.2
+
+[08:15:47-07/27/23] Line 220: Program up to date
+[08:15:47-07/27/23] Line 329: Getting current time and current date
+[08:15:47-07/27/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:15:48-07/27/23] Line 337: Destroying mainBox and going back to mainPage
+[08:15:48-07/27/23] Line 1059: Main Page
+[08:15:48-07/27/23] Line 1060: Getting current time and current day
+[08:15:48-07/27/23] Line 1066: Resizing the window
+[08:15:48-07/27/23] Line 1079: Checking if user is current clocked in
+[08:15:48-07/27/23] Line 1088: User is clocked in, displayed relevant info
+[08:15:48-07/27/23] Line 1092: Getting the clocked time
+[08:15:48-07/27/23] Line 1096: Current time: 1900-01-01 08:15:48
+[08:15:48-07/27/23] Line 1100: Last clocked time: 18:28:15
+[08:15:48-07/27/23] Line 1108: Clocked time is 18:28:16
+[08:15:48-07/27/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:15:48-07/27/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:06:22-07/27/23] Line 343: Running clockOut function
+[15:06:22-07/27/23] Line 172: dayCheck Function
+[15:06:22-07/27/23] Line 174: Current Date: Wed - 12/07/23
+[15:06:23-07/27/23] Line 186: Difference between last date and current date: 0
+[15:06:23-07/27/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:06:23-07/27/23] Line 209: Running updateCheck
+[15:06:23-07/27/23] Line 210: Getting version from GitHub
+[15:06:23-07/27/23] Line 212: GitHub version: 2.3.2
+
+[15:06:23-07/27/23] Line 214: Opening 'version.txt' file
+[15:06:23-07/27/23] Line 217: Installed version: 2.3.2
+
+[15:06:23-07/27/23] Line 220: Program up to date
+[15:06:23-07/27/23] Line 348: Getting current time and current dates
+[15:06:23-07/27/23] Line 353: Getting column data for the user
+[15:06:24-07/27/23] Line 356: Last clock in time: 08:15:47
+[15:06:24-07/27/23] Line 358: Clocked time: 18:28:15
+[15:06:24-07/27/23] Line 367: Total clocked time: 1900-01-02 01:18:51
+[15:06:24-07/27/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:06:24-07/27/23] Line 375: Updating sheet
+[15:06:24-07/27/23] Line 378: Destroing mainBox and returning to mainPage
+[15:06:24-07/27/23] Line 1059: Main Page
+[15:06:24-07/27/23] Line 1060: Getting current time and current day
+[15:06:25-07/27/23] Line 1066: Resizing the window
+[15:06:25-07/27/23] Line 1079: Checking if user is current clocked in
+[15:06:25-07/27/23] Line 1081: User is clocked out, displayed relevant info
+[15:06:25-07/27/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:06:25-07/27/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:17:11-07/28/23] Line 324: Running clockIn function
+[08:17:11-07/28/23] Line 172: dayCheck Function
+[08:17:11-07/28/23] Line 174: Current Date: Wed - 12/07/23
+[08:17:12-07/28/23] Line 186: Difference between last date and current date: 0
+[08:17:12-07/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:17:12-07/28/23] Line 209: Running updateCheck
+[08:17:12-07/28/23] Line 210: Getting version from GitHub
+[08:17:12-07/28/23] Line 212: GitHub version: 2.3.2
+
+[08:17:12-07/28/23] Line 214: Opening 'version.txt' file
+[08:17:12-07/28/23] Line 217: Installed version: 2.3.2
+
+[08:17:12-07/28/23] Line 220: Program up to date
+[08:17:12-07/28/23] Line 329: Getting current time and current date
+[08:17:12-07/28/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:17:13-07/28/23] Line 337: Destroying mainBox and going back to mainPage
+[08:17:13-07/28/23] Line 1059: Main Page
+[08:17:13-07/28/23] Line 1060: Getting current time and current day
+[08:17:13-07/28/23] Line 1066: Resizing the window
+[08:17:13-07/28/23] Line 1079: Checking if user is current clocked in
+[08:17:13-07/28/23] Line 1088: User is clocked in, displayed relevant info
+[08:17:13-07/28/23] Line 1092: Getting the clocked time
+[08:17:13-07/28/23] Line 1096: Current time: 1900-01-01 08:17:13
+[08:17:13-07/28/23] Line 1100: Last clocked time: 01:18:51
+[08:17:13-07/28/23] Line 1108: Clocked time is 01:18:52
+[08:17:13-07/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:17:13-07/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[14:35:05-07/28/23] Line 343: Running clockOut function
+[14:35:05-07/28/23] Line 172: dayCheck Function
+[14:35:05-07/28/23] Line 174: Current Date: Wed - 12/07/23
+[14:35:06-07/28/23] Line 186: Difference between last date and current date: 0
+[14:35:06-07/28/23] Line 205: Sheets all up to date, returning from dayCheck function
+[14:35:06-07/28/23] Line 209: Running updateCheck
+[14:35:06-07/28/23] Line 210: Getting version from GitHub
+[14:35:06-07/28/23] Line 212: GitHub version: 2.3.2
+
+[14:35:06-07/28/23] Line 214: Opening 'version.txt' file
+[14:35:06-07/28/23] Line 217: Installed version: 2.3.2
+
+[14:35:06-07/28/23] Line 220: Program up to date
+[14:35:06-07/28/23] Line 348: Getting current time and current dates
+[14:35:06-07/28/23] Line 353: Getting column data for the user
+[14:35:06-07/28/23] Line 356: Last clock in time: 08:17:12
+[14:35:06-07/28/23] Line 358: Clocked time: 01:18:51
+[14:35:06-07/28/23] Line 367: Total clocked time: 1900-01-01 07:36:45
+[14:35:06-07/28/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[14:35:06-07/28/23] Line 375: Updating sheet
+[14:35:07-07/28/23] Line 378: Destroing mainBox and returning to mainPage
+[14:35:07-07/28/23] Line 1059: Main Page
+[14:35:07-07/28/23] Line 1060: Getting current time and current day
+[14:35:07-07/28/23] Line 1066: Resizing the window
+[14:35:07-07/28/23] Line 1079: Checking if user is current clocked in
+[14:35:07-07/28/23] Line 1081: User is clocked out, displayed relevant info
+[14:35:07-07/28/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[14:35:07-07/28/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:25:47-07/29/23] Line 324: Running clockIn function
+[08:25:47-07/29/23] Line 172: dayCheck Function
+[08:25:47-07/29/23] Line 174: Current Date: Wed - 12/07/23
+[08:25:48-07/29/23] Line 186: Difference between last date and current date: 0
+[08:25:48-07/29/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:25:48-07/29/23] Line 209: Running updateCheck
+[08:25:48-07/29/23] Line 210: Getting version from GitHub
+[08:25:48-07/29/23] Line 212: GitHub version: 2.3.2
+
+[08:25:48-07/29/23] Line 214: Opening 'version.txt' file
+[08:25:48-07/29/23] Line 217: Installed version: 2.3.2
+
+[08:25:48-07/29/23] Line 220: Program up to date
+[08:25:48-07/29/23] Line 329: Getting current time and current date
+[08:25:48-07/29/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:25:49-07/29/23] Line 337: Destroying mainBox and going back to mainPage
+[08:25:49-07/29/23] Line 1059: Main Page
+[08:25:49-07/29/23] Line 1060: Getting current time and current day
+[08:25:49-07/29/23] Line 1066: Resizing the window
+[08:25:49-07/29/23] Line 1079: Checking if user is current clocked in
+[08:25:49-07/29/23] Line 1088: User is clocked in, displayed relevant info
+[08:25:49-07/29/23] Line 1092: Getting the clocked time
+[08:25:49-07/29/23] Line 1096: Current time: 1900-01-01 08:25:49
+[08:25:49-07/29/23] Line 1100: Last clocked time: 07:36:45
+[08:25:49-07/29/23] Line 1108: Clocked time is 07:36:46
+[08:25:49-07/29/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:25:49-07/29/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[13:03:28-07/29/23] Line 343: Running clockOut function
+[13:03:28-07/29/23] Line 172: dayCheck Function
+[13:03:28-07/29/23] Line 174: Current Date: Wed - 12/07/23
+[13:03:29-07/29/23] Line 186: Difference between last date and current date: 0
+[13:03:29-07/29/23] Line 205: Sheets all up to date, returning from dayCheck function
+[13:03:29-07/29/23] Line 209: Running updateCheck
+[13:03:29-07/29/23] Line 210: Getting version from GitHub
+[13:03:29-07/29/23] Line 212: GitHub version: 2.3.2
+
+[13:03:29-07/29/23] Line 214: Opening 'version.txt' file
+[13:03:29-07/29/23] Line 217: Installed version: 2.3.2
+
+[13:03:29-07/29/23] Line 220: Program up to date
+[13:03:29-07/29/23] Line 348: Getting current time and current dates
+[13:03:29-07/29/23] Line 353: Getting column data for the user
+[13:03:29-07/29/23] Line 356: Last clock in time: 08:25:48
+[13:03:29-07/29/23] Line 358: Clocked time: 07:36:45
+[13:03:29-07/29/23] Line 367: Total clocked time: 1900-01-01 12:14:26
+[13:03:29-07/29/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[13:03:29-07/29/23] Line 375: Updating sheet
+[13:03:30-07/29/23] Line 378: Destroing mainBox and returning to mainPage
+[13:03:30-07/29/23] Line 1059: Main Page
+[13:03:30-07/29/23] Line 1060: Getting current time and current day
+[13:03:30-07/29/23] Line 1066: Resizing the window
+[13:03:30-07/29/23] Line 1079: Checking if user is current clocked in
+[13:03:30-07/29/23] Line 1081: User is clocked out, displayed relevant info
+[13:03:30-07/29/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[13:03:30-07/29/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[07:58:59-07/31/23] Line 324: Running clockIn function
+[07:58:59-07/31/23] Line 172: dayCheck Function
+[07:58:59-07/31/23] Line 174: Current Date: Wed - 12/07/23
+[07:59:00-07/31/23] Line 186: Difference between last date and current date: 0
+[07:59:00-07/31/23] Line 205: Sheets all up to date, returning from dayCheck function
+[07:59:00-07/31/23] Line 209: Running updateCheck
+[07:59:00-07/31/23] Line 210: Getting version from GitHub
+[07:59:00-07/31/23] Line 212: GitHub version: 2.3.2
+
+[07:59:00-07/31/23] Line 214: Opening 'version.txt' file
+[07:59:00-07/31/23] Line 217: Installed version: 2.3.2
+
+[07:59:00-07/31/23] Line 220: Program up to date
+[07:59:00-07/31/23] Line 329: Getting current time and current date
+[07:59:00-07/31/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[07:59:00-07/31/23] Line 337: Destroying mainBox and going back to mainPage
+[07:59:00-07/31/23] Line 1059: Main Page
+[07:59:00-07/31/23] Line 1060: Getting current time and current day
+[07:59:01-07/31/23] Line 1066: Resizing the window
+[07:59:01-07/31/23] Line 1079: Checking if user is current clocked in
+[07:59:01-07/31/23] Line 1088: User is clocked in, displayed relevant info
+[07:59:01-07/31/23] Line 1092: Getting the clocked time
+[07:59:01-07/31/23] Line 1096: Current time: 1900-01-01 07:59:01
+[07:59:01-07/31/23] Line 1100: Last clocked time: 12:14:26
+[07:59:01-07/31/23] Line 1108: Clocked time is 12:14:27
+[07:59:01-07/31/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[07:59:01-07/31/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[15:40:22-07/31/23] Line 343: Running clockOut function
+[15:40:22-07/31/23] Line 172: dayCheck Function
+[15:40:22-07/31/23] Line 174: Current Date: Wed - 12/07/23
+[15:40:23-07/31/23] Line 186: Difference between last date and current date: 0
+[15:40:23-07/31/23] Line 205: Sheets all up to date, returning from dayCheck function
+[15:40:23-07/31/23] Line 209: Running updateCheck
+[15:40:23-07/31/23] Line 210: Getting version from GitHub
+[15:40:24-07/31/23] Line 212: GitHub version: 2.3.2
+
+[15:40:24-07/31/23] Line 214: Opening 'version.txt' file
+[15:40:24-07/31/23] Line 217: Installed version: 2.3.2
+
+[15:40:24-07/31/23] Line 220: Program up to date
+[15:40:24-07/31/23] Line 348: Getting current time and current dates
+[15:40:24-07/31/23] Line 353: Getting column data for the user
+[15:40:24-07/31/23] Line 356: Last clock in time: 07:59:00
+[15:40:24-07/31/23] Line 358: Clocked time: 12:14:26
+[15:40:24-07/31/23] Line 367: Total clocked time: 1900-01-01 19:55:50
+[15:40:24-07/31/23] Line 368: Setting clocked status to False, adding total time and setting last clock out time and date
+[15:40:24-07/31/23] Line 375: Updating sheet
+[15:40:25-07/31/23] Line 378: Destroing mainBox and returning to mainPage
+[15:40:25-07/31/23] Line 1059: Main Page
+[15:40:25-07/31/23] Line 1060: Getting current time and current day
+[15:40:25-07/31/23] Line 1066: Resizing the window
+[15:40:25-07/31/23] Line 1079: Checking if user is current clocked in
+[15:40:25-07/31/23] Line 1081: User is clocked out, displayed relevant info
+[15:40:25-07/31/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[15:40:25-07/31/23] Line 1132: Checking that if the user is clocked in, it was from a different day
+[08:06:05-08/01/23] Line 324: Running clockIn function
+[08:06:05-08/01/23] Line 172: dayCheck Function
+[08:06:05-08/01/23] Line 174: Current Date: Wed - 12/07/23
+[08:06:06-08/01/23] Line 186: Difference between last date and current date: 0
+[08:06:06-08/01/23] Line 205: Sheets all up to date, returning from dayCheck function
+[08:06:06-08/01/23] Line 209: Running updateCheck
+[08:06:06-08/01/23] Line 210: Getting version from GitHub
+[08:06:06-08/01/23] Line 212: GitHub version: 2.3.2
+
+[08:06:06-08/01/23] Line 214: Opening 'version.txt' file
+[08:06:06-08/01/23] Line 217: Installed version: 2.3.2
+
+[08:06:06-08/01/23] Line 220: Program up to date
+[08:06:06-08/01/23] Line 329: Getting current time and current date
+[08:06:06-08/01/23] Line 334: Setting the last clock in date and time and setting clock status to TRUE
+[08:06:07-08/01/23] Line 337: Destroying mainBox and going back to mainPage
+[08:06:07-08/01/23] Line 1059: Main Page
+[08:06:07-08/01/23] Line 1060: Getting current time and current day
+[08:06:07-08/01/23] Line 1066: Resizing the window
+[08:06:07-08/01/23] Line 1079: Checking if user is current clocked in
+[08:06:07-08/01/23] Line 1088: User is clocked in, displayed relevant info
+[08:06:07-08/01/23] Line 1092: Getting the clocked time
+[08:06:07-08/01/23] Line 1096: Current time: 1900-01-01 08:06:07
+[08:06:07-08/01/23] Line 1100: Last clocked time: 19:55:50
+[08:06:07-08/01/23] Line 1108: Clocked time is 19:55:51
+[08:06:07-08/01/23] Line 1122: Getting the usernames from allValues and removing any EMPTY
+[08:06:07-08/01/23] Line 1132: Checking that if the user is clocked in, it was from a different day
