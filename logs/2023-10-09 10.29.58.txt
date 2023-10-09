@@ -1,0 +1,194 @@
+[2023-10-09 10.29.58] Running Program
+[10:29:58-10/09/23] Line 108: Opening Staff Hours sheet
+[10:30:00-10/09/23] Line 1146: Running TKinter
+[10:30:01-10/09/23] Line 1159: Loading Styles
+[10:30:01-10/09/23] Line 1237: Running dayCheck function
+[10:30:01-10/09/23] Line 172: dayCheck Function
+[10:30:01-10/09/23] Line 174: Current Date: Mon - 09/10/23
+[10:30:01-10/09/23] Line 186: Difference between last date and current date: 5
+[10:30:01-10/09/23] Line 188: Difference 5 is more than 1, filling in dates
+[10:30:01-10/09/23] Line 190: Adding black row
+[10:30:01-10/09/23] Line 192: Checking for end of month
+[10:30:01-10/09/23] Line 197: Checking for end of week
+[10:30:01-10/09/23] Line 199: End of week found running weekEnd function
+[10:30:01-10/09/23] Line 119: weekEnd Function
+[10:30:01-10/09/23] Line 123: Adding Week Total to each column
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 126: Date 1: 09/10/2023
+[10:30:01-10/09/23] Line 128: Date 2: 09/10/2023
+[10:30:01-10/09/23] Line 130: Num variable: 1
+[10:30:01-10/09/23] Line 132: Checking for end of month in week
+[10:30:01-10/09/23] Line 139: 
+[10:30:01-10/09/23] Line 141: Appending column to total
+[10:30:01-10/09/23] Line 143: All columns appended returning total
+[10:30:01-10/09/23] Line 201: Appending returned total from weekEnd
+[10:30:01-10/09/23] Line 190: Adding black row
+[10:30:01-10/09/23] Line 192: Checking for end of month
+[10:30:01-10/09/23] Line 197: Checking for end of week
+[10:30:01-10/09/23] Line 190: Adding black row
+[10:30:01-10/09/23] Line 192: Checking for end of month
+[10:30:01-10/09/23] Line 197: Checking for end of week
+[10:30:01-10/09/23] Line 190: Adding black row
+[10:30:01-10/09/23] Line 192: Checking for end of month
+[10:30:01-10/09/23] Line 197: Checking for end of week
+[10:30:01-10/09/23] Line 190: Adding black row
+[10:30:01-10/09/23] Line 192: Checking for end of month
+[10:30:01-10/09/23] Line 197: Checking for end of week
+[10:30:01-10/09/23] Line 202: All rows appended to values variable, adding to sheets
+[10:30:01-10/09/23] Line 203: Values: [['Mon - 09/10/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000'], ['Week Total', '=SUM(B11+B12+B13+B14+B15+B16+B17)', '=SUM(C11+C12+C13+C14+C15+C16+C17)', '=SUM(D11+D12+D13+D14+D15+D16+D17)', '=SUM(E11+E12+E13+E14+E15+E16+E17)', '=SUM(F11+F12+F13+F14+F15+F16+F17)', '=SUM(G11+G12+G13+G14+G15+G16+G17)', '=SUM(H11+H12+H13+H14+H15+H16+H17)', '=SUM(I11+I12+I13+I14+I15+I16+I17)', '=SUM(J11+J12+J13+J14+J15+J16+J17)', '=SUM(K11+K12+K13+K14+K15+K16+K17)', '=SUM(L11+L12+L13+L14+L15+L16+L17)', '=SUM(M11+M12+M13+M14+M15+M16+M17)', '=SUM(N11+N12+N13+N14+N15+N16+N17)', '=SUM(O11+O12+O13+O14+O15+O16+O17)', '=SUM(P11+P12+P13+P14+P15+P16+P17)', '=SUM(Q11+Q12+Q13+Q14+Q15+Q16+Q17)', '=SUM(R11+R12+R13+R14+R15+R16+R17)', '=SUM(S11+S12+S13+S14+S15+S16+S17)', '=SUM(T11+T12+T13+T14+T15+T16+T17)', '=SUM(U11+U12+U13+U14+U15+U16+U17)', '=SUM(V11+V12+V13+V14+V15+V16+V17)', '=SUM(W11+W12+W13+W14+W15+W16+W17)', '=SUM(X11+X12+X13+X14+X15+X16+X17)', '=SUM(Y11+Y12+Y13+Y14+Y15+Y16+Y17)', '=SUM(Z11+Z12+Z13+Z14+Z15+Z16+Z17)'], ['Sun - 08/10/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000'], ['Sat - 07/10/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000'], ['Fri - 06/10/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000'], ['Thu - 05/10/23', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000', '00:00:00.000']]
+[10:30:02-10/09/23] Line 205: Sheets all up to date, returning from dayCheck function
+[10:30:02-10/09/23] Line 1240: Stored info: ['True 6\n', '2023-10-09 10.29.58']
+[10:30:02-10/09/23] Line 1243: Getting line 1: ['True', '6']
+[10:30:02-10/09/23] Line 1245: Check if autoLogin is True
+[10:30:02-10/09/23] Line 1247: autoLogin is True, going straight to mainPage
+[10:30:02-10/09/23] Line 1064: Main Page
+[10:30:02-10/09/23] Line 1065: Getting current time and current day
+[10:30:02-10/09/23] Line 1071: Resizing the window
+[10:30:02-10/09/23] Line 1084: Checking if user is current clocked in
+[10:30:02-10/09/23] Line 1086: User is clocked out, displayed relevant info
+[10:30:02-10/09/23] Line 1127: Getting the usernames from allValues and removing any EMPTY
+[10:30:02-10/09/23] Line 1137: Checking that if the user is clocked in, it was from a different day
+[10:30:02-10/09/23] Line 1141: False
