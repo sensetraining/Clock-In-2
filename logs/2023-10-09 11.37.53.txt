@@ -1,0 +1,186 @@
+[2023-10-09 11.37.53] Running Program
+[11:37:54-10/09/23] Line 108: Opening Staff Hours sheet
+[11:37:55-10/09/23] Line 1146: Running TKinter
+[11:37:55-10/09/23] Line 1159: Loading Styles
+[11:37:55-10/09/23] Line 1237: Running dayCheck function
+[11:37:55-10/09/23] Line 172: dayCheck Function
+[11:37:55-10/09/23] Line 174: Current Date: Mon - 09/10/23
+[11:37:56-10/09/23] Line 186: Difference between last date and current date: 0
+[11:37:56-10/09/23] Line 205: Sheets all up to date, returning from dayCheck function
+[11:37:56-10/09/23] Line 1240: Stored info: ['True 6\n', '2023-10-09 11.37.53']
+[11:37:56-10/09/23] Line 1243: Getting line 1: ['True', '6']
+[11:37:56-10/09/23] Line 1245: Check if autoLogin is True
+[11:37:56-10/09/23] Line 1247: autoLogin is True, going straight to mainPage
+[11:37:56-10/09/23] Line 1064: Main Page
+[11:37:56-10/09/23] Line 1065: Getting current time and current day
+[11:37:56-10/09/23] Line 1071: Resizing the window
+[11:37:56-10/09/23] Line 1084: Checking if user is current clocked in
+[11:37:56-10/09/23] Line 1086: User is clocked out, displayed relevant info
+[11:37:56-10/09/23] Line 1127: Getting the usernames from allValues and removing any EMPTY
+[11:37:56-10/09/23] Line 1137: Checking that if the user is clocked in, it was from a different day
+[11:37:56-10/09/23] Line 1141: False
+[11:46:58-10/09/23] Line 823: Running settings page
+[11:46:58-10/09/23] Line 824: Destroying mainBox
+[11:46:58-10/09/23] Line 831: Checking if user has admin
+[11:46:59-10/09/23] Line 833: TRUE
+[11:46:59-10/09/23] Line 843: Loading hours page
+[11:47:10-10/09/23] Line 439: Running addUser function
+[11:47:10-10/09/23] Line 440: Removing Test from ['Bruce', 'Emily', 'Gloria', 'Aiden', 'Test']
+[11:47:10-10/09/23] Line 442: Adding Test to []
+[11:47:10-10/09/23] Line 445: Returning to settingsPage
+[11:47:10-10/09/23] Line 823: Running settings page
+[11:47:10-10/09/23] Line 824: Destroying mainBox
+[11:47:11-10/09/23] Line 831: Checking if user has admin
+[11:47:11-10/09/23] Line 833: TRUE
+[11:47:11-10/09/23] Line 843: Loading hours page
+[11:47:11-10/09/23] Line 865: Displaying selected staff box
+[11:47:25-10/09/23] Line 461: Running searchHours function
+[11:47:25-10/09/23] Line 463: Checking if entered date is valid
+[11:47:25-10/09/23] Line 476: Date is valid
+[11:47:25-10/09/23] Line 486: Checking if year is valid
+[11:47:25-10/09/23] Line 495: Getting the difference between the 2 dates
+[11:47:25-10/09/23] Line 499: Difference is: 6
+[11:47:25-10/09/23] Line 504: Getting all values from sheet
+[11:47:25-10/09/23] Line 509: Getting all positions where there is a Month or Week Total
+[11:47:25-10/09/23] Line 511: Skip positions: [9, 17, 19, 26, 34, 42, 50, 54, 59, 67, 75, 83, 90, 92, 100, 108, 116, 124, 127, 133, 141, 157, 164, 169, 177, 182, 186, 194, 197, 205, 210, 214, 222, 226, 231, 236, 244, 249, 253, 261, 265, 273, 278, 282, 296, 301, 305, 313, 319, 324, 328, 336, 343, 348, 352, 360, 368, 376, 384, 385, 393, 401, 409, 417, 420, 426, 434, 442, 450, 456, 459, 467, 475, 483, 489, 492, 500, 508, 516, 524, 526, 533, 541, 549, 557, 562, 566, 574, 582, 590, 598, 606, 614, 622, 630, 633, 639]
+[11:47:25-10/09/23] Line 513: Check if date 1: Mon - 02/10/23 is in date column
+[11:47:25-10/09/23] Line 516: TRUE at postion 16
+[11:47:25-10/09/23] Line 522: Check if date 2: Sun - 08/10/23 is in date column
+[11:47:25-10/09/23] Line 525: TRUE at postion 10
+[11:47:25-10/09/23] Line 536: Creating new window
+[11:47:25-10/09/23] Line 569: Getting hours for each user inside specified date range
+[11:47:25-10/09/23] Line 591: User: Test
+[11:47:25-10/09/23] Line 592: Total Min: 0
+[11:47:25-10/09/23] Line 594: Total Hour: 0.0
+[11:47:25-10/09/23] Line 595: Total Fail: 0
+[11:47:25-10/09/23] Line 598: All Hours: 0.0
+[11:47:25-10/09/23] Line 600: Inserting user hours into text box
+[11:47:25-10/09/23] Line 604: Inserting total hours into text box
+[11:47:29-10/09/23] Line 461: Running searchHours function
+[11:47:29-10/09/23] Line 463: Checking if entered date is valid
+[11:47:29-10/09/23] Line 476: Date is valid
+[11:47:29-10/09/23] Line 486: Checking if year is valid
+[11:47:29-10/09/23] Line 495: Getting the difference between the 2 dates
+[11:47:29-10/09/23] Line 499: Difference is: 29
+[11:47:29-10/09/23] Line 504: Getting all values from sheet
+[11:47:29-10/09/23] Line 509: Getting all positions where there is a Month or Week Total
+[11:47:29-10/09/23] Line 511: Skip positions: [9, 17, 19, 26, 34, 42, 50, 54, 59, 67, 75, 83, 90, 92, 100, 108, 116, 124, 127, 133, 141, 157, 164, 169, 177, 182, 186, 194, 197, 205, 210, 214, 222, 226, 231, 236, 244, 249, 253, 261, 265, 273, 278, 282, 296, 301, 305, 313, 319, 324, 328, 336, 343, 348, 352, 360, 368, 376, 384, 385, 393, 401, 409, 417, 420, 426, 434, 442, 450, 456, 459, 467, 475, 483, 489, 492, 500, 508, 516, 524, 526, 533, 541, 549, 557, 562, 566, 574, 582, 590, 598, 606, 614, 622, 630, 633, 639]
+[11:47:29-10/09/23] Line 513: Check if date 1: Fri - 01/09/23 is in date column
+[11:47:29-10/09/23] Line 516: TRUE at postion 53
+[11:47:29-10/09/23] Line 522: Check if date 2: Sat - 30/09/23 is in date column
+[11:47:29-10/09/23] Line 525: TRUE at postion 20
+[11:47:29-10/09/23] Line 536: Creating new window
+[11:47:29-10/09/23] Line 569: Getting hours for each user inside specified date range
+[11:47:29-10/09/23] Line 591: User: Test
+[11:47:29-10/09/23] Line 592: Total Min: 0
+[11:47:29-10/09/23] Line 594: Total Hour: 0.0
+[11:47:29-10/09/23] Line 595: Total Fail: 0
+[11:47:29-10/09/23] Line 598: All Hours: 0.0
+[11:47:29-10/09/23] Line 600: Inserting user hours into text box
+[11:47:29-10/09/23] Line 604: Inserting total hours into text box
+[11:47:32-10/09/23] Line 461: Running searchHours function
+[11:47:32-10/09/23] Line 463: Checking if entered date is valid
+[11:47:32-10/09/23] Line 476: Date is valid
+[11:47:32-10/09/23] Line 486: Checking if year is valid
+[11:47:32-10/09/23] Line 495: Getting the difference between the 2 dates
+[11:47:32-10/09/23] Line 499: Difference is: 6
+[11:47:32-10/09/23] Line 504: Getting all values from sheet
+[11:47:32-10/09/23] Line 509: Getting all positions where there is a Month or Week Total
+[11:47:32-10/09/23] Line 511: Skip positions: [9, 17, 19, 26, 34, 42, 50, 54, 59, 67, 75, 83, 90, 92, 100, 108, 116, 124, 127, 133, 141, 157, 164, 169, 177, 182, 186, 194, 197, 205, 210, 214, 222, 226, 231, 236, 244, 249, 253, 261, 265, 273, 278, 282, 296, 301, 305, 313, 319, 324, 328, 336, 343, 348, 352, 360, 368, 376, 384, 385, 393, 401, 409, 417, 420, 426, 434, 442, 450, 456, 459, 467, 475, 483, 489, 492, 500, 508, 516, 524, 526, 533, 541, 549, 557, 562, 566, 574, 582, 590, 598, 606, 614, 622, 630, 633, 639]
+[11:47:32-10/09/23] Line 513: Check if date 1: Mon - 02/10/23 is in date column
+[11:47:32-10/09/23] Line 516: TRUE at postion 16
+[11:47:32-10/09/23] Line 522: Check if date 2: Sun - 08/10/23 is in date column
+[11:47:32-10/09/23] Line 525: TRUE at postion 10
+[11:47:32-10/09/23] Line 536: Creating new window
+[11:47:32-10/09/23] Line 569: Getting hours for each user inside specified date range
+[11:47:32-10/09/23] Line 591: User: Test
+[11:47:32-10/09/23] Line 592: Total Min: 0
+[11:47:32-10/09/23] Line 594: Total Hour: 0.0
+[11:47:32-10/09/23] Line 595: Total Fail: 0
+[11:47:32-10/09/23] Line 598: All Hours: 0.0
+[11:47:32-10/09/23] Line 600: Inserting user hours into text box
+[11:47:32-10/09/23] Line 604: Inserting total hours into text box
+[11:47:41-10/09/23] Line 414: Running accountPage function
+[11:47:41-10/09/23] Line 415: Setting page to 'accounts
+[11:47:41-10/09/23] Line 823: Running settings page
+[11:47:41-10/09/23] Line 824: Destroying mainBox
+[11:47:41-10/09/23] Line 831: Checking if user has admin
+[11:47:42-10/09/23] Line 833: TRUE
+[11:47:42-10/09/23] Line 953: Displaying accounts page
+[11:47:44-10/09/23] Line 422: Running developmentPage function
+[11:47:44-10/09/23] Line 423: Setting page to 'development
+[11:47:44-10/09/23] Line 426: Returning to settingsPage
+[11:47:44-10/09/23] Line 823: Running settings page
+[11:47:44-10/09/23] Line 824: Destroying mainBox
+[11:47:44-10/09/23] Line 831: Checking if user has admin
+[11:47:44-10/09/23] Line 833: TRUE
+[11:47:44-10/09/23] Line 1026: Displaying development page
+[11:47:48-10/09/23] Line 406: Running hoursPage function
+[11:47:48-10/09/23] Line 407: Setting page to 'hours
+[11:47:48-10/09/23] Line 823: Running settings page
+[11:47:48-10/09/23] Line 824: Destroying mainBox
+[11:47:48-10/09/23] Line 831: Checking if user has admin
+[11:47:48-10/09/23] Line 833: TRUE
+[11:47:48-10/09/23] Line 843: Loading hours page
+[11:47:48-10/09/23] Line 865: Displaying selected staff box
+[11:48:01-10/09/23] Line 431: Running mainPageBack function
+[11:48:01-10/09/23] Line 432: Destroing adminBox
+[11:48:01-10/09/23] Line 434: Returning to mainPage
+[11:48:01-10/09/23] Line 1064: Main Page
+[11:48:01-10/09/23] Line 1065: Getting current time and current day
+[11:48:01-10/09/23] Line 1071: Resizing the window
+[11:48:01-10/09/23] Line 1084: Checking if user is current clocked in
+[11:48:01-10/09/23] Line 1086: User is clocked out, displayed relevant info
+[11:48:01-10/09/23] Line 1127: Getting the usernames from allValues and removing any EMPTY
+[11:48:01-10/09/23] Line 1137: Checking that if the user is clocked in, it was from a different day
+[11:48:01-10/09/23] Line 1141: False
+[11:48:02-10/09/23] Line 823: Running settings page
+[11:48:02-10/09/23] Line 824: Destroying mainBox
+[11:48:02-10/09/23] Line 831: Checking if user has admin
+[11:48:03-10/09/23] Line 833: TRUE
+[11:48:03-10/09/23] Line 843: Loading hours page
+[11:48:04-10/09/23] Line 431: Running mainPageBack function
+[11:48:04-10/09/23] Line 432: Destroing adminBox
+[11:48:04-10/09/23] Line 434: Returning to mainPage
+[11:48:04-10/09/23] Line 1064: Main Page
+[11:48:04-10/09/23] Line 1065: Getting current time and current day
+[11:48:04-10/09/23] Line 1071: Resizing the window
+[11:48:04-10/09/23] Line 1084: Checking if user is current clocked in
+[11:48:04-10/09/23] Line 1086: User is clocked out, displayed relevant info
+[11:48:04-10/09/23] Line 1127: Getting the usernames from allValues and removing any EMPTY
+[11:48:04-10/09/23] Line 1137: Checking that if the user is clocked in, it was from a different day
+[11:48:04-10/09/23] Line 1141: False
+[11:48:05-10/09/23] Line 823: Running settings page
+[11:48:05-10/09/23] Line 824: Destroying mainBox
+[11:48:05-10/09/23] Line 831: Checking if user has admin
+[11:48:05-10/09/23] Line 833: TRUE
+[11:48:05-10/09/23] Line 843: Loading hours page
+[11:48:06-10/09/23] Line 414: Running accountPage function
+[11:48:06-10/09/23] Line 415: Setting page to 'accounts
+[11:48:06-10/09/23] Line 823: Running settings page
+[11:48:06-10/09/23] Line 824: Destroying mainBox
+[11:48:06-10/09/23] Line 831: Checking if user has admin
+[11:48:07-10/09/23] Line 833: TRUE
+[11:48:07-10/09/23] Line 953: Displaying accounts page
+[11:48:10-10/09/23] Line 422: Running developmentPage function
+[11:48:10-10/09/23] Line 423: Setting page to 'development
+[11:48:10-10/09/23] Line 426: Returning to settingsPage
+[11:48:10-10/09/23] Line 823: Running settings page
+[11:48:10-10/09/23] Line 824: Destroying mainBox
+[11:48:10-10/09/23] Line 831: Checking if user has admin
+[11:48:11-10/09/23] Line 833: TRUE
+[11:48:11-10/09/23] Line 1026: Displaying development page
+[11:50:02-10/09/23] Line 414: Running accountPage function
+[11:50:02-10/09/23] Line 415: Setting page to 'accounts
+[11:50:02-10/09/23] Line 823: Running settings page
+[11:50:02-10/09/23] Line 824: Destroying mainBox
+[11:50:02-10/09/23] Line 831: Checking if user has admin
+[11:50:02-10/09/23] Line 833: TRUE
+[11:50:02-10/09/23] Line 953: Displaying accounts page
+[11:50:05-10/09/23] Line 406: Running hoursPage function
+[11:50:05-10/09/23] Line 407: Setting page to 'hours
+[11:50:05-10/09/23] Line 823: Running settings page
+[11:50:05-10/09/23] Line 824: Destroying mainBox
+[11:50:06-10/09/23] Line 831: Checking if user has admin
+[11:50:06-10/09/23] Line 833: TRUE
+[11:50:06-10/09/23] Line 843: Loading hours page
